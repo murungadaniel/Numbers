@@ -1,0 +1,24 @@
+INFO    : Using PreTeXt-CLI version: 2.10.0.  This is the latest available version.
+
+INFO    : PreTeXt project found in `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : Preparing to build into /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/output/web.
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.4.4
+INFO    : converting /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-dzb2mgcy
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-cpvodowm
+INFO    : Removing temporary directory /tmp/ptx-dzb2mgcy
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

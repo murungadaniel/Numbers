@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Fractions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 { counter-set: subsec-Total-Value-of-digits-in-a-number-3-1-1 0; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li::marker { content: ""counter(subsec-Total-Value-of-digits-in-a-number-3-1-1,decimal)"."; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li { counter-increment: subsec-Total-Value-of-digits-in-a-number-3-1-1; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 { counter-set: subsec-Reading-and-riting-numbers-in-symbols-2-5-1 0; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li::marker { content: ""counter(subsec-Reading-and-riting-numbers-in-symbols-2-5-1,decimal)"."; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li { counter-increment: subsec-Reading-and-riting-numbers-in-symbols-2-5-1; }
+#subsec-Divisibility-test-of-3-6-1-2-1 { counter-set: subsec-Divisibility-test-of-3-6-1-2-1 0; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-1-2-1; }
+#subsec-Divisibility-test-of-3-6-2-1-1 { counter-set: subsec-Divisibility-test-of-3-6-2-1-1 0; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-2-1-1; }
+#subsec-Divisibility-test-for-four-4-1-2-1 { counter-set: subsec-Divisibility-test-for-four-4-1-2-1 0; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-1-2-1; }
+#subsec-Divisibility-test-for-four-4-2-1-1 { counter-set: subsec-Divisibility-test-for-four-4-2-1-1 0; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-2-1-1; }
+#subsec-divisibility-test-for-5-4-1-2-1 { counter-set: subsec-divisibility-test-for-5-4-1-2-1 0; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li::marker { content: ""counter(subsec-divisibility-test-for-5-4-1-2-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li { counter-increment: subsec-divisibility-test-for-5-4-1-2-1; }
+#subsec-divisibility-test-for-6-4-2-1-1 { counter-set: subsec-divisibility-test-for-6-4-2-1-1 0; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li::marker { content: ""counter(subsec-divisibility-test-for-6-4-2-1-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li { counter-increment: subsec-divisibility-test-for-6-4-2-1-1; }
+#subsec-Divisibility-test-for-8-4-2-1-1 { counter-set: subsec-Divisibility-test-for-8-4-2-1-1 0; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-8-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-8-4-2-1-1; }
+#subsec-Divisibility-test-for-9-4-2-1-1 { counter-set: subsec-Divisibility-test-for-9-4-2-1-1 0; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-9-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-9-4-2-1-1; }
+#subsec-Divisibility-test-for-11-4-2-1-1 { counter-set: subsec-Divisibility-test-for-11-4-2-1-1 0; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-11-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-11-4-2-1-1; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-1-2-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-1-2-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-1-2-1; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-2-1-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-2-1-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-2-1-1; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 { counter-set: subsec-Greatest-Common-Divisor-9-2-1-1 0; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li::marker { content: ""counter(subsec-Greatest-Common-Divisor-9-2-1-1,lower-alpha)")"; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li { counter-increment: subsec-Greatest-Common-Divisor-9-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-1-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-1-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-1-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-6-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-6-2-1-1; }
+#subsec-Adding-proper-fractions-3-2-1-1 { counter-set: subsec-Adding-proper-fractions-3-2-1-1 0; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-proper-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-proper-fractions-3-2-1-1; }
+#subsec-Adding-mixed-fractions-3-2-1-1 { counter-set: subsec-Adding-mixed-fractions-3-2-1-1 0; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-mixed-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-mixed-fractions-3-2-1-1; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 { counter-set: subsec-Subtracting-proper-fractions-2-2-1-1 0; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-proper-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-proper-fractions-2-2-1-1; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 { counter-set: subsec-Subtracting-mixed-fractions-2-2-1-1 0; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-mixed-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-mixed-fractions-2-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1; }
+#subsec-Reciprocal-of-fractions-2-1 { counter-set: subsec-Reciprocal-of-fractions-2-1 0; }
+#subsec-Reciprocal-of-fractions-2-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-2-1,decimal)"."; }
+#subsec-Reciprocal-of-fractions-2-1 > li { counter-increment: subsec-Reciprocal-of-fractions-2-1; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 { counter-set: subsec-Reciprocal-of-fractions-4-2-1-1 0; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li { counter-increment: subsec-Reciprocal-of-fractions-4-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 { counter-set: subsec-Number-sequence-involving-fractions-2-1-2-1 0; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-2-1-2-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-2-1-2-1; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-3-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-3-2-1-1; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-4-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-4-2-1-1; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 { counter-set: subsec-place-value-of-digits-in-decimals-3-1-2-1 0; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li::marker { content: ""counter(subsec-place-value-of-digits-in-decimals-3-1-2-1,lower-alpha)")"; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li { counter-increment: subsec-place-value-of-digits-in-decimals-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-decimals-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 { counter-set: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 0; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li::marker { content: ""counter(subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1,lower-alpha)")"; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li { counter-increment: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1; }
+#subsec-Squares-of-whole-numbers-2-2-1 { counter-set: subsec-Squares-of-whole-numbers-2-2-1 0; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-2-2-1,decimal)"."; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li { counter-increment: subsec-Squares-of-whole-numbers-2-2-1; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-1-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-1-1-1; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-2-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-2-1-1; }
+#subsec-Sqaures-of-fractions-3-1-2-1 { counter-set: subsec-Sqaures-of-fractions-3-1-2-1 0; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-1-2-1; }
+#subsec-Sqaures-of-fractions-3-2-1-1 { counter-set: subsec-Sqaures-of-fractions-3-2-1-1 0; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-2-1-1; }
+#subsec-Sqaures-of-fractions-4-1-2-1 { counter-set: subsec-Sqaures-of-fractions-4-1-2-1 0; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-4-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-4-1-2-1; }
+#subsec-Squares-of-decimals-4-1-1-1 { counter-set: subsec-Squares-of-decimals-4-1-1-1 0; }
+#subsec-Squares-of-decimals-4-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-1-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-1-1-1; }
+#subsec-Squares-of-decimals-4-2-1-1 { counter-set: subsec-Squares-of-decimals-4-2-1-1 0; }
+#subsec-Squares-of-decimals-4-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-2-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-2-1-1; }
+#subsec-Square-roots-of-decimals-3-1-1-1 { counter-set: subsec-Square-roots-of-decimals-3-1-1-1 0; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-1-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-1-1-1; }
+#subsec-Square-roots-of-decimals-3-2-1-1 { counter-set: subsec-Square-roots-of-decimals-3-2-1-1 0; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-2-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-2-1-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">You</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-factors.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-numbers.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-decimals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Place-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Place Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Total-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Total Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-riting-numbers-in-symbols" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Reading and writing numbers in symbols</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-writing-numbers-in-words" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Reading and writing numbers in words.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Rounding off numbers to the nearest hundreds of million</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Natural-numbers" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Natural numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Odd-numbers" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Odd numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Prime-numbers" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Prime numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Operations-on-whole-numbers" class="internal"><span class="codenumber">1.1.9</span> <span class="title">Operations on whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-subtraction-of-whole-numbers" class="internal"><span class="codenumber">1.1.10</span> <span class="title">Subtraction of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Multiplication-of-whole-number" class="internal"><span class="codenumber">1.1.11</span> <span class="title">Multiplication of whole number</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factors.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-2" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Divisibility test for 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-of-3" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Divisibility test for 3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-four" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Divisibility test for 4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-5" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Divisibility test for 5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-6" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Divisibility test for 6</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-8" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Divisibility test for 8</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-9" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Divisibility test for 9</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-10" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Divisibility test for 10</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-11" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Divisibility test for 11</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-factors.html#subsec-Expressing-composite-numbers-as-a-product-of-prime-factors" class="internal"><span class="codenumber">1.2.10</span> <span class="title">Expressing composite numbers as a product of prime factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Factors-of-composite-numbers" class="internal"><span class="codenumber">1.2.10.1</span> <span class="title">Factors of composite numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Prime-factors" class="internal"><span class="codenumber">1.2.10.2</span> <span class="title">Prime factors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Greatest-Common-Divisor" class="internal"><span class="codenumber">1.2.11</span> <span class="title">Greatest Common Divisor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Least-Common-Factor" class="internal"><span class="codenumber">1.2.12</span> <span class="title">Least Common Multiple</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-fractions.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-ascending-order" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Arranging fractions in ascending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-descending-order" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Arranging fractions in descending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-proper-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Adding proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-mixed-fractions" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Adding mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-proper-fractions" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Subtracting proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-mixed-fractions" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Subtracting mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Multiplying a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.8</span> <span class="title">Multiplying a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.9</span> <span class="title">Multiplying a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Reciprocal-of-fractions" class="internal"><span class="codenumber">1.3.10</span> <span class="title">Reciprocal of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.11</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.12</span> <span class="title">Division of a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.13</span> <span class="title">Division of a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-whole-number-by-a-fraction" class="internal"><span class="codenumber">1.3.14</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Number-sequence-involving-fractions" class="internal"><span class="codenumber">1.3.15</span> <span class="title">Number sequence involving fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Creating-number-sequences-involving-fractions" class="internal"><span class="codenumber">1.3.16</span> <span class="title">Creating number sequences involving fractions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-decimals.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-place-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.1</span> <span class="title">place value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Total-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Total value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-a-whole-number" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Multiplying decimals by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-decimals" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Multiplying decimals by decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-whole-number" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Division of a decimal by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-decimal" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Division of a decimal by a decimal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-squares-and-square-roots.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Squares and square roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-whole-numbers" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Squares of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Sqaures-of-fractions" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Sqaures of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-decimals" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Squares of decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-roots-of-whole-numbers" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Squares roots of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-fractions" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Square roots of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-decimals" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Square roots of decimals</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Angles.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Angles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Angles.html#subsec-Angles-on-a-straight-line" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Angles on a straight line</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-fractions"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Fractions</span>
+</h2>
+<section class="introduction" id="sec-fractions-2"><div class="para" id="sec-fractions-2-1">Fractions play a key role in our daily lives. For example, Onyimbo, a father of four, bought an orange for Ksh 50 and wanted to share it equally among his children. To ensure fairness, he first cut the orange into two equal halves. Then, he divided each half into two more equal parts, resulting in four equal pieces. Each child received one piece, showing how fractions help in dividing things equally.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:4.166666666666667%;margin-right:4.166666666666667%;">
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/sec-fractions-2-2-1.svg" role="img" class="contained" alt="Circle"></div>
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/sec-fractions-2-2-2.svg" role="img" class="contained" alt="Circle"></div>
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/sec-fractions-2-2-3.svg" role="img" class="contained" alt=""></div>
+</div></div></section><section class="subsection" id="subsec-Arranging-fractions-in-ascending-order"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Arranging fractions in ascending order</span>
+</h3>
+<article class="activity project-like" id="subsec-Arranging-fractions-in-ascending-order-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Arranging-fractions-in-ascending-order-2-1-2">1. Make circular paper cutouts as the ones shown below.</div>  <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-ascending-order-2-1-3-1.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-ascending-order-2-1-3-2.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-ascending-order-2-1-3-3.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-ascending-order-2-1-3-4.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-ascending-order-2-1-3-5.svg" role="img" class="contained" alt=""></div>
+</div></div>  <div class="para" id="subsec-Arranging-fractions-in-ascending-order-2-1-4">2. Arrange the circles paper in order, starting with the one that has the smallest colored part and ending with the one that has the largest colored part.</div> <div class="para" id="subsec-Arranging-fractions-in-ascending-order-2-1-5">3. Identify the fractions that correspond to the shaded parts in the ordered sequence of circles.</div> <div class="para" id="subsec-Arranging-fractions-in-ascending-order-2-1-6">Share your work with learners in the class.</div></article><div class="para" id="subsec-Arranging-fractions-in-ascending-order-3">Ascending order means from the smallest to the largest.</div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-4">To arrange fractions in ascending order, first convert them into their equivalent fractions using the same denominator.</div>
+<details id="subsec-Arranging-fractions-in-ascending-order-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-1-1"><ol class="lower-alpha" id="subsec-Arranging-fractions-in-ascending-order-5-1-1-1"><li id="subsec-Arranging-fractions-in-ascending-order-5-1-1-1-1"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-1-1-1-1-1">Arrange the following fractions in ascending order.</div></li></ol></div> <div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-1-2"><div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{3},\frac{2}{5},\frac{3}{4},\frac{1}{2}
+\end{equation*}
+</div></div>
+<div class="solutions"><details id="subsec-Arranging-fractions-in-ascending-order-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-2-1"><ol class="lower-alpha" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1">
+<li id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-1">
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-1-1">Find the LCM of <span class="process-math">\(3,5,4 \text{ and } 2.\)</span>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-1-3"><span class="process-math">\(2 \times 2 \times  3 \times  5 = 60\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-1-4">The LCM of <span class="process-math">\(3,5,4 \text{ and } 2 \text{ is } 60.\)</span>
+</div>
+</li>
+<li id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2">
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-1">Rewrite the fractions to have a common denominator.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-2-1"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-2-1-1">
+\begin{align*}
+\frac{1}{3} \amp = \frac{1 \times 20}{3 \times 20} \\
+\\
+\amp = \frac{20}{60} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-2-2"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-2-2-1">
+\begin{align*}
+\frac{2}{5} \amp = \frac{2 \times 12}{5 \times 12} \\
+\\
+\amp = \frac{24}{60} 
+\end{align*}
+</div></div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-3-1"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-3-1-1">
+\begin{align*}
+\frac{3}{4} \amp = \frac{3 \times 15}{ 4 \times 15} \\
+\\
+\amp = \frac{45}{60} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-3-2"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-2-3-2-1">
+\begin{align*}
+\frac{1}{2} \amp = \frac{1 \times 30}{2 \times 30} \\
+\\
+\amp = \frac{30}{60} 
+\end{align*}
+</div></div></div>
+</div></div>
+</li>
+<li id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-3">
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-3-1">Arrange the fractions in ascending order.</div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-3-2"><span class="process-math">\(\frac{20}{60},\frac{24}{60},\frac{30}{60},\frac{45}{60}\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-5-2-1-1-3-3"><span class="process-math">\(\frac{1}{3},\frac{2}{5},\frac{1}{2},\frac{3}{4}\)</span></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Arranging-fractions-in-ascending-order-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-1-1">Arrange the following fractions in ascending order.</div> <div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-6-1-2"><div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{4}, \frac{3}{5}, \frac{1}{2}, \frac{7}{10}
+\end{equation*}
+</div></div>
+<div class="solutions"><details id="subsec-Arranging-fractions-in-ascending-order-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Arranging-fractions-in-ascending-order-6-2-1"><ol class="lower-alpha" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1">
+<li id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1">
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1-1">Convert each fraction into a percentage.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1-2-1"><span class="process-math">\(\frac{1}{4} \times 100 = 25\%\)</span></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1-2-2"><span class="process-math">\(\frac{3}{5} \times 100 = 60\%\)</span></div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1-3-1"><span class="process-math">\(\frac{1}{2} \times 100 = 50\%\)</span></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-1-3-2"><span class="process-math">\(\frac{7}{10} \times 100 = 70\%\)</span></div></div>
+</div></div>
+</li>
+<li id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-2">
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-2-1">Arrange the percentages in ascending order.</div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-2-2"><span class="process-math">\(25\%, 50\%, 60\%, 70\%\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-ascending-order-6-2-1-1-2-3">The correct order is <span class="process-math">\(\frac{1}{4},\frac{1}{2},\frac{3}{5},\frac{7}{10}.\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Arranging-fractions-in-ascending-order-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Arranging-fractions-in-ascending-order-7-1-1">Exercise on arranging fractions in ascending order goes here.</div></article></details></section><section class="subsection" id="subsec-Arranging-fractions-in-descending-order"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Arranging fractions in descending order</span>
+</h3>
+<article class="activity project-like" id="subsec-Arranging-fractions-in-descending-order-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Arranging-fractions-in-descending-order-2-1-2">1. Make circular paper cutouts as the ones shown below.</div>  <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-descending-order-2-1-3-1.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-descending-order-2-1-3-2.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-descending-order-2-1-3-3.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-descending-order-2-1-3-4.svg" role="img" class="contained" alt=""></div>
+<div class="sbspanel top" style="width:20%;"><img src="generated/latex-image/subsec-Arranging-fractions-in-descending-order-2-1-3-5.svg" role="img" class="contained" alt=""></div>
+</div></div>  <div class="para" id="subsec-Arranging-fractions-in-descending-order-2-1-4">2. Arrange the circles paper in order, starting with the one that has the largest colored part and ending with the one that has the smallest colored part.</div> <div class="para" id="subsec-Arranging-fractions-in-descending-order-2-1-5">3. Identify the fractions representing the shaded parts in the way you have arranged the colored part from the largest to the smallest colored part.</div></article><div class="para" id="subsec-Arranging-fractions-in-descending-order-3">Descending order means from the largest to the smallest.</div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-4">To arrange fractions in descending order, rewrite the fractions to have the same denominator.</div>
+<details id="subsec-Arranging-fractions-in-descending-order-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Arranging-fractions-in-descending-order-5-1-1">Arrange the following fractions in descending order.</div> <div class="para" id="subsec-Arranging-fractions-in-descending-order-5-1-2"><span class="process-math">\(\frac{1}{12},\frac{2}{3},\frac{5}{6},\frac{9}{24}\)</span></div>
+<div class="solutions"><details id="subsec-Arranging-fractions-in-descending-order-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-5-2-1"><ol class="lower-alpha" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1">
+<li id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-1">
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-1-1">Find the LCM of <span class="process-math">\(3,6,12 \text{ and } 24.\)</span>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">12</td>
+<td class="l m b2 r2 l0 t0 lines">24</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">12</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-1-3"><span class="process-math">\(2 \times 2 \times  2 \times  3 = 24\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-1-4">The LCM of <span class="process-math">\(3,6,12 \text{ and } 24 \text{ is } 24.\)</span>
+</div>
+</li>
+<li id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2">
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-1">Rewrite the fractions to have a common denominator.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-2-1"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-2-1-1">
+\begin{align*}
+\frac{1}{12} \amp = \frac{1 \times 2}{12 \times 2} \\
+\\
+\amp = \frac{2}{24} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-2-2"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-2-2-1">
+\begin{align*}
+\frac{5}{6} \amp = \frac{5 \times 4}{6 \times 4} \\
+\\
+\amp = \frac{20}{24} 
+\end{align*}
+</div></div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-3-1"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-3-1-1">
+\begin{align*}
+\frac{2}{3} \amp = \frac{2 \times 8}{ 3 \times 8} \\
+\\
+\amp = \frac{16}{24} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-3-2"><div class="displaymath process-math" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-2-3-2-1">
+\begin{align*}
+\frac{9}{24} \amp = \frac{9 \times 1}{24 \times 1} \\
+\\
+\amp = \frac{9}{24} 
+\end{align*}
+</div></div></div>
+</div></div>
+</li>
+<li id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-3">
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-3-1">Arrange the fractions in descending order.</div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-3-2"><span class="process-math">\(\frac{20}{24},\frac{16}{24},\frac{9}{24},\frac{2}{24}\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-5-2-1-1-3-3"><span class="process-math">\(\frac{5}{6},\frac{2}{3},\frac{9}{24},\frac{1}{12}\)</span></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Arranging-fractions-in-descending-order-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Arranging-fractions-in-descending-order-6-1-1">Arrange the following fractions in descending order.</div> <div class="para" id="subsec-Arranging-fractions-in-descending-order-6-1-2"><span class="process-math">\(\frac{2}{5},\frac{9}{10},\frac{3}{4},\frac{7}{20}\)</span></div>
+<div class="solutions"><details id="subsec-Arranging-fractions-in-descending-order-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Arranging-fractions-in-descending-order-6-2-1"><ol class="lower-alpha" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1">
+<li id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1">
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1-1">Convert each fraction into a percentage.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1-2-1"><span class="process-math">\(\frac{2}{5} \times 100 = 40\%\)</span></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1-2-2"><span class="process-math">\(\frac{9}{10} \times 100 = 90\%\)</span></div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1-3-1"><span class="process-math">\(\frac{3}{4} \times 100 = 75\%\)</span></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-1-3-2"><span class="process-math">\(\frac{7}{20} \times 100 = 35\%\)</span></div></div>
+</div></div>
+</li>
+<li id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-2">
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-2-1">Arrange the percentages in descending order.</div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-2-2"><span class="process-math">\(90\%, 75\%, 40\%, 35\%\)</span></div>
+<div class="para" id="subsec-Arranging-fractions-in-descending-order-6-2-1-1-2-3">The correct order is <span class="process-math">\(\frac{9}{10},\frac{3}{4},\frac{2}{5},\frac{7}{20}.\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Arranging-fractions-in-descending-order-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Arranging-fractions-in-descending-order-7-1-1">Exercise for arranging fractions in descending order.</div></article></details></section><section class="subsection" id="subsec-Adding-proper-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Adding proper fractions</span>
+</h3>
+<article class="activity project-like" id="subsec-Adding-proper-fractions-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Adding-proper-fractions-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Adding-proper-fractions-2-1-2">1.  Make a circular paper cut-out and divide it into 8 equal parts as shown below and shaded two parts as the one colored below.</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/subsec-Adding-proper-fractions-2-1-3.svg" role="img" class="contained" alt=""></div> <div class="para" id="subsec-Adding-proper-fractions-2-1-4">2. What fraction of the whole circle do the colored parts <em class="alert">a</em> and <em class="alert">b</em> represent?</div> <div class="para" id="subsec-Adding-proper-fractions-2-1-5">3. Combine together the two colored parts. Which fraction of the whole circle do the combined colored parts represent?</div></article><details id="subsec-Adding-proper-fractions-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Adding-proper-fractions-3-1-1">Add: <span class="process-math">\(\frac{3}{8} + \frac{5}{9}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Adding-proper-fractions-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Adding-proper-fractions-3-2-1"><ol class="lower-alpha cols2" id="subsec-Adding-proper-fractions-3-2-1-1">
+<li id="subsec-Adding-proper-fractions-3-2-1-1-1">
+<div class="para" id="subsec-Adding-proper-fractions-3-2-1-1-1-1">Find the LCM of <span class="process-math">\(8 \text{ and }9.\)</span>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"></td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+<td class="l m b0 r2 l0 t0 lines">1</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Adding-proper-fractions-3-2-1-1-1-3"><span class="process-math">\(2 \times 2 \times  2 \times  3 \times 3 = 72\)</span></div>
+<div class="para" id="subsec-Adding-proper-fractions-3-2-1-1-1-4">The LCM of <span class="process-math">\(8 \text{ and } 9 \text{ is } 72.\)</span>
+</div>
+</li>
+<li id="subsec-Adding-proper-fractions-3-2-1-1-2">
+<div class="para" id="subsec-Adding-proper-fractions-3-2-1-1-2-1">Rewrite the fractions to have a common denominator.</div>
+<div class="para logical" id="subsec-Adding-proper-fractions-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Adding-proper-fractions-3-2-1-1-2-2-1">
+\begin{align*}
+\frac{3}{8} \amp = \frac{3 \times 9}{8 \times 9} \\
+\amp = \frac{27}{72} \\
+\frac{5}{9} \amp = \frac{5 \times 8}{9 \times 8} \\
+\amp = \frac{40}{72} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Adding-proper-fractions-3-2-1-1-3">
+<div class="para" id="subsec-Adding-proper-fractions-3-2-1-1-3-1">Add the fractions.</div>
+<div class="para logical" id="subsec-Adding-proper-fractions-3-2-1-1-3-2"><div class="displaymath process-math" id="subsec-Adding-proper-fractions-3-2-1-1-3-2-1">
+\begin{align*}
+\frac{27}{72} + \frac{40}{72} = \frac{67}{72} \amp \\
+\text{ Therefore }\\
+\frac{3}{8} + \frac{5}{9} \amp = \frac{67}{72} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Adding-proper-fractions-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Adding-proper-fractions-4-1-1">Exercise for adding proper fractions</div></article></details></section><section class="subsection" id="subsec-Adding-mixed-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Adding mixed fractions</span>
+</h3>
+<article class="activity project-like" id="subsec-Adding-mixed-fractions-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Adding-mixed-fractions-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Adding-mixed-fractions-2-1-2">Juma’s family was expecting visitors that evening. In preparation, Juma’s mother bought <span class="process-math">\(1 \frac{1}{2}\)</span> kg of meat. Later, his father bought an additional <span class="process-math">\(2 \frac{1}{4}\)</span> kg of meat to ensure there was enough for everyone. How much meat did they have altogether?</div> <div class="para" id="subsec-Adding-mixed-fractions-2-1-3">Share your work with other learners in the class.</div></article><details id="subsec-Adding-mixed-fractions-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Adding-mixed-fractions-3-1-1">Work out: <span class="process-math">\(7 \frac{1}{4} + 5 \frac{1}{3}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Adding-mixed-fractions-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Adding-mixed-fractions-3-2-1"><ol class="lower-alpha" id="subsec-Adding-mixed-fractions-3-2-1-1">
+<li id="subsec-Adding-mixed-fractions-3-2-1-1-1">
+<div class="para" id="subsec-Adding-mixed-fractions-3-2-1-1-1-1">Convert the mixed fractions into improper fractions.</div>
+<div class="para logical" id="subsec-Adding-mixed-fractions-3-2-1-1-1-2"><div class="displaymath process-math" id="subsec-Adding-mixed-fractions-3-2-1-1-1-2-1">
+\begin{align*}
+7 \frac{1}{4} \amp = \frac{4 \times 7 + 1}{4} = \frac{29}{4} \\
+\\
+5 \frac{1}{3} \amp = \frac{3 \times 5 +1}{3} = \frac{16}{3}
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Adding-mixed-fractions-3-2-1-1-2">
+<div class="para" id="subsec-Adding-mixed-fractions-3-2-1-1-2-1">Add the improper fractions using LCM.</div>
+<div class="para logical" id="subsec-Adding-mixed-fractions-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Adding-mixed-fractions-3-2-1-1-2-2-1">
+\begin{align*}
+\frac{29}{4} + \frac{16}{3} = \frac{(3 \times 29)+(4 \times 16)}{12} \amp = \frac{87+64}{12} \\
+\\
+\amp = \frac{151}{12} = 12\frac{7}{12} \\
+\\
+\text{Therefore      } 7 \frac{1}{4} + 5 \frac{1}{3} \amp = 12 \frac{7}{12} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Adding-mixed-fractions-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Adding-mixed-fractions-4-1-1">Exercise for adding mixed fractions goes here.</div></article></details></section><section class="subsection" id="subsec-Subtracting-proper-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="space"> </span><span class="title">Subtracting proper fractions</span>
+</h3>
+<details id="subsec-Subtracting-proper-fractions-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Subtracting-proper-fractions-2-1-1">Work out: <span class="process-math">\(\frac{1}{3} - \frac{1}{5}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Subtracting-proper-fractions-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Subtracting-proper-fractions-2-2-1"><ol class="lower-alpha" id="subsec-Subtracting-proper-fractions-2-2-1-1">
+<li id="subsec-Subtracting-proper-fractions-2-2-1-1-1">
+<div class="para" id="subsec-Subtracting-proper-fractions-2-2-1-1-1-1">Find the LCM of the denominators.</div>
+<div class="para" id="subsec-Subtracting-proper-fractions-2-2-1-1-1-2">LCM of the denominators is <span class="process-math">\(15.\)</span>
+</div>
+</li>
+<li id="subsec-Subtracting-proper-fractions-2-2-1-1-2">
+<div class="para" id="subsec-Subtracting-proper-fractions-2-2-1-1-2-1">Rewrite the fractions to have a common denominator.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Subtracting-proper-fractions-2-2-1-1-2-2-1"><div class="displaymath process-math" id="subsec-Subtracting-proper-fractions-2-2-1-1-2-2-1-1">
+\begin{align*}
+\frac{1}{3} \amp = \frac{1 \times 5}{3 \times 5} \\
+\amp = \frac{5}{15} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Subtracting-proper-fractions-2-2-1-1-2-2-2"><div class="displaymath process-math" id="subsec-Subtracting-proper-fractions-2-2-1-1-2-2-2-1">
+\begin{align*}
+\frac{1}{5} \amp = \frac{1 \times 3}{5 \times 3} \\
+\amp = \frac{3}{15} 
+\end{align*}
+</div></div></div>
+</div></div>
+</li>
+<li id="subsec-Subtracting-proper-fractions-2-2-1-1-3">
+<div class="para" id="subsec-Subtracting-proper-fractions-2-2-1-1-3-1">Subtract.</div>
+<div class="para logical" id="subsec-Subtracting-proper-fractions-2-2-1-1-3-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{5}{15} - \frac{3}{15} = \frac{2}{15}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{3} - \frac{1}{5} = \frac{2}{15}
+\end{equation*}
+</div>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Subtracting-proper-fractions-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Subtracting-proper-fractions-3-1-1">Exercise for subtracting proper fractions goes here.</div></article></details></section><section class="subsection" id="subsec-Subtracting-mixed-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="space"> </span><span class="title">Subtracting mixed fractions</span>
+</h3>
+<details id="subsec-Subtracting-mixed-fractions-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Subtracting-mixed-fractions-2-1-1">Work out: <span class="process-math">\(23 \frac{1}{2} - 12 \frac{1}{4} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Subtracting-mixed-fractions-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Subtracting-mixed-fractions-2-2-1"><ol class="lower-alpha" id="subsec-Subtracting-mixed-fractions-2-2-1-1">
+<li id="subsec-Subtracting-mixed-fractions-2-2-1-1-1">
+<div class="para" id="subsec-Subtracting-mixed-fractions-2-2-1-1-1-1">Convert the fractions into improper fractions.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Subtracting-mixed-fractions-2-2-1-1-1-2-1"><div class="displaymath process-math" id="subsec-Subtracting-mixed-fractions-2-2-1-1-1-2-1-1">
+\begin{align*}
+23 \frac{1}{2} \amp = \frac{2 \times 23 + 1}{2} \\
+\amp = \frac{47}{2} 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Subtracting-mixed-fractions-2-2-1-1-1-2-2"><div class="displaymath process-math" id="subsec-Subtracting-mixed-fractions-2-2-1-1-1-2-2-1">
+\begin{align*}
+12 \frac{1}{4} \amp = \frac{4 \times 12 + 1}{4} \\
+\amp = \frac{49}{4} 
+\end{align*}
+</div></div></div>
+</div></div>
+</li>
+<li id="subsec-Subtracting-mixed-fractions-2-2-1-1-2">
+<div class="para" id="subsec-Subtracting-mixed-fractions-2-2-1-1-2-1">Subtract the improper fractions using LCM.</div>
+<div class="para logical" id="subsec-Subtracting-mixed-fractions-2-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Subtracting-mixed-fractions-2-2-1-1-2-2-1">
+\begin{align*}
+\frac{47}{2} - \frac{49}{4} \amp = \frac{94-49}{4} \\
+\amp = \frac{45}{4} = 11 \frac{1}{4} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Subtracting-mixed-fractions-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Subtracting-mixed-fractions-3-1-1">Exercise for subtacting mixed fractions.</div></article></details></section><section class="subsection" id="subsec-Multiplying-a-fraction-by-a-whole-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="space"> </span><span class="title">Multiplying a fraction by a whole number</span>
+</h3>
+<article class="activity project-like" id="subsec-Multiplying-a-fraction-by-a-whole-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-2-1-2">Otuoma, a baker, is excited to surprise his family with three delicious cakes. He eagerly pulls out his recipe book, only to realize he needs to calculate the sugar needed. Each cake, according to the recipe, requires a <span class="process-math">\(\frac{1}{2}\)</span> kg of sugar. Otuoma wonders the total amount of sugar he will need in total?. Can you help Otuoma figure out how much sugar he needs to bake his surprise cakes?</div> <div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-2-1-3">Share your calculations and the amount of sugar you determined with the rest of the class.</div></article><details id="subsec-Multiplying-a-fraction-by-a-whole-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.15</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-1-1">Work out: <span class="process-math">\(\frac{8}{9} \times 5 = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1"><ol class="lower-alpha cols2" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1">
+<li id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-1">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-1-1">Multipy the numerator by <span class="process-math">\(5.\)</span>
+</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-1-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-1-2-1">
+\begin{align*}
+\frac{8}{9} \times 5  \amp = \frac{8 \times 5}{9}\\
+\\
+\amp = \frac{40}{9} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-2">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-2-1">Convert the improper fraction into a mixed fraction.</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1-2-2-1">
+\begin{align*}
+\frac{40}{9} \amp = 4 \frac{4}{9} \\
+\\
+\frac{8}{9} \times 5 \amp = 4\frac{4}{9} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Multiplying-a-fraction-by-a-whole-number-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.16</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-whole-number-4-1-1">Exercise for multiplying a fraction by a whole number goes in here.</div></article></details></section><section class="subsection" id="subsec-Multiplying-a-fraction-by-a-fraction"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="space"> </span><span class="title">Multiplying a fraction by a fraction</span>
+</h3>
+<details id="subsec-Multiplying-a-fraction-by-a-fraction-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.17</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-fraction-2-1-1">Work out: <span class="process-math">\(\frac{3}{5} \times \frac{7}{9}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Multiplying-a-fraction-by-a-fraction-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-1">Multiply the numerators and the denominators separately.</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-2-1">
+\begin{align*}
+\frac{3}{5} \times \frac{7}{9} \amp = \frac{3 \times 7}{5 \times 9}\\
+\amp = \frac{21}{45} 
+\end{align*}
+</div></div>
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-3">simplify the answer</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-4"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-fraction-2-2-4-1">
+\begin{align*}
+\frac{21}{45}  \amp = \frac{21 \div 3}{45 \div 3} \\
+\amp = \frac{7}{15} 
+\end{align*}
+</div></div>
+</div></details></div></article></details><details id="subsec-Multiplying-a-fraction-by-a-fraction-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.18</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-fraction-3-1-1">Multiplying a fraction by a fraction</div></article></details></section><section class="subsection" id="subsec-Multiplying-a-fraction-by-a-mixed-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="space"> </span><span class="title">Multiplying a fraction by a mixed number</span>
+</h3>
+<details id="subsec-Multiplying-a-fraction-by-a-mixed-number-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.19</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-1-1">Work out: <span class="process-math">\(\frac{2}{3} \times 2 \frac{1}{7} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1"><ol class="lower-alpha cols2" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1">
+<li id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-1">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-1-1">Convert <span class="process-math">\(2 \frac{1}{7}\)</span> to improper fraction.</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-1-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-1-2-1">
+\begin{align*}
+2 \frac{1}{7} \amp = \frac{7 \times 2 +1}{7} \\
+\\
+\amp = \frac{15}{7} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-2">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-2-1">Multiply the fractions.</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-2-2-1">
+\begin{align*}
+\frac{2}{3} \times \frac{15}{7} \amp = \frac{2 \times 15}{3 \times 7}\\
+\\
+\amp = \frac{30}{21} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-3">
+<div class="para" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-3-1">Simplify</div>
+<div class="para logical" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-3-2"><div class="displaymath process-math" id="subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1-3-2-1">
+\begin{align*}
+\frac{30 \div 3}{21 \div 3} \amp = \frac{10}{7}\\
+\\
+\frac{10}{7} \amp = 1 \frac{3}{7} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Multiplying-a-fraction-by-a-mixed-number-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.20</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Multiplying-a-fraction-by-a-mixed-number-3-1-1">Exercise for Multiplying a fraction by a mixed number goes in here</div></article></details></section><section class="subsection" id="subsec-Reciprocal-of-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="space"> </span><span class="title">Reciprocal of fractions</span>
+</h3>
+<div class="para logical" id="subsec-Reciprocal-of-fractions-2"><ol class="decimal" id="subsec-Reciprocal-of-fractions-2-1">
+<li id="subsec-Reciprocal-of-fractions-2-1-1"><div class="para" id="subsec-Reciprocal-of-fractions-2-1-1-1">To find the reciprocal of a fraction, swap the numerator and the denominator.</div></li>
+<li id="subsec-Reciprocal-of-fractions-2-1-2"><div class="para" id="subsec-Reciprocal-of-fractions-2-1-2-1">The product of a fraction and its reciprocal is <span class="process-math">\(1.\)</span>
+</div></li>
+</ol></div>
+<details id="subsec-Reciprocal-of-fractions-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.21</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reciprocal-of-fractions-3-1-1">What is the reciprocal of <span class="process-math">\(\frac{11}{23}\text{?}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Reciprocal-of-fractions-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Reciprocal-of-fractions-3-2-1">To get the reciprocal of <span class="process-math">\(\frac{11}{23}\text{,}\)</span> we swap the numerator and the denominator.</div>
+<div class="para" id="subsec-Reciprocal-of-fractions-3-2-2"><span class="process-math">\(\frac{11}{23} \text{ to get } \frac{23}{11}\)</span></div>
+<div class="para" id="subsec-Reciprocal-of-fractions-3-2-3">The the reciprocal of <span class="process-math">\(\frac{11}{23} \text{ is } \frac{23}{11}.\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Reciprocal-of-fractions-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.22</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reciprocal-of-fractions-4-1-1">What is the reciprocal of <span class="process-math">\(6 \frac{4}{5}\text{?}\)</span>
+</div>
+<div class="solutions"><details id="subsec-Reciprocal-of-fractions-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Reciprocal-of-fractions-4-2-1"><ol class="lower-alpha" id="subsec-Reciprocal-of-fractions-4-2-1-1">
+<li id="subsec-Reciprocal-of-fractions-4-2-1-1-1">
+<div class="para" id="subsec-Reciprocal-of-fractions-4-2-1-1-1-1">Convert <span class="process-math">\(6 \frac{4}{5}\)</span> into an improper fraction.</div>
+<div class="para" id="subsec-Reciprocal-of-fractions-4-2-1-1-1-2"><span class="process-math">\(6 \frac{4}{5} = \frac{(5 \times 6)+4}{3 \times 7} = \frac{34}{5}\)</span></div>
+</li>
+<li id="subsec-Reciprocal-of-fractions-4-2-1-1-2">
+<div class="para" id="subsec-Reciprocal-of-fractions-4-2-1-1-2-1">Swap the numerator and the denominator.</div>
+<div class="para" id="subsec-Reciprocal-of-fractions-4-2-1-1-2-2"><span class="process-math">\(\frac{34}{5} \text{ to get } \frac{5}{34}\)</span></div>
+<div class="para" id="subsec-Reciprocal-of-fractions-4-2-1-1-2-3">The reciprocal of <span class="process-math">\(6 \frac{4}{5} \text{ is } \frac{5}{34}.\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Reciprocal-of-fractions-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.23</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Reciprocal-of-fractions-5-1-1">Exercise for Reciprocal of fractions goes here.</div></article></details></section><section class="subsection" id="subsec-Division-of-a-fraction-by-a-whole-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.11</span><span class="space"> </span><span class="title">Division of a fraction by a whole number</span>
+</h3>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-2">When dividing a fraction by a whole number, multiply the fraction by the reciprocal of the whole.</div>
+<details id="subsec-Division-of-a-fraction-by-a-whole-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.24</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-3-1-1">Work out: <span class="process-math">\(\frac{3}{20} \div 6 = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-fraction-by-a-whole-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1"><ol class="lower-alpha" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1">
+<li id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-1">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-1-1">Find the reciprocal of the divisor.</div>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-1-2">The reciprocal of <span class="process-math">\(6\)</span> is <span class="process-math">\(\frac{1}{6}.\)</span>
+</div>
+</li>
+<li id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-2">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-2-1">Multiply.</div>
+<div class="para logical" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1-2-2-1">
+\begin{align*}
+\frac{3}{20} \times \frac{1}{6} \amp = \frac{3 \times 1}{20 \times 6}\\
+\\
+\amp = \frac{3}{120} \\
+\\
+\frac{3}{120} \amp = \frac{3 \div 3}{120 \div 3} \\
+\\
+\amp = \frac{1}{40}
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Division-of-a-fraction-by-a-whole-number-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.25</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-whole-number-4-1-1">Exercise for Division of a fraction by a whole number</div></article></details></section><section class="subsection" id="subsec-Division-of-a-fraction-by-a-fraction"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.12</span><span class="space"> </span><span class="title">Division of a fraction by a fraction</span>
+</h3>
+<article class="activity project-like" id="subsec-Division-of-a-fraction-by-a-fraction-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-2-1-2">1. Cut out a circular shape and divide the circle into <span class="process-math">\(8\)</span> equal parts using a ruler and pencil. Shade the parts to match the coloring in the provided example.</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/subsec-Division-of-a-fraction-by-a-fraction-2-1-3.svg" role="img" class="contained" alt=""></div> <div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-2-1-4">2. What fraction of the whole does the shaded part <em class="alert">a</em> and <em class="alert">b</em> represent?</div> <div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-2-1-5">3.  How many times does the smaller part <em class="alert">a</em> fit into the larger part <em class="alert">b</em>?</div> <div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-2-1-6">4.  Share your work with other learners in class.</div></article><details id="subsec-Division-of-a-fraction-by-a-fraction-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.26</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-3-1-1">Work out: <span class="process-math">\(\frac{1}{5} \div \frac{1}{3} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-fraction-by-a-fraction-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1"><ol class="lower-alpha" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1">
+<li id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-1">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-1-1">Find the reciprocal of the divisor.</div>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-1-2">The reciprocal of <span class="process-math">\(\frac{1}{3} \)</span> is <span class="process-math">\(\frac{3}{1}.\)</span>
+</div>
+</li>
+<li id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-2">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-2-1">Multiply <span class="process-math">\(\frac{1}{5} \text { by } \frac{3}{1}.\)</span>
+</div>
+<div class="para logical" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1-2-2-1">
+\begin{align*}
+\frac{1}{5} \times \frac{3}{1} \amp = \frac{1 \times 3}{5 \times 1}\\
+\\
+\amp = \frac{3}{5}\\
+\\
+\frac{1}{5} \div \frac{1}{3} \amp = \frac{3}{5} 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Division-of-a-fraction-by-a-fraction-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.27</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-fraction-4-1-1">Exercise for division of a fraction by a fraction goes here</div></article></details></section><section class="subsection" id="subsec-Division-of-a-fraction-by-a-mixed-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.13</span><span class="space"> </span><span class="title">Division of a fraction by a mixed number</span>
+</h3>
+<article class="activity project-like" id="subsec-Division-of-a-fraction-by-a-mixed-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-2-1-1"><em class="alert">Work in group</em></div> <div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-2-1-2"></div></article><details id="subsec-Division-of-a-fraction-by-a-mixed-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.28</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-1-1">Work out: <span class="process-math">\(\frac{3}{5} \div 8 \frac{1}{6} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1"><ol class="lower-alpha" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1">
+<li id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-1">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-1-1">COnvert <span class="process-math">\(9 \frac{1}{6}\)</span> into an improper fraction.</div>
+<div class="para logical" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-1-2"><div class="displaymath process-math" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-1-2-1">
+\begin{align*}
+9 \frac{1}{6} \amp = \frac{(6 \times 9)+1}{6} \\
+\\
+\amp = \frac{55}{6} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-2">
+<div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-2-1">Multiply <span class="process-math">\(\frac{3}{5}\)</span> by the reciprocal of <span class="process-math">\(\frac{55}{6}.\)</span>
+</div>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-2-2"><span class="process-math">\(\frac{3}{5} \div {55}{6} = \frac{3}{5} \times \frac{6}{55} = \frac{18}{275}\)</span></div>
+<div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1-2-3">Hence <span class="process-math">\(\frac{3}{5} \div 9 \frac{1}{6} = \frac{18}{275}\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Division-of-a-fraction-by-a-mixed-number-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.29</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-fraction-by-a-mixed-number-4-1-1">Exercise for Division of a fraction by a mixed number goes in here.</div></article></details></section><section class="subsection" id="subsec-Division-of-a-whole-number-by-a-fraction"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.14</span><span class="space"> </span><span class="title">Division of a fraction by a whole number</span>
+</h3>
+<article class="activity project-like" id="subsec-Division-of-a-whole-number-by-a-fraction-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-1"><em class="alert">Work in groups</em></div> <div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-2">Mr. Obiero is a meat seller in Namanga center.He always ensure food safety and hygiene when handling and selling meat. He is selling <span class="process-math">\(\frac{1}{2}\)</span> kg of meat to four teachers of Seku primary school.</div> <div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3"><ol class="lower-alpha" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1">
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1-1"><div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1-1-1">1. What fraction of the meat will each teacher receive if they share it equally?</div></li>
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1-2"><div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1-2-1">2. Share your answer with other learners in your class.</div></li>
+</ol></div></article><details id="subsec-Division-of-a-whole-number-by-a-fraction-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.30</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-3-1-1">Work out: <span class="process-math">\(20 \div \frac{1}{5} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-whole-number-by-a-fraction-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1"><ol class="lower-alpha" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1">
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-1">
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-1-1">Find the reciprocal of the divisor.</div>
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-1-2">The reciprocal of <span class="process-math">\(\frac{1}{5}\)</span> is <span class="process-math">\(\frac{5}{1}.\)</span>
+</div>
+</li>
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-2">
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-2-1">Multiply <span class="process-math">\(20\)</span> by the reciprocal of <span class="process-math">\(\frac{1}{5}.\)</span>
+</div>
+<div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-2-2"><div class="displaymath process-math" id="subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1-2-2-1">
+\begin{align*}
+20 \div \frac{1}{5} \amp = 20 \times \frac{5}{1} \\
+\amp = 100 \\
+20 \frac{1}{5} \amp = 100 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Division-of-a-whole-number-by-a-fraction-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.31</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-4-1-1">Evaluate: <span class="process-math">\(35 \div 3 \frac{1}{2} = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-whole-number-by-a-fraction-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1"><ol class="lower-alpha" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1">
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-1">
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-1-1">Convert <span class="process-math">\(3 \frac{1}{2}\)</span> into an improper fraction.</div>
+<div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-1-2"><div class="displaymath process-math" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-1-2-1">
+\begin{align*}
+3 \frac{1}{2} \amp = \frac{2 \times 3 + 1}{2} \\
+\\
+\amp = \frac{7}{2} 
+\end{align*}
+</div></div>
+</li>
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-2">
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-2-1">Find the reciprocal of <span class="process-math">\(\frac{7}{2}.\)</span>
+</div>
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-2-2">The reciprocal of <span class="process-math">\(\frac{7}{2}\)</span> is <span class="process-math">\(\frac{2}{7}\)</span>
+</div>
+</li>
+<li id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-3">
+<div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-3-1">Multiply <span class="process-math">\(35\)</span> by <span class="process-math">\(\frac{2}{7}.\)</span>
+</div>
+<div class="para logical" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-3-2"><div class="displaymath process-math" id="subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1-3-2-1">
+\begin{align*}
+35 \times \frac{2}{7} \amp = \frac{70}{7}\\
+\\
+\amp = 10 \\
+35 \div 3 \frac{1}{2} \amp = 10 
+\end{align*}
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Division-of-a-whole-number-by-a-fraction-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.32</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-whole-number-by-a-fraction-5-1-1">Exercise for Division of a whole number by a fraction goes in here.</div></article></details></section><section class="subsection" id="subsec-Number-sequence-involving-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.15</span><span class="space"> </span><span class="title">Number sequence involving fractions</span>
+</h3>
+<article class="activity project-like" id="subsec-Number-sequence-involving-fractions-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Number-sequence-involving-fractions-2-1-1"><em class="alert">Work in groups</em></div> <div class="para logical" id="subsec-Number-sequence-involving-fractions-2-1-2"><ol class="lower-alpha" id="subsec-Number-sequence-involving-fractions-2-1-2-1">
+<li id="subsec-Number-sequence-involving-fractions-2-1-2-1-1"><div class="para" id="subsec-Number-sequence-involving-fractions-2-1-2-1-1-1">Observe the pattern in the following sequence of fractions: <span class="process-math">\(\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25}\)</span>
+</div></li>
+<li id="subsec-Number-sequence-involving-fractions-2-1-2-1-2"><div class="para" id="subsec-Number-sequence-involving-fractions-2-1-2-1-2-1">Identify the pattern in these fractions.</div></li>
+<li id="subsec-Number-sequence-involving-fractions-2-1-2-1-3"><div class="para" id="subsec-Number-sequence-involving-fractions-2-1-2-1-3-1">Determine the next fraction in the sequence.</div></li>
+<li id="subsec-Number-sequence-involving-fractions-2-1-2-1-4"><div class="para" id="subsec-Number-sequence-involving-fractions-2-1-2-1-4-1">Share your findings with your classmates.</div></li>
+</ol></div>
+<div class="solutions"><details id="subsec-Number-sequence-involving-fractions-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content"><div class="para" id="subsec-Number-sequence-involving-fractions-2-2-1">Identify the pattern formed by numerators and denominators.</div></div></details></div></article><details id="subsec-Number-sequence-involving-fractions-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.33</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Number-sequence-involving-fractions-3-1-1">Find the next fraction in the sequence.</div> <div class="para" id="subsec-Number-sequence-involving-fractions-3-1-2"><span class="process-math">\(\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25},\frac{1}{36},\)</span></div>
+<div class="solutions"><details id="subsec-Number-sequence-involving-fractions-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Number-sequence-involving-fractions-3-2-1"><ol class="lower-alpha" id="subsec-Number-sequence-involving-fractions-3-2-1-1">
+<li id="subsec-Number-sequence-involving-fractions-3-2-1-1-1"><div class="para" id="subsec-Number-sequence-involving-fractions-3-2-1-1-1-1">The denominators are squares of numbers <span class="process-math">\(2,3,4,5 \text{ and } 6.\)</span>
+</div></li>
+<li id="subsec-Number-sequence-involving-fractions-3-2-1-1-2">
+<div class="para" id="subsec-Number-sequence-involving-fractions-3-2-1-1-2-1">The next denominator is the square of <span class="process-math">\(7.\)</span>
+</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-3-2-1-1-2-2"><span class="process-math">\(7 \times 7 = 49\)</span></div>
+</li>
+<li id="subsec-Number-sequence-involving-fractions-3-2-1-1-3">
+<div class="para" id="subsec-Number-sequence-involving-fractions-3-2-1-1-3-1">The next fraction in the sequence is <span class="process-math">\(\frac{1}{49}.\)</span>
+</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-3-2-1-1-3-2">The sequence is <span class="process-math">\(\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25},\frac{1}{36},\\frac{1}{49}.\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Number-sequence-involving-fractions-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.34</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Number-sequence-involving-fractions-4-1-1">What is the next fraction in the pattern ?</div>
+<div class="solutions"><details id="subsec-Number-sequence-involving-fractions-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Number-sequence-involving-fractions-4-2-1"><ol class="lower-alpha" id="subsec-Number-sequence-involving-fractions-4-2-1-1">
+<li id="subsec-Number-sequence-involving-fractions-4-2-1-1-1">
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-1-1">Convert the mixed fractions into improper fractions.</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-1-2"><span class="process-math">\(7 \frac{1}{2} = \frac{15}{2}, \,\, 3 \frac{3}{4} = \frac{15}{4}, \,\, 1\frac{7}{8} = \frac{15}{8}\)</span></div>
+</li>
+<li id="subsec-Number-sequence-involving-fractions-4-2-1-1-2">
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-1">Rewrite the sequence.</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-2"><span class="process-math">\(\frac{15}{2},\frac{15}{4},\frac{15}{8},\frac{15}{16}\)</span></div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-3">The denominator is the multiplied by two to get the next fraction.</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-4"><span class="process-math">\(\frac{15}{16 \times 2} = \frac{15}{32}\)</span></div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-5">The next fraction is <span class="process-math">\(\frac{15}{32}.\)</span>
+</div>
+<div class="para" id="subsec-Number-sequence-involving-fractions-4-2-1-1-2-6">The sequence is <span class="process-math">\(7 \frac{1}{2},3\frac{3}{4},1\frac{7}{8},\frac{15}{16},\frac{15}{32}.\)</span>
+</div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Number-sequence-involving-fractions-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.35</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Number-sequence-involving-fractions-5-1-1">Exercise on Number sequence involving fractions goes in here.</div></article></details></section><section class="subsection" id="subsec-Creating-number-sequences-involving-fractions"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.16</span><span class="space"> </span><span class="title">Creating number sequences involving fractions</span>
+</h3>
+<details id="subsec-Creating-number-sequences-involving-fractions-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.3.36</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Creating-number-sequences-involving-fractions-2-1-1">Create a subtraction sequence of four fractions starting from <span class="process-math">\(2 \frac{1}{4}.\)</span>
+</div>
+<div class="solutions"><details id="subsec-Creating-number-sequences-involving-fractions-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Creating-number-sequences-involving-fractions-2-2-1">Rule: Subtract the same fraction repeatedly to get the next number.</div>
+<div class="para logical" id="subsec-Creating-number-sequences-involving-fractions-2-2-2"><div class="displaymath process-math" id="subsec-Creating-number-sequences-involving-fractions-2-2-2-1">
+\begin{align*}
+2 \frac{1}{4} - \frac{1}{4} \amp = 2 \\
+\\
+2 - \frac{1}{4} \amp = 1 \frac{3}{4} \\
+\\
+1 \frac{3}{4} - \frac{1}{4} \amp = 1 \frac{2}{4} = 1 \frac{1}{2} \\
+
+\end{align*}
+</div></div>
+<div class="para" id="subsec-Creating-number-sequences-involving-fractions-2-2-3">The sequence is <span class="process-math">\(2\frac{1}{4},2,1\frac{3}{4},1\frac{1}{2}.\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Creating-number-sequences-involving-fractions-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.3.37</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Creating-number-sequences-involving-fractions-3-1-1">Exercise on Creating number sequences involving fractions</div></article></details></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-factors.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-decimals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

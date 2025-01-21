@@ -1,0 +1,17 @@
+INFO    : Using PreTeXt-CLI version 2.10.0.  The latest stable version available is 2.11.4. Run `pip install pretext --upgrade` to update.
+
+INFO    : PreTeXt project found in `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Now preparing local server to preview your project directory `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    :   (Reminder: use `pretext deploy` to deploy your built project to a public
+INFO    :   GitHub Pages site that can be shared with readers who cannot access your
+INFO    :   personal computer.)
+INFO    : 
+ERROR   : process no longer exists (pid=6514, name='sh')
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

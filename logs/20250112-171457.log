@@ -1,0 +1,39 @@
+INFO    : Using PreTeXt-CLI version: 2.10.0.  This is the latest available version.
+
+INFO    : PreTeXt project found in `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : converting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to svg graphics for placement in /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/publication/publication.ptx', 'subtree': 'subsubsec-Prime-factors'}
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : converting subsubsec-Prime-factors-5-2-1.tex to subsubsec-Prime-factors-5-2-1.pdf
+INFO    : cropping subsubsec-Prime-factors-5-2-1.pdf to cropped-subsubsec-Prime-factors-5-2-1.pdf
+INFO    : renaming cropped-subsubsec-Prime-factors-5-2-1.pdf to subsubsec-Prime-factors-5-2-1.pdf
+INFO    : converting subsubsec-Prime-factors-5-2-1.pdf to subsubsec-Prime-factors-5-2-1.svg
+INFO    : Removing temporary directory /tmp/ptx-y25r1poc
+INFO    : Preparing to build into /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/output/web.
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.4.4
+INFO    : converting /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-8s438k0w
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-quvl5ppo
+INFO    : Removing temporary directory /tmp/ptx-8s438k0w
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

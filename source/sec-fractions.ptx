@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Fractions</title>
+    <introduction>
+                 <p>
+                    Fractions play a key role in our daily lives. For example, Onyimbo, a father of four, bought an orange for Ksh 50 and wanted to 
+                    share it equally among his children. To ensure fairness, he first cut the orange into two equal halves. 
+                    Then, he divided each half into two more equal parts, resulting in four equal pieces. Each child received one piece,
+                     showing how fractions help in dividing things equally.
+                </p>
+                <sidebyside widths="25% 25% 25%">
+                     <image>
+                        <shortdescription>Circle</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                 \fill[orange] (0,0) circle(2cm);
+                                 \node at (0,0) {\large $1$};
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                     <image>
+                        <shortdescription>Circle</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \fill[orange] (-2,0) arc[start angle=180, end angle=360, radius=2cm] -- (0,0) -- cycle;
+                                \fill[orange] (0,0) -- (2,0) arc[start angle=0, end angle=180, radius=2cm] -- cycle;
+                                \draw[white, line width=2mm] (0,-2) -- (0,2);
+                                \node at (1,0) {\large $\frac{1}{2}$}; 
+                                \node at (-1,0) {\large $\frac{1}{2}$}; 
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \fill[orange] (-2,0) arc[start angle=180, end angle=270, radius=2cm] -- (0,0) -- cycle;
+                                \fill[orange] (-2,0) arc[start angle=180, end angle=90, radius=2cm] -- (0,0) -- cycle;
+                                \fill[orange] (0,0) -- (2,0) arc[start angle=0, end angle=90, radius=2cm] -- cycle;
+                                \fill[orange] (0,0) -- (0,-2) arc[start angle=270, end angle=360, radius=2cm] -- cycle;
+                                \draw[white, line width=2mm] (0,-2) -- (0,2);
+                                \draw[white, line width=2mm] (-2,0) -- (2,0);
+                                \node at (-1,-1) {\large $\frac{1}{4}$}; 
+                                \node at (-1,1) {\large $\frac{1}{4}$};  
+                                \node at (1,1) {\large $\frac{1}{4}$};  
+                                \node at (1,-1) {\large $\frac{1}{4}$};  
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </sidebyside>
+    </introduction>
+
+    <subsection xml:id="subsec-Arranging-fractions-in-ascending-order">
+        <title>Arranging fractions in ascending order</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                    1. Make circular paper cutouts as the ones shown below.
+                </p>
+                <!-- <sidebyside> -->
+                <sidebyside widths="20% 20% 20% 20% 20%">
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[orange] (0,0) -- (1,0) arc[start angle=0, end angle=90, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \draw (-1,0) -- (1,0);
+                                \fill[orange] (0,0) -- (1,0) arc[start angle=0, end angle=45, radius=1cm] -- cycle;
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[orange] (0,0) -- (1,0) arc[start angle=0, end angle=225, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[orange] (0,0) -- (1,0) arc[start angle=0, end angle=180, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[orange] (0,0) -- (1,0) arc[start angle=0, end angle=135, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </sidebyside>
+                <!-- </sidebyside> -->
+                <p>
+                   2. Arrange the circles paper in order, starting with the one that has the smallest colored part and ending with the one that has the largest colored part. 
+                </p>
+                <p>
+                    3. Identify the fractions that correspond to the shaded parts in the ordered sequence of circles.
+                </p>
+                <p>
+                    Share your work with learners in the class.
+                </p>
+
+            </statement>
+        </activity>
+        <p>
+            Ascending order means from the smallest to the largest.
+        </p>
+        <p>
+            To arrange fractions in ascending order, first convert them into their equivalent fractions using the same denominator.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Arrange the following fractions in ascending order.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    <me>\frac{1}{3},\frac{2}{5},\frac{3}{4},\frac{1}{2}</me>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the LCM of <m>3,5,4 \text{ and } 2.</m>
+                            </p>
+                            <tabular right="medium">
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>3</cell>
+                                    <cell>5</cell>
+                                    <cell>4</cell>
+                                    <cell>2</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>3</cell>
+                                    <cell>5</cell>
+                                    <cell>2</cell>
+                                    <cell>1</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>3</cell>
+                                    <cell>3</cell>
+                                    <cell>5</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>5</cell>
+                                    <cell>1</cell>
+                                    <cell>5</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                </row>
+                            </tabular>
+                            <p>
+                                <m>2 \times 2 \times  3 \times  5 = 60</m>
+                            </p>
+                            <p>
+                                The LCM of <m>3,5,4 \text{ and } 2 \text{ is } 60.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the fractions to have a common denominator.
+                            </p>
+                            <sidebyside>
+                                    <p>
+                                       <md>
+                                        <mrow>\frac{1}{3} \amp = \frac{1 \times 20}{3 \times 20} </mrow>
+                                        <mrow></mrow>
+                                        <mrow> \amp = \frac{20}{60} </mrow>
+                                       </md> 
+                                    </p>
+                                    <p>
+                                        <md>
+                                            <mrow>\frac{2}{5} \amp = \frac{2 \times 12}{5 \times 12} </mrow>
+                                            <mrow></mrow>
+                                            <mrow> \amp = \frac{24}{60} </mrow>
+                                        </md>
+                                    </p>
+                            </sidebyside>
+                            <sidebyside>
+                                   <p>
+                                        <md>
+                                            <mrow>\frac{3}{4} \amp = \frac{3 \times 15}{ 4 \times 15} </mrow>
+                                            <mrow></mrow>
+                                            <mrow> \amp = \frac{45}{60} </mrow>
+                                        </md>
+                                    </p>
+                                    <p>
+                                        <md>
+                                            <mrow>\frac{1}{2} \amp = \frac{1 \times 30}{2 \times 30} </mrow>
+                                            <mrow></mrow>
+                                            <mrow> \amp = \frac{30}{60} </mrow>
+                                        </md>
+                                    </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Arrange the fractions in ascending order.
+                            </p>
+                            <p>
+                                <m>\frac{20}{60},\frac{24}{60},\frac{30}{60},\frac{45}{60}</m>
+                            </p>
+                            <p>
+                                <m>\frac{1}{3},\frac{2}{5},\frac{1}{2},\frac{3}{4}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Arrange the following fractions in ascending order.
+                </p>
+                <p>
+                    <me>
+                        \frac{1}{4}, \frac{3}{5}, \frac{1}{2}, \frac{7}{10}
+                    </me>
+                    
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert each fraction into a percentage.
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <m>\frac{1}{4} \times 100 = 25\%</m>
+                                </p>
+                                <p>
+                                    <m>\frac{3}{5} \times 100 = 60\%</m>
+                                </p>
+                            </sidebyside>
+                            <sidebyside>
+                                <p>
+                                    <m>\frac{1}{2} \times 100 = 50\%</m>
+                                </p>
+                                <p>
+                                    <m>\frac{7}{10} \times 100 = 70\%</m>
+                                </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Arrange the percentages in ascending order.
+                            </p>
+                            <p>
+                                <m>25\%, 50\%, 60\%, 70\%</m>
+                            </p>
+                            <p>
+                                The correct order is <m>\frac{1}{4},\frac{1}{2},\frac{3}{5},\frac{7}{10}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise on arranging fractions in ascending order goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Arranging-fractions-in-descending-order">
+        <title>Arranging fractions in descending order</title>
+        <activity>
+            
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                    1. Make circular paper cutouts as the ones shown below.
+                </p>
+                <!-- <sidebyside> -->
+                <sidebyside widths="20% 20% 20% 20% 20%">
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=0, end angle=180, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \draw (-1,0) -- (1,0);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=360, end angle=270, radius=1cm] -- cycle;
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=0, end angle=225, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=0, end angle=45, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=360, end angle=270, radius=1cm] -- cycle;
+                                \draw (-1,0) -- (1,0);
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </sidebyside>
+                <!-- </sidebyside> -->
+                <p>
+                    2. Arrange the circles paper in order, starting with the one that has the largest colored part and ending with the one that has the smallest colored part. 
+                </p>
+                <p>
+                    3. Identify the fractions representing the shaded parts in the way you have arranged the colored part from the largest to the smallest colored part.
+                </p>
+
+            </statement>
+        </activity>
+        <p>
+            Descending order means from the largest to the smallest.
+        </p>
+        <p>
+            To arrange fractions in descending order, rewrite the fractions to have the same denominator. 
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Arrange the following fractions in descending order.
+                </p>
+                <p>
+                    <m>\frac{1}{12},\frac{2}{3},\frac{5}{6},\frac{9}{24}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the LCM of <m>3,6,12 \text{ and } 24.</m>
+                            </p>
+                            <tabular right="medium">
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>3</cell>
+                                    <cell>6</cell>
+                                    <cell>12</cell>
+                                    <cell>24</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>3</cell>
+                                    <cell>2</cell>
+                                    <cell>6</cell>
+                                    <cell>12</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>3</cell>
+                                    <cell>1</cell>
+                                    <cell>3</cell>
+                                    <cell>6</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>3</cell>
+                                    <cell>3</cell>
+                                    <cell>1</cell>
+                                    <cell>3</cell>
+                                    <cell>3</cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                </row>
+                            </tabular>
+                            <p>
+                                <m>2 \times 2 \times  2 \times  3 = 24</m>
+                            </p>
+                            <p>
+                                The LCM of <m>3,6,12 \text{ and } 24 \text{ is } 24.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the fractions to have a common denominator.
+                            </p>
+                            <sidebyside>
+                                    <p>
+                                       <md>
+                                        <mrow>\frac{1}{12} \amp = \frac{1 \times 2}{12 \times 2} </mrow>
+                                        <mrow></mrow>
+                                        <mrow> \amp = \frac{2}{24} </mrow>
+                                       </md> 
+                                    </p>
+                                    <p>
+                                        <md>
+                                            <mrow>\frac{5}{6} \amp = \frac{5 \times 4}{6 \times 4} </mrow>
+                                            <mrow></mrow>
+                                            <mrow> \amp = \frac{20}{24} </mrow>
+                                        </md>
+                                    </p>
+                            </sidebyside>
+                            <sidebyside>
+                                   <p>
+                                        <md>
+                                            <mrow>\frac{2}{3} \amp = \frac{2 \times 8}{ 3 \times 8} </mrow>
+                                            <mrow> </mrow>
+                                            <mrow> \amp = \frac{16}{24} </mrow>
+                                        </md>
+                                    </p>
+                                    <p>
+                                        <md>
+                                            <mrow>\frac{9}{24} \amp = \frac{9 \times 1}{24 \times 1} </mrow>
+                                            <mrow></mrow>
+                                            <mrow> \amp = \frac{9}{24} </mrow>
+                                        </md>
+                                    </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Arrange the fractions in descending order.
+                            </p>
+                            <p>
+                                <m>\frac{20}{24},\frac{16}{24},\frac{9}{24},\frac{2}{24}</m>
+                            </p>
+                            <p>
+                                <m>\frac{5}{6},\frac{2}{3},\frac{9}{24},\frac{1}{12}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Arrange the following fractions in descending order.
+                </p>
+                <p>
+                    <m>\frac{2}{5},\frac{9}{10},\frac{3}{4},\frac{7}{20}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert each fraction into a percentage.
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <m>\frac{2}{5} \times 100 = 40\%</m>
+                                </p>
+                                <p>
+                                    <m>\frac{9}{10} \times 100 = 90\%</m>
+                                </p>
+                            </sidebyside>
+                            <sidebyside>
+                                <p>
+                                    <m>\frac{3}{4} \times 100 = 75\%</m>
+                                </p>
+                                <p>
+                                    <m>\frac{7}{20} \times 100 = 35\%</m>
+                                </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Arrange the percentages in descending order.
+                            </p>
+                            <p>
+                                <m>90\%, 75\%, 40\%, 35\%</m>
+                            </p>
+                            <p>
+                                The correct order is <m>\frac{9}{10},\frac{3}{4},\frac{2}{5},\frac{7}{20}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for arranging fractions in descending order.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Adding-proper-fractions">
+        <title>Adding proper fractions</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                   1.  Make a circular paper cut-out and divide it into 8 equal parts as shown below and shaded two parts as the one colored below.
+                </p>
+                <image width="25%">
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \draw (-1,0) -- (1,0);
+
+                                \fill[green] (0,0) -- (1,0) arc[start angle=360, end angle=270, radius=1cm] -- cycle;
+                                \fill[green] (0,0) -- (0,1) arc[start angle=90, end angle=135, radius=1cm] -- cycle;
+                                \node at (-0.3,0.6) {\large $a$};  
+                                \node at (0.5,-0.5) {\large $b$};  
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+
+                <p>
+                   2. What fraction of the whole circle do the colored parts <alert>a</alert> and <alert>b</alert> represent?
+                </p>
+                <p>
+                    3. Combine together the two colored parts. Which fraction of the whole circle do the combined colored parts represent?
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Add: <m>\frac{3}{8} + \frac{5}{9}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                Find the LCM of <m>8 \text{ and }9.</m>
+                            </p>
+                            <tabular right="medium">
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>8</cell>
+                                    <cell>9</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>4</cell>
+                                    <cell>9</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>2</cell>
+                                    <cell>2</cell>
+                                    <cell>9</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>3</cell>
+                                    <cell>1</cell>
+                                    <cell>9</cell>
+                                </row>
+                                <row bottom="medium">
+                                    <cell>3</cell>
+                                    <cell>1</cell>
+                                    <cell>3</cell>
+                                </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell>1</cell>
+                                    <cell>1</cell>
+                                </row>
+                            </tabular>
+                            <p>
+                                <m>2 \times 2 \times  2 \times  3 \times 3 = 72</m>
+                            </p>
+                            <p>
+                                The LCM of <m>8 \text{ and } 9 \text{ is } 72.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the fractions to have a common denominator.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{3}{8} \amp = \frac{3 \times 9}{8 \times 9} </mrow>
+                                    <mrow> \amp = \frac{27}{72} </mrow>
+                                    <mrow> \frac{5}{9} \amp = \frac{5 \times 8}{9 \times 8} </mrow>
+                                    <mrow> \amp = \frac{40}{72} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Add the fractions.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{27}{72} + \frac{40}{72} = \frac{67}{72} \amp </mrow>
+                                    <mrow> \text{ Therefore }</mrow>
+                                    <mrow> \frac{3}{8} + \frac{5}{9} \amp = \frac{67}{72} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for adding proper fractions
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Adding-mixed-fractions">
+        <title>Adding mixed fractions</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                   Juma's family was expecting visitors that evening. In preparation, Juma's mother bought <m>1 \frac{1}{2}</m> kg of meat.
+                    Later, his father bought an additional <m>2 \frac{1}{4}</m> kg of meat to ensure there was enough for everyone. How much meat did they have altogether?
+                </p>
+                <p>
+                    Share your work with other learners in the class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>7 \frac{1}{4} + 5 \frac{1}{3}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the mixed fractions into improper fractions.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>7 \frac{1}{4} \amp = \frac{4 \times 7 + 1}{4} = \frac{29}{4} </mrow>
+                                    <mrow></mrow>
+                                    <mrow>5 \frac{1}{3} \amp = \frac{3 \times 5 +1}{3} = \frac{16}{3}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Add the improper fractions using LCM.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{29}{4} + \frac{16}{3} = \frac{(3 \times 29)+(4 \times 16)}{12} \amp = \frac{87+64}{12} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{151}{12} = 12\frac{7}{12} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \text{Therefore      } 7 \frac{1}{4} + 5 \frac{1}{3} \amp = 12 \frac{7}{12} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for adding mixed fractions goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Subtracting-proper-fractions">
+        <title>Subtracting proper fractions</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for subtracting proper fractions goes here.
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{1}{3} - \frac{1}{5}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the LCM of the denominators.
+                            </p>
+                            <p>
+                                LCM of the denominators is <m>15.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the fractions to have a common denominator.
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <md>
+                                        <mrow>\frac{1}{3} \amp = \frac{1 \times 5}{3 \times 5} </mrow>
+                                        <mrow> \amp = \frac{5}{15} </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow>\frac{1}{5} \amp = \frac{1 \times 3}{5 \times 3} </mrow>
+                                        <mrow> \amp = \frac{3}{15} </mrow>
+                                    </md>
+                                </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Subtract.
+                            </p>
+                            <p>
+                                <me>
+                                    \frac{5}{15} - \frac{3}{15} = \frac{2}{15}
+                                </me>
+                                <me>
+                                    \frac{1}{3} - \frac{1}{5} = \frac{2}{15}
+                                </me>
+                                
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for subtracting proper fractions goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Subtracting-mixed-fractions">
+        <title>Subtracting mixed fractions</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for subtracting mixed fractions
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>23 \frac{1}{2} - 12 \frac{1}{4} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the fractions into improper fractions.
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <md>
+                                        <mrow>23 \frac{1}{2} \amp = \frac{2 \times 23 + 1}{2} </mrow>
+                                        <mrow> \amp = \frac{47}{2} </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    <md>
+                                        <mrow> 12 \frac{1}{4} \amp = \frac{4 \times 12 + 1}{4} </mrow>
+                                        <mrow> \amp = \frac{49}{4} </mrow>
+                                    </md>
+                                </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                Subtract the improper fractions using LCM.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{47}{2} - \frac{49}{4} \amp = \frac{94-49}{4} </mrow>
+                                    <mrow> \amp = \frac{45}{4} = 11 \frac{1}{4} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for subtacting mixed fractions.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-Multiplying-a-fraction-by-a-whole-number">
+        <title>Multiplying a fraction by a whole number</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                     Otuoma, a baker, is excited to surprise his family with three delicious cakes.
+                     He eagerly pulls out his recipe book, only to realize he needs to calculate the sugar needed. 
+                     Each cake, according to the recipe, requires a <m>\frac{1}{2}</m> kg of sugar. Otuoma wonders the total amount of sugar he will need in total?.
+                     Can you help Otuoma figure out how much sugar he needs to bake his surprise cakes?
+                </p>
+                <p>
+                    Share your calculations and the amount of sugar you determined with the rest of the class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{8}{9} \times 5 = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)" cols="2">
+                        <li>
+                            <p>
+                                Multipy the numerator by <m>5.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{8}{9} \times 5  \amp = \frac{8 \times 5}{9}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{40}{9} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Convert the improper fraction into a mixed fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> \frac{40}{9} \amp = 4 \frac{4}{9} </mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \frac{8}{9} \times 5 \amp = 4\frac{4}{9} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for multiplying a fraction by a whole number goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Multiplying-a-fraction-by-a-fraction">
+        <title>Multiplying a fraction by a fraction</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for Multiplying a fraction by a fraction goes in here
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{3}{5} \times \frac{7}{9}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Multiply the numerators and the denominators separately.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{3}{5} \times \frac{7}{9} \amp = \frac{3 \times 7}{5 \times 9}</mrow>
+                        <mrow> \amp = \frac{21}{45} </mrow>
+                    </md>
+                </p>
+                <p>
+                    simplify the answer
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{21}{45}  \amp = \frac{21 \div 3}{45 \div 3} </mrow>
+                        <mrow> \amp = \frac{7}{15} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Multiplying a fraction by a fraction
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Multiplying-a-fraction-by-a-mixed-number">
+        <title>Multiplying a fraction by a mixed number</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for Multiplying a fraction by a mixed number goes here
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{2}{3} \times 2 \frac{1}{7} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)" cols="2">
+                        <li>
+                            <p>
+                                Convert <m>2 \frac{1}{7}</m> to improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>2 \frac{1}{7} \amp = \frac{7 \times 2 +1}{7} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{15}{7} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply the fractions.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{2}{3} \times \frac{15}{7} \amp = \frac{2 \times 15}{3 \times 7}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{30}{21} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Simplify
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{30 \div 3}{21 \div 3} \amp = \frac{10}{7}</mrow>
+                                    <mrow></mrow>
+                                    <mrow>\frac{10}{7} \amp = 1 \frac{3}{7} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Multiplying a fraction by a mixed number goes in here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Reciprocal-of-fractions">
+        <title>Reciprocal of fractions</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for Reciprocal of fractions goes in here.
+                </p>
+            </statement>
+        </activity> -->
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        To find the reciprocal of a fraction, swap the numerator and the denominator.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The product of a fraction and its reciprocal is <m>1.</m>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <example>
+            <statement>
+                <p>
+                    What is the reciprocal of <m>\frac{11}{23}</m>?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To get the reciprocal of <m>\frac{11}{23}</m>, we swap the numerator and the denominator.
+                </p>
+                <p>
+                    <m>\frac{11}{23} \text{ to get } \frac{23}{11}</m>
+                </p>
+                <p>
+                    The the reciprocal of <m>\frac{11}{23} \text{ is } \frac{23}{11}.</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    What is the reciprocal of <m>6 \frac{4}{5}</m>?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert <m>6 \frac{4}{5}</m> into an improper fraction.
+                            </p>
+                            <p>
+                                <m>6 \frac{4}{5} = \frac{(5 \times 6)+4}{3 \times 7} = \frac{34}{5}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Swap the numerator and the denominator.
+                            </p>
+                            <p>
+                                <m>\frac{34}{5} \text{ to get } \frac{5}{34}</m>
+                            </p>
+                            <p>
+                                The reciprocal of <m>6 \frac{4}{5} \text{ is } \frac{5}{34}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Reciprocal of fractions goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Division-of-a-fraction-by-a-whole-number">
+        <title>Division of a fraction by a whole number</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity for Division of a fraction by a whole number goes here.
+                </p>
+            </statement>
+        </activity> -->
+        <p>
+            When dividing a fraction by a whole number, multiply the fraction by the reciprocal of the whole.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{3}{20} \div 6 = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the reciprocal of the divisor.
+                            </p>
+                            <p>
+                                The reciprocal of <m>6</m> is <m>\frac{1}{6}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{3}{20} \times \frac{1}{6} \amp = \frac{3 \times 1}{20 \times 6}</mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{3}{120} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \frac{3}{120} \amp = \frac{3 \div 3}{120 \div 3} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{1}{40}</mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a fraction by a whole number
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Division-of-a-fraction-by-a-fraction">
+        <title>Division of a fraction by a fraction</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                   1. Cut out a circular shape and divide the circle into <m>8</m> equal parts using a ruler and pencil. Shade the parts to match the coloring in the provided example.
+                </p>
+                <image width="25%">
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw (0,0) circle (1cm);
+                                \draw (-1,0) -- (1,0);
+                                \fill[green] (0,0) -- (1,0) arc[start angle=360, end angle=270, radius=1cm] -- cycle;
+                                \fill[green] (0,0) -- (0,1) arc[start angle=90, end angle=135, radius=1cm] -- cycle;
+                                \node at (-0.3,0.6) {\large $a$};  
+                                \node at (0.5,-0.5) {\large $b$};  
+                                \draw (0,1) -- (0,-1);
+                                \draw (-0.71,0.71) -- (0.71,-0.71);
+                                \draw (-0.71,-0.71) -- (0.71,0.71);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                <p>
+                   2. What fraction of the whole does the shaded part <alert>a</alert> and <alert>b</alert> represent?
+                </p>
+                <p>
+                  3.  How many times does the smaller part <alert>a</alert> fit into the larger part <alert>b</alert>?
+                </p>
+                <p>
+                   4.  Share your work with other learners in class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{1}{5} \div \frac{1}{3} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the reciprocal of the divisor.
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{1}{3} </m> is <m>\frac{3}{1}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{1}{5} \text { by } \frac{3}{1}.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\frac{1}{5} \times \frac{3}{1} \amp = \frac{1 \times 3}{5 \times 1}</mrow>
+                                    <mrow> </mrow>
+                                    <mrow> \amp = \frac{3}{5}</mrow>
+                                    <mrow></mrow>
+                                    <mrow>\frac{1}{5} \div \frac{1}{3} \amp = \frac{3}{5} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for division of a fraction by a fraction goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Division-of-a-fraction-by-a-mixed-number">
+        <title>Division of a fraction by a mixed number</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in group</alert>
+                </p>
+                <p>
+                    
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\frac{3}{5} \div 8 \frac{1}{6} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                COnvert <m>9 \frac{1}{6}</m> into an improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>9 \frac{1}{6} \amp = \frac{(6 \times 9)+1}{6} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{55}{6} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>\frac{3}{5}</m> by the reciprocal of <m>\frac{55}{6}.</m>
+                            </p>
+                            <p>
+                                <m>\frac{3}{5} \div {55}{6} = \frac{3}{5} \times \frac{6}{55} = \frac{18}{275}</m>
+                            </p>
+                            <p>
+                                Hence <m>\frac{3}{5} \div 9 \frac{1}{6} = \frac{18}{275}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a fraction by a mixed number goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-Division-of-a-whole-number-by-a-fraction">
+        <title>Division of a fraction by a whole number</title>
+        <activity>
+            <statement>
+                <p>
+                   <alert>Work in groups</alert>
+                </p>
+                <p>
+                    Mr. Obiero is a meat seller in Namanga center.He always ensure food safety and hygiene when handling and selling meat.
+                     He is selling <m>\frac{1}{2}</m> kg of meat to four teachers of Seku primary school.
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>  
+                               1. What fraction of the meat will each teacher receive if they share it equally?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                               2. Share your answer with other learners in your class.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>20 \div \frac{1}{5} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the reciprocal of the divisor.
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{1}{5}</m> is <m>\frac{5}{1}.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>20</m> by the reciprocal of <m>\frac{1}{5}.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> 20 \div \frac{1}{5} \amp = 20 \times \frac{5}{1} </mrow>
+                                    <mrow> \amp = 100 </mrow>
+                                    <mrow>20 \frac{1}{5} \amp = 100 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Evaluate: <m>35 \div 3 \frac{1}{2} = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert <m>3 \frac{1}{2}</m> into an improper fraction.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow> 3 \frac{1}{2} \amp = \frac{2 \times 3 + 1}{2} </mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = \frac{7}{2} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find the reciprocal of <m>\frac{7}{2}.</m>
+                            </p>
+                            <p>
+                                The reciprocal of <m>\frac{7}{2}</m> is <m>\frac{2}{7}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply <m>35</m> by <m>\frac{2}{7}.</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>35 \times \frac{2}{7} \amp = \frac{70}{7}</mrow>
+                                    <mrow></mrow>
+                                    <mrow> \amp = 10 </mrow>
+                                    <mrow>35 \div 3 \frac{1}{2} \amp = 10 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a whole number by a fraction goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Number-sequence-involving-fractions">
+        <title>Number sequence involving fractions</title>
+        <activity>
+            <statement>
+                <p>
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Observe the pattern in the following sequence of fractions: <m>\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Identify the pattern in these fractions.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Determine the next fraction in the sequence.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Share your findings with your classmates.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <hint>
+                <p>
+                    Identify the pattern formed by numerators and denominators.
+                </p>
+            </hint>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the next fraction in the sequence.
+                </p>
+                <p>
+                    <m>\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25},\frac{1}{36},</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                The denominators are squares of numbers <m>2,3,4,5 \text{ and } 6.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The next denominator is the square of <m>7.</m>
+                            </p>
+                            <p>
+                                <m>7 \times 7 = 49</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The next fraction in the sequence is <m>\frac{1}{49}.</m>
+                            </p>
+                            <p>
+                                The sequence is <m>\frac{1}{4},\frac{1}{9},\frac{1}{16},\frac{1}{25},\frac{1}{36},\\frac{1}{49}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    What is the next fraction in the pattern ?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Convert the mixed fractions into improper fractions.
+                            </p>
+                            <p>
+                                <m>7 \frac{1}{2} = \frac{15}{2}, \,\, 3 \frac{3}{4} = \frac{15}{4}, \,\, 1\frac{7}{8} = \frac{15}{8}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Rewrite the sequence.
+                            </p>
+                            <p>
+                                <m>\frac{15}{2},\frac{15}{4},\frac{15}{8},\frac{15}{16}</m>
+                            </p>
+                            <p>
+                                The denominator is the multiplied by two to get the next fraction.
+                            </p>
+                            <p>
+                                <m>\frac{15}{16 \times 2} = \frac{15}{32}</m>
+                            </p>
+                            <p>
+                                The next fraction is <m>\frac{15}{32}.</m>
+                            </p>
+                            <p>
+                                The sequence is <m>7 \frac{1}{2},3\frac{3}{4},1\frac{7}{8},\frac{15}{16},\frac{15}{32}.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise on Number sequence involving fractions goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Creating-number-sequences-involving-fractions">
+        <title>Creating number sequences involving fractions</title>
+        <!-- <activity>
+            <statement>
+                <p>
+                    Activity on Creating number sequences involving fractions.
+                </p>
+            </statement>
+        </activity> -->
+        <example>
+            <statement>
+                <p>
+                    Create a subtraction sequence of four fractions starting from <m>2 \frac{1}{4}.</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Rule: Subtract the same fraction repeatedly to get the next number.
+                </p>
+                <p>
+                    <md>
+                        <mrow>2 \frac{1}{4} - \frac{1}{4} \amp = 2 </mrow>
+                        <mrow></mrow>
+                        <mrow>2 - \frac{1}{4} \amp = 1 \frac{3}{4} </mrow>
+                        <mrow></mrow>
+                        <mrow>1 \frac{3}{4} - \frac{1}{4} \amp = 1 \frac{2}{4} = 1 \frac{1}{2} </mrow>
+                        <mrow></mrow>
+                    </md>
+                </p>
+                <p>
+                    The sequence is <m>2\frac{1}{4},2,1\frac{3}{4},1\frac{1}{2}.</m>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise on Creating number sequences involving fractions
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+</section>

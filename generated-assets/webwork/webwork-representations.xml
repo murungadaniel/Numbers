@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1">
+      <statement><p><m>1+2=</m><fillin name="AnSwEr0001" characters="5"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTsKCkJFR0lOX1BHTUwKW2AxKzI9YF1bX117JzMnfXs1fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-01-11T11:34:56+03:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.1)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+[`1+2=`][_]{'3'}{5}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2">
+      <statement><p>The answer is <m>x+y=1\text{.}</m></p>
+<p><fillin name="AnSwEr0001" characters="8"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x+y = 1</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwicGFyc2VySW1wbGljaXRQbGFuZS5wbCIsIlBHY291cnNlLnBsIiwpO1RFWFQoYmVnaW5wcm9ibGVtKCkpOwpDb250ZXh0KCJJbXBsaWNpdFBsYW5lIik7CgpCRUdJTl9QR01MClRoZSBhbnN3ZXIgaXMgW2B4K3k9MVx0ZXh0ey59YF0KCltfXXsneCt5PTEnfXs4fQoKCkVORF9QR01MCgpFTkRET0NVTUVOVCgpOw==" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-01-11T11:34:56+03:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.2)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "parserImplicitPlane.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("ImplicitPlane");
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+The answer is [`x+y=1\text{.}`]
+
+[_]{'x+y=1'}{8}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3">
+      <statement><p>Compute <m>{3} + {1}\text{.}</m></p>
+<p>The sum is <fillin name="AnSwEr0001" characters="2"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <solution><p>Firstly add the first number to the second number in the operation given</p>
+<p><m>{3} + {1} = {4}\text{.}</m></p>
+</solution>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUENDbWFjcm9zLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoIkxpbWl0ZWROdW1lcmljIik7CiRhID0gQ29tcHV0ZShyYW5kb20oMSwgOSwgMSkpOwokYiA9IENvbXB1dGUocmFuZG9tKDEsIDksIDEpKTsKJGMgPSAkYSArICRiOwoKQkVHSU5fUEdNTApDb21wdXRlIFtgWyRhXSArIFskYl1cdGV4dHsufWBdCgpbQEtleWJvYXJkSW5zdHJ1Y3Rpb25zKCdUeXBlIHlvdXIgYW5zd2VyIHdpdGhvdXQgdXNpbmcgdGhlIFt8K3xdKiBzaWduLicpQF0qKgoKVGhlIHN1bSBpcyBbX117JGN9ezJ9LgoKCkVORF9QR01MCgpCRUdJTl9QR01MX1NPTFVUSU9OCkZpcnN0bHkgYWRkIHRoZSBmaXJzdCBudW1iZXIgdG8gdGhlIHNlY29uZCBudW1iZXIgaW4gdGhlIG9wZXJhdGlvbiBnaXZlbgoKW2BbJGFdICsgWyRiXSA9IFskY11cdGV4dHsufWBdCgoKRU5EX1BHTUxfU09MVVRJT04KCkVORERPQ1VNRU5UKCk7" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-01-11T11:34:56+03:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.3)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PCCmacros.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context("LimitedNumeric");
+$a = Compute(random(1, 9, 1));
+$b = Compute(random(1, 9, 1));
+$c = $a + $b;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Compute [`[$a] + [$b]\text{.}`]
+
+[@KeyboardInstructions('Type your answer without using the [|+|]* sign.')@]**
+
+The sum is [_]{$c}{2}.
+
+END_PGML
+
+############################################################
+# Solution
+############################################################
+
+BEGIN_PGML_SOLUTION
+Firstly add the first number to the second number in the operation given
+
+[`[$a] + [$b] = [$c]\text{.}`]
+
+END_PGML_SOLUTION
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-foo" ww-id="foo">
+    <static seed="1">
+      <statement><p>Enter <m>1+1\text{.}</m>  <fillin name="AnSwEr0001" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTskYSA9IHJhbmRvbSgxLDksMSk7CiRhbnN3ZXIgPSAkYSsxOwoKQkVHSU5fUEdNTApFbnRlciBbYFskYV0rMVx0ZXh0ey59YF0gIFtfXXskYW5zd2VyfXsxMH0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-01-11T11:34:56+03:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.4)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$a = random(1,9,1);
+$answer = $a+1;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Enter [`[$a]+1\text{.}`]  [_]{$answer}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" ww_major_version="2" ww_minor_version="17" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="2">
+      <statement><p>Enter <m>2+1\text{.}</m>  <fillin name="AnSwEr0001" characters="10"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <server-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygiUEdzdGFuZGFyZC5wbCIsIlBHTUwucGwiLCJBbnN3ZXJGb3JtYXRIZWxwLnBsIiwiUEdjb3Vyc2UucGwiLCk7VEVYVChiZWdpbnByb2JsZW0oKSk7CkNvbnRleHQoJ051bWVyaWMnKTskYSA9IHJhbmRvbSgxLDksMSk7CiRhbnN3ZXIgPSAkYSsxOwoKQkVHSU5fUEdNTApFbnRlciBbYFskYV0rMVx0ZXh0ey59YF0gIFtfXXskYW5zd2VyfXsxMH0KCgpFTkRfUEdNTAoKRU5ERE9DVU1FTlQoKTs=" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" course-password="anonymous" language="en-US"/>
+    <pg copied-from="foo"><![CDATA[
+#############################################
+###       Generated from PreTeXt source      
+###       on 2025-01-11T11:34:56+03:00       
+###   A recent stable commit (2022-07-01):   
+### 6c761d3dba23af92cba35001c852aac04ae99a5f 
+###                                          
+###         https://pretextbook.org          
+###                                          
+#############################################
+## DBsubject()
+## DBchapter()
+## DBsection()
+## Level()
+## KEYWORDS()
+## TitleText1()
+## EditionText1()
+## AuthorText1()
+## Section1(not reported)
+## Problem1(1.2.5)
+## Author()
+## Institution()
+## Language(en-US)
+
+DOCUMENT();
+
+############################################################
+# Load Macros
+############################################################
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "AnswerFormatHelp.pl",
+  "PGcourse.pl",
+);
+COMMENT('Authored in PreTeXt');
+
+############################################################
+# Header
+############################################################
+TEXT(beginproblem());
+
+############################################################
+# PG Setup Code
+############################################################
+Context('Numeric');
+$a = random(1,9,1);
+$answer = $a+1;
+
+############################################################
+# Body
+############################################################
+
+BEGIN_PGML
+Enter [`[$a]+1\text{.}`]  [_]{$answer}{10}
+
+END_PGML
+
+############################################################
+# End Problem
+############################################################
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+</webwork-representations>

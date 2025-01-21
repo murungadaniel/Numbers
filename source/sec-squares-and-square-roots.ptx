@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-squares-and-square-roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Squares and square roots</title>
+    <introduction>
+        <p>
+             Squares and square roots are fundamental concepts in mathematics, with many applications in our daily lives.
+        </p>
+        <p>
+            Consider a surveyor tasked with determining the side length of a square
+            garden with an area of 400 m<m>^2</m>. Since all sides of a square are equal, the surveyor
+            needs to find a number that, when multiplied by itself, results in 400. This is where the concept of square roots comes into play.
+        </p>
+        <p>
+            To find the side length, the surveyor needs to determine the square root of 400.
+            In this case, the square root of 400 is 20, meaning each side of the garden is 20 m long.
+        </p>
+        <p>
+            We can represent this mathematically as follows:
+        </p>
+        <!-- <p>
+            To illustrate, consider the number <m>3</m>: The square of <m>3</m>, written as <m>3^2</m>, is <m>9</m>. 
+            This means multiplying <m>3</m> by itself <m>(3 \times 3 = 9)</m>. Conversely, the square root of <m>9</m> denoted as <m>\sqrt{9}</m> is <m>3</m>. 
+            This operation finds the number that, when multiplied by itself, gives 9.
+            We see that square and square roots are both opposite concept in nature to each other. 
+        </p>  -->
+        <!-- <p>
+            This concepts are applied in fields such as geometry when calculating the area of squares or determning the length of diagonal.
+        </p> -->
+                <!-- <p> -->
+                    <sidebyside widths="20% 50%">
+                        <image width="15%">
+                            <shortdescription>square</shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                \draw[thick,blue] (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                                    \node[below] at (1.5,0) {$a$};
+                                    \node[left] at (0,1.5) {$a$};
+                                \end{tikzpicture}
+                            </latex-image>
+                        </image>
+                        <p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        Area of a square = side length <m>\times</m> side length
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>a^2 = a \times a</m> , where <m>a</m> represents the side length of the square.
+                                    </p>
+                                </li>
+                            </ul>
+                        </p>
+                    </sidebyside>
+                <!-- </p>    -->
+    </introduction>
+
+    <subsection xml:id="subsec-Squares-of-whole-numbers">
+        <title>Squares of whole numbers</title>
+        <activity>
+            <p>
+                <alert>Work in groups</alert>
+            </p>
+            
+            <p>
+                <ol>
+                    <li>
+                        <p>
+                            Draw a grid of squares like the one shown below.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Start by counting all the smallest squares <m>(1 \times 1)</m> in the grid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Then, identify and count all the larger squares, such as <m>2 \times 2, \,\,</m>  <m>3 \times 3</m>, and so on, until you reach the largest square that fits within the grid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Write down the number of squares for each size <m> (e.g., 1 \times 1, \,\, 2 \times 2, ...) </m> in a table for better organization. Add them up to find the total number of squares in the grid.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss your findings with a in a small group. Compare how many squares each of you found and check for any missed squares.                      
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Think about the process you used to count the squares. Could there be a quicker way to calculate the total number of squares without counting each one individually?
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <image width="30%">
+                <shortdescription></shortdescription>
+                <latex-image>
+                    \begin{tikzpicture}
+                        \foreach \x in {0,1,2,3,4,5} {
+                            \draw[thick,blue] (\x,0) -- (\x,5);
+                        }
+                        \foreach \y in {0,1,2,3,4,5} {
+                            \draw[thick,blue] (0,\y) -- (5,\y);
+                        }
+                    \end{tikzpicture}
+
+                </latex-image>
+            </image>
+            <!-- <p>
+                Draw the square grids like the one shown be on the left.
+                Count the number of squares that can be formed inside that one main square
+
+                Share the work with other 
+            </p> -->
+            
+        </activity>
+        <definition xml:id="def-square-of-a-number">
+            <statement>
+                <p>
+                    The square of a number is a product of the number by itself.
+                </p>
+            </statement>
+        </definition>
+        <p>
+            The square of a number is a product of the number by itself.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                What is the square of <m>15 </m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Work out: <m>132^2</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)" cols="2">
+                        <li>
+                            <p>
+                                <md>
+                                     <mrow>15^2 \amp = 15 \times 15 </mrow>
+                                     <mrow> \amp = 225 </mrow>
+                                </md>
+                            </p>
+                            <!-- <table> -->
+                                <!-- <title></title> -->
+                                <tabular>
+                                    <row>
+                                        <cell halign="right"><m>15</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row halign="right">
+                                        <cell bottom="medium"><m>\times \, 15</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row halign="right">
+                                        <cell>75</cell>
+                                        <cell halign="left"><m>15 \times 5</m></cell>
+                                    </row>
+                                    <row halign="right">
+                                        <cell bottom="medium"><m>+ 150</m></cell> 
+                                        <cell halign="left"><m>15 \times 10</m></cell>
+                                    </row>
+                                    <row halign="right">
+                                        <cell bottom="medium"><m>225</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                </tabular>
+                            <!-- </table> -->
+                        </li>
+                        <li>
+                            <p>
+                                <md>
+                                    <mrow>132^2 \amp = 132 \times 132</mrow>
+                                    <mrow> \amp = 17\,424</mrow>
+                                </md>
+                            </p>
+                            <!-- <table> -->
+                                <!-- <title></title> -->
+                                <tabular>
+                                    <row>
+                                        <cell halign="right"><m>132</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>\times 132</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right"><m>264</m></cell>
+                                        <cell halign="left"> <m>132 \times 2</m></cell>
+                                    </row>
+                                    <row halign="right">
+                                        <cell halign="right"><m>+ 3\,960</m></cell>
+                                        <cell halign="left"><m>132 \times 30</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>13\,200</m></cell>
+                                        <cell halign="left"><m>132 \times 100</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>17\,424</m></cell>
+                                    </row>
+                                </tabular>
+                            <!-- </table> -->
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The length of a square flowerbed is <m>43</m> m. What is the area of the flowerbed?
+                </p>
+            </statement>
+            <solution>
+                <sidebyside widths="35% 15%">
+                    <p>
+                        <md>
+                            <mrow> \text{Area } \amp = \text{ Length } \times \text{Length}  </mrow>
+                            <mrow> \amp = 43 \text{ m } \times 43 \text{ m } </mrow>
+                            <mrow> \amp = 1\,849 \text{m}^2 </mrow>
+                        </md>
+                        
+                    </p>
+                    <!-- <table> -->
+                        <!-- <title></title> -->
+                        <tabular>
+                            <row>
+                                <cell halign="right"><m>43</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row halign="right">
+                                <cell halign="right" bottom="medium"><m>\times 43</m></cell>
+                                <cell></cell>
+                            </row>
+                            <row>
+                                <cell halign="right"><m>129</m></cell>
+                                <cell halign="left"><m>43 \times 3</m></cell>
+                            </row>
+                            <row>
+                                <cell bottom="medium" halign="right"><m>+ 1720</m></cell>
+                                <cell><m>43 \times 40</m></cell>
+                            </row>
+                            <row>
+                                <cell halign="right" bottom="medium"><m>1849</m></cell>
+                                <cell></cell>
+                            </row>
+                        </tabular>
+                    <!-- </table> -->
+                </sidebyside>
+                <p>
+                    The area of the flowerbed is <m>1\,849 \text{ m}^2.</m>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise on squares of whole numbers goes in here.
+                </p>
+            </statement>
+        </exercise>
+
+    </subsection>
+    <!-- squares of fractions -->
+    <subsection xml:id="subsec-Sqaures-of-fractions">
+        <title>Sqaures of fractions</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for squares of fractions goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out the square of:
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>\frac{3}{4}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>\left( \frac{3}{4} \right)^2</m>
+                            </p>
+                            <p>
+                                Square the numerator and the denominator.
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\left( \frac{3}{4} \right)^2 \amp = \frac{3 \times 3}{4 \times 4} </mrow>
+                                    <mrow> \amp = \frac{9}{16} </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Work out the following:
+                </p>
+                <p>
+                    <ol marker="a)"> 
+                        <li>
+                            <p>
+                                <m>\left(1 \frac{1}{2}\right)^2</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>\left(1 \frac{1}{2}\right)^2</m>
+                </p>
+                <p>
+                    Convert the mixed fraction to an improper fraction.
+                </p>
+                <p>
+                    <me>1\frac{1}{2} = \frac{3}{2}</me>
+                </p>
+                <p>
+                    Find the square of the improper fraction.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\left(1 \frac{1}{2}\right)^2 \amp = \frac{3 \times 3}{2 \times 2}</mrow>
+                        <mrow> \amp = \frac{9}{4} </mrow>
+                    </md>
+                </p>
+                <p>
+                    Convert the improper fraction to a mixed fraction.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{9}{4}  \amp = 2 \frac{1}{4} </mrow>
+                        <mrow> \amp = 2 \frac{1}{4} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for squares of fractions goes in here.
+                </p>
+            </statement>
+        </exercise>
+    
+    </subsection>
+    <!-- subsection for decimals -->
+
+    <subsection xml:id="subsec-Squares-of-decimals">
+        <title>Squares of decimals</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for squares of decimals goes here
+                </p>
+            </statement>
+        </activity>
+        <p>
+            The square of a decimal number should have double the number of decimal places as the original number.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                What is the square of: <m>1.24 </m>?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the value of <m>2.13^2</m>?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                <m>1.24</m> ?
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>1.24 \amp = \frac{124}{100}</mrow>
+                                    <mrow> 1.24 ^2 \amp = \frac{124}{100} \times \frac{124}{100} </mrow>
+                                    <mrow> \amp = \frac{15\,376}{10\,000} </mrow>
+                                    <mrow> \amp = 1.5376 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>2.13^2 = 2.13 \times 2.13</m>
+                            </p>
+                            <!-- <table> -->
+                                <!-- <title></title> -->
+                                <tabular>
+                                    <row>
+                                        <cell halign="right"><m>213</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>\times 213</m></cell>
+                                        <cell></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right"><m>639</m></cell>
+                                        <cell halign="left"><m>213 \times 3</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right"><m>2\,130</m></cell>
+                                        <cell halign="left"><m>213 \times 10</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>+ \, 42\,600</m></cell>
+                                        <cell halign="left"><m> 213 \times 200</m></cell>
+                                    </row>
+                                    <row>
+                                        <cell halign="right" bottom="medium"><m>45\,369</m></cell>
+                                    </row>
+                                </tabular>
+                            <!-- </table> -->
+                            <p>
+                                <m>2.13^2 = 4.5369</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for squares of decimals goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Squares-roots-of-whole-numbers">
+        <title>Squares roots of whole numbers</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for squares roots of whole numbers goes here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the square root of <m>324</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Express <m>324</m> as a product of its prime factors and pair up similar factors together.
+                    <md>
+                        <mrow> 324 \amp = 2 \times 2 \times 3 \times 3 \times 3 \times 3</mrow>
+                        <mrow> \sqrt{324} \amp = \sqrt{2 \times 2 \times 3 \times 3 \times 3 \times 3} </mrow>
+                    </md>
+                    select one factor from each pair and multiply the selected factors.
+                </p>
+                <p>
+                    <md>
+                        <mrow> \amp = 2 \times 3 \times 3 </mrow>
+                        <mrow> \amp = 18 </mrow>
+                    </md>
+                </p>
+            </solution>
+
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for squares roots of whole numbers goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <!-- square roots of fractions -->
+    <subsection xml:id="subsec-Square-roots-of-fractions">
+        <title>Square roots of fractions</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for square roots of fractions goes here.
+                </p>
+            </statement>
+        </activity>
+        <p>
+            To find the square root of a fraction, work out the square root of the numerator and square root of the denominator separately.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Find the square root of <m>\frac{25}{81}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow> \sqrt{\frac{25}{81}} \amp = \frac{\sqrt{25}}{\sqrt{81}} </mrow>
+                        <mrow> \amp = \frac{\sqrt{5 \times 5}}{\sqrt{9 \times 9}} </mrow>
+                        <mrow> \amp = \frac{5}{9} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>\sqrt{11\frac{1}{9}}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow> 11 \frac{1}{9} \amp = \frac{9 \times 11 + 1}{9} </mrow>
+                        <mrow> \amp = \frac{100}{9} </mrow>
+                        <mrow> \sqrt{11 \frac{1}{9}} \amp = \frac{\sqrt{100}}{\sqrt{9}} </mrow>
+                        <mrow> \frac{\sqrt{10 \times 10}}{\sqrt{3 \times 3}} \amp = \frac{10}{3}</mrow>
+                        <mrow> \amp = \frac{10}{3}</mrow>
+                        <mrow> \amp = 3 \frac{1}{3} </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for square roots of fraction goes here
+                </p>
+            </statement>
+        </exercise>
+
+    </subsection>
+    <subsection xml:id="subsec-Square-roots-of-decimals">
+        <title>Square roots of decimals</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for square roots of decimals
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                Work out: <m>\sqrt{12.96}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Work out: <m>\sqrt{2.25}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>\sqrt{12.96}</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\sqrt{12.96} \amp = \sqrt{\frac{1296}{100}} </mrow>
+                                    <mrow> \amp = \sqrt{\frac{2 \times 2 \times 2 \times 2 \times 3 \times 3 \times 3 \times 3}{2 \times 2 \times 5 \times 5}} </mrow>
+                                    <mrow> \amp = \frac{2 \times 2 \times 3 \times 3}{2 \times 5} = \frac{36}{10} </mrow>
+                                    <mrow> \amp= 3.6 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\sqrt{2.25}</m>
+                            </p>
+                            <p>
+                                <md>
+                                    <mrow>\sqrt{2.25} \amp = \sqrt{\frac{225}{100}} </mrow>
+                                    <mrow> \amp = \sqrt{\frac{3 \times 3 \times 5 \times 5}{2 \times 2 \times 5 \times 5}} </mrow>
+                                    <mrow> \amp = \frac{5 \times 3}{2 \times 5} = \frac{15}{10} </mrow>
+                                    <mrow> \amp = 3.6 </mrow>
+                                </md>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+       
+
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for square roots of decimals
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+</section>

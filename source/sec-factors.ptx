@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-factors" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Factors</title>
+    <introduction>
+        <p>
+      A factor is a number that can be multiplied to create a specific number in math.     
+        </p>
+        <p>
+            For example, A group of <m>12</m> grade <m>7</m> students wanted to share <m>24</m> cookies equally. To find it out, they looked at the factors of <m>24</m>:1,2,3,4,6,8 and 24. They realized they could split the cookies into: 
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <m>2</m> cookies each for the <m>12</m> people.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>4</m> cookies each for the <m>6</m> people.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>6</m> cookies each for the <m>2</m> people.
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+         Factors helped them share the cookies fairly among themselves.   
+        </p>
+    </introduction>
+    <subsection xml:id="subsec-Divisibility-test-for-2">
+        <title>Divisibility test for 2</title>
+        <p>
+            A number is divisible by <m>2</m> if the digit in the ones place value is an even number or zero.
+        </p>
+    <activity>
+        <statement>
+            <p>
+            
+            </p>
+            <p>
+                1. Working in groups of <m>10</m> members, write numbers from <m>0</m> to <m>9</m> each on a piece of paper.
+            </p>
+            <p>
+                2. Pick random digits to form <m>5</m>-digit numbers.   
+            </p>
+            <p>
+                3. Divide each number by <m>2</m>.
+            </p>
+            <p>
+                4. What do you notice about numbers divisible by <m>2</m>?
+            </p>
+            <p>
+                5. Discuss how to test if a number is divisible by <m>2</m>.
+            </p>
+        </statement>
+    </activity>
+    <example>
+        <statement>
+            <p>
+                Which of the following numbers are divisible by <m>2</m>?
+            </p>
+            <p>
+                <m>49\,397, 49\,273, 47\,164, 24\,840</m>
+            </p>
+        </statement>
+        <solution>
+            <p>
+                The number <m>47\,164</m> is divisible by <m>2</m> because the digit in the ones place value is an even number.
+            </p>
+            <p>
+                The number <m>24\,840</m> is divisible by <m>2</m> because the digit in the ones place value is zero.
+            </p>
+        </solution>
+    </example> 
+    <exercise>
+        <statement>
+            <p>
+                An exercise will be set up here for the divisibility test of <m>2</m>.
+            </p>
+        </statement>
+    </exercise>
+    </subsection>   
+    <subsection xml:id="subsec-Divisibility-test-of-3">
+        <title>Divisibility test for 3</title>
+            <p>
+                A number is divisible by <m>3</m> if the sum of its digits gives a number that is divisible by <m>3</m>.
+            </p>
+            <p>
+                Esther bought <m>12</m> mangoes and needs to divide them amoung her <m>3</m> children. She wondered if she can share the mangoes equally amoung her children.
+            </p>
+            <p>
+              Since adding <m>12</m> gives <m>3</m> i.e <me> 1+2 = 3</me> hence <m>12</m> is divisible by <m>3</m> and Esther will share the mangoes equally among the children.
+               
+            </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                 1. Count the number of blue pens in your class and one of you to write it down.
+                </p>
+                <p>
+                 2. Count also the number of red pens in your class and indicate the number.
+                </p>
+                <p>
+                 3. Find the total number of blue and red pens in the class.
+                </p>
+                <p>
+                4. Write down the number.
+                </p>
+                <p>
+                 5. Add the digits in that number and identify if the result is divisible by <m>3</m>.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>Which of the following numbers are divisible by 3?</p>
+                <p>
+                    <ol cols="4" marker="a)">
+                        <li>
+                            <p>
+                                <m>42\,879</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>259\,470</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>687\,852</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>2\,257\,123</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                  <m>42\, 879 </m>
+                            </p>
+                            <p>
+                                   First, we add up all the single digits in the number
+                                    <me>4+2+8+7+9 = 30 </me>
+                                    Now, we check if <m>30</m> can be divided by <m>3</m> without any remainder
+                                    <me>30 \,\div 3 \,= 10 </me>
+                                
+                                <m>30</m> is divisible by <m>3</m> hence <m>42\,879</m> is divisible by <m>3</m>.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>259\,470</m>
+                                <md>
+                                    <mrow>2+5+9+4+7+0 \amp= 27 </mrow>
+                                    <mrow>27 \,\div 3 \,\amp= 9 </mrow>
+                                </md>
+                                <m>27</m> is  divisible by <m>3</m> hence <m>247\,329</m> is divisible by <m>3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>687\,852</m>
+                                <md>
+                                    <mrow>6+8+7+8+5+2\amp= 36 </mrow>
+                                    <mrow>36\,\div 3 \,\amp= 12 </mrow>
+                                </md>
+                                <m>36</m> is divisible by <m>3</m> hence <m>687\, 852</m> is divisible by <m>3</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>3 \,752 \,212</m>
+                                <md>
+                                    <mrow>3+7+5+2+2+1+2\amp= 22 </mrow>
+                                    <mrow>22 \,\div 3 \,\amp= 7\text{ remainder 1} </mrow>
+                                </md>
+                                <m>22</m> is not divisible by <m>3</m> hence <m>3\,752\,212</m> is not divisible by <m>3</m>.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    An exercise on divisiblity test of 3 will be added here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Divisibility-test-for-four">
+        <title>Divisibility test for 4</title>
+        
+        <p>
+            A number is divisible by 4 if its digits in the ones and tens place value are both zero or the number formed by the digits in the ones and tens place value is divisible by 4
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    1. Each student to write a number between <m>10</m> and <m>100</m> and put it on a table at the center of the class.
+                </p>
+                <p>
+                    2. P lace your math textbooks in the center of the classroom.
+                </p>
+                <p>
+                    3. In turns, pick a number from the table without choosing.
+                </p>
+                <p>
+                    4. Check if the number is divisible by <m>4</m> by looking if the digits at the ones and tens place value are both zero or the number formed by the digits in the ones and tens place value is divisible by 4.
+
+                </p>
+                <p>
+                    5. If the number is divisible by <m>4</m> then pick <m>4</m> textbooks and remain standing and if the number is not divisible by <m>4</m> pass and go take a seat.
+                </p>
+                <p>
+                    6. Share with your fellow learners the numbers that are divisible by <m>4</m>.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                   Which of the following numbers are divisible by <m>4</m>?
+                </p>
+                <p>
+                    <ol cols="4" marker="a)">
+                        <li>
+                            <p>
+                                <m>362\,982</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>1\,732\,240</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>289\,367</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>964\,200</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>362\,982</m>
+                            </p>
+                            <p>
+                                The number formed by the digits in ones and tens place value is <m>62</m> 
+                            </p>
+                            <p>
+                                Now divide <m>82</m> by <m>4</m>
+                                <me>82 \div 4 = 20 \text{ remainder } 2 </me>
+                                Since <m>82</m> is not divisible by <m>4</m> hence  <m>362\,982</m> is not divisible by <m>4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>1\,732\,240</m>
+                            </p>
+                            <p>
+                                The number formed by the digits in ones and tens place value is <m>40</m> 
+                            </p>
+                            <p>
+                                Now divide <m>40</m> by <m>4</m>
+                                <me>40 \div 4 = 10 </me>
+                                Since <m>40</m> is divisible by <m>4</m> hence  <m>1\,732\,240</m> is divisible by <m>4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>289\,367</m>
+                            </p>
+                            <p>
+                                The number formed by the digits in ones and tens place value is <m>67</m> 
+                            </p>
+                            <p>
+                                Now divide <m>67</m> by <m>4</m>
+                                <me>67\div 4 = 16 \text{ remainder } 3</me>
+                                Since <m>67</m> is not divisible by <m>4</m> hence <m>289\,367</m> is not divisible by <m>4</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>964\,200</m>
+                            </p>
+                            <p>
+                                The last two numbers are zeros hence  <m>964\,200</m> is divisible by <m>4</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    An exercise for divisibility test of 4 goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-divisibility-test-for-5">
+        <title>Divisibility test for 5</title>
+        <p>
+            A number is divisible by <m>5</m> if the digit in the ones place value is <m>5</m> or zero.
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    
+                </p>
+                <p>
+                1. Working in groups of 5, think of numbers between <m>50</m> and <m>200</m> and select five numbers from the range .
+                </p>
+                <p>
+                    2. Check which of your selected numbers are divisible by <m>5</m> and write them down.
+                </p>
+                <p>
+                    3. Look at the last digits of the numbers that are divisible by <m>5</m>.
+                </p>
+                <p>
+                    4. What do you notice?
+                </p>
+                <p>
+                   5. Present your observation to the class.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by <m>5</m>?
+                </p>
+                <p>
+                    <ol marker="a)" cols="4">
+                        <li>
+                            <p>
+                                <m>18\,765</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>901\,070</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>135\,932</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>420\,520</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To identify the numbers divisible by <m>5</m>:
+                </p>
+                <p>
+                    Check the numbers whose digits in the ones place value is either <m>5</m> or <m>0</m>.
+                </p>
+                <p>
+                    <m>18\,765</m>, <m>901\,070</m>, <m>420\,520</m> are divisible by <m>5</m> since the digits in the ones place value is either <m>5</m> or zero.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercises for divisibility test of <m>5</m> will go here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-divisibility-test-for-6">
+        <title>Divisibility test for 6</title>
+        <p>
+            A number is divisible by <m>6</m> if it is divisible by both <m>2</m> and <m>3</m>.
+        </p>
+        <activity>
+            <statement>
+                <p></p>
+                <p>
+                1. Working in groups, find <m>1</m> mathematical textbook and put it at the table.
+                </p>
+                <p>
+                2. In turns, each group member to close their eyes and open a page in the textbook.
+                </p>
+                <p>
+                3. One of the goup members to write down the number pages.
+                </p>
+                <p>
+                4. Test if the numbers are divisible by <m>2</m> that is if the last digit is an even number and also test if the numbers are divisible by <m>3</m> that is add the digits and check if the sum is divisible by <m>3</m>.
+                </p>
+                <p>
+                5. If the number is divisible by both <m>2</m> and <m>3</m> then it is divisble by <m>6</m>.
+                </p>
+                <p>
+                6. Share your group's findings with the class. What did you notice about the numbers divisible by <m>6</m>.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by 6?
+                </p>
+                <p>
+                    <m>17\,832</m>, <m>80\,258</m>, <m>632\,842</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>17\,832</m>
+                            </p>
+                            <p>
+                                First we check if <m>17\,832</m> is divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                            <p>
+                                The digit in the ones place value of <m>17\,832</m> is even, hence it is divisible by <m>2.</m>
+                            </p>
+                            <p>
+                                Add up all the single digits in the number <m>17\,832</m> then divide the sum by <m>3.</m>
+                            </p>
+                            <p>
+                                <m>1+7+8+3+2 = 21</m>
+                            </p>
+                            <p>
+                                 <m>21 \div 3 = 7</m> which is divisible by 3.
+                            </p>
+                            <p>
+                                <m>17\,832</m>  is divisible by <m>6</m> because it is divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>80\,258</m>
+                            </p>
+                            <p>
+                                First we check if <m>80\,258</m> is divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                            <p>
+                                The digit in the ones place value of <m>80\,258</m> is even, hence it is divisible by <m>2.</m>
+                            </p>
+                            <p>
+                                Add up all the single digits in the number <m>80\,258</m> then divide the sum by <m>3.</m>
+                            </p>
+                            <p>
+                                <m>8+0+2+5+8 = 23</m> 
+                            </p>
+                            <p>
+                                <m>23 \div 3 = 7 \text{ remainder } 2</m> which is not divisible by 3.
+                            </p>
+                            <p>
+                                <m>28\,085</m>  is not divisible by <m>6</m> because it is not divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>236\,484</m>
+                            </p>
+                            <p>
+                                First we check if <m>632\,842</m> is divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                            <p>
+                                The digit in the ones place value of <m>632\,842</m> is even, hence it is divisible by <m>2.</m>
+                            </p>
+                            <p>
+                                Add up all the single digits in the number <m>632\,842</m> then divide the sum by <m>3.</m>
+                            </p>
+                            <p>
+                                <m>6+3+2+8+4+2 = 25</m>
+                            </p>
+                            <p>
+                                <m>25 \div 3 = 8</m> remainder <m>1</m> hence it is not divisible by 3.
+                            </p>
+                            <p>
+                                <m>632\,842</m>  is not divisible by <m>6</m> because it is not divisible by both <m>2 \text{ and } 3.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for divisibility test for 6 goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Divisibility-test-for-8">
+        <title>Divisibility test for 8</title>
+        <p>
+            A number is divisible by <m>8</m> if the number formed by the digits in the ones, tens and hundreds place value is divisible by <m>8.</m>
+        </p>
+        <activity>
+            <statement>
+                <p></p>
+                <p>
+                1. Working in small groups with your classmates, use shoe sizes to generate numbers and write them down.
+                </p>
+                <p>
+                2. Combine two shoe sizes to create new numbers.
+                </p>
+                <p>
+                3. Look at the last three digits of the numbers formed and check if these last three digits are divisible by <m>8</m> by dividing it by <m>8</m>. If it is divisible by <m>8</m> it should divide the number without leaving a remainder.
+                </p>
+                <p>
+                4. Write down whether each combined number is divisible by <m>8</m> or not.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by 8?
+                </p>
+                <p>
+                    <m>16\,232</m>, <m>56\,468</m>, <m>124\,472</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>16\,232</m>
+                            </p>
+                            <p>
+                                <m>232 \div 8 = 29</m>
+                            </p>
+                            <p>
+                                <m>16\,232</m> is divisible by <m>8.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>56\,468</m>
+                            </p>
+                            <p>
+                                <m>468 \div 8 = 58 \text{ remainder } 4</m>
+                            </p>
+                            <p>
+                                <m>56\,468</m> is not divisible by <m>8.</m>
+                            </p>
+                        </li>
+                        <li>
+                           <p>
+                                <m>124\,472</m>
+                            </p>
+                            <p>
+                                <m>472 \div 8 = 59</m>
+                            </p>
+                            <p>
+                                <m>124\,472</m> is divisible by <m>8.</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
+                <p>
+                    <m>16\,232</m> and <m>124\,472</m> are divisible by <m>8</m> because the numbers formed by the digits in the ones, tens and hundreds place value are divisible by <m>8</m>.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for divisibility test for 8 goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Divisibility-test-for-9">
+        <title>Divisibility test for 9</title>
+        <p>
+            A number is divisible by <m>9</m> if the sum of the digits in the number is divisible by <m>9.</m>
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    Activity for divisibility test for 9 goes here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by 9?
+                </p>
+                <p>
+                    <m>14\,578</m>, <m>68\,373</m>, <m>103\,689</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>14\,578</m>
+                            </p>
+                            <p>
+                                <m>1+4+5+7+8=25</m>
+                            </p>
+                            <p>
+                                <m>25 \div 9 = 2 \text{ remainder } 7</m>
+                            </p>
+                            <p>
+                                <m>14\,578</m> is not divisible by <m>9</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>68\,373</m>
+                            </p>
+                            <p>
+                                <m>6+8+3+7+3=27</m>
+                            </p>
+                            <p>
+                                <m>27 \div 9 = 3 </m>
+                            </p>
+                            <p>
+                                <m>68\,373</m> is divisible by <m>9</m>
+                            </p>
+                        </li>
+                        <li>
+                             <p>
+                                <m>103\,689</m>
+                            </p>
+                            <p>
+                                <m>1+0+3+6+8+9=27</m>
+                            </p>
+                            <p>
+                                <m>27 \div 9 = 3 </m>
+                            </p>
+                            <p>
+                                <m>103\,689</m> is divisible by <m>9</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    <m>68\,373</m> and <m>103\,689</m> are divisible <m>9</m> because the sum of the digits in each number is divisible by <m>9</m>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for divisibility test for 9 goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Divisibility-test-for-10">
+        <title>Divisibility test for 10</title>
+        <p>
+            A number is divisible by <m>10</m> if the digit in the place value is zero.
+        </p>
+        <activity>
+            <statement>
+                <p></p>
+                <p>
+                    1. Write down all the years between <m>2000</m> and <m>2025</m>.
+                </p>
+                <p>
+                     2. Look at the last digit of every year if it is zero.
+                </p>
+                <p>
+                    3. If the last digit is zero then the number is divisible by <m>10</m> and if the last digit is not zero then it is not divisible by <m>10</m>.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Which of the following numbers are divisible by <m>10</m>?
+                </p>
+                <p>
+                    <m>12\,470</m>, <m>78\,945</m>, <m>809\,130</m>, <m>1\,265\,785</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>12\,470</m> and <m>809\,130</m> are divisible by <m>10</m> because their digits in the ones place value is zero.
+                </p>
+                <p>
+                    <m>78\,945</m>, <m>1\,265\,785</m> are not divisible by <m>10</m> because their digits in the ones place value is not zero.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for divisibility test for 10 goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Divisibility-test-for-11">
+        <title>Divisibility test for 11</title>
+        <p>
+            A number is divisible by <m>11</m> if the difference of the sums of the alternate digits is zero or a multiple of <m>11.</m>
+        </p>
+        <activity>
+            <statement>
+                <p>
+                    Activity for divisibility test for 11 goes here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Is <m>895\,136</m> divisible by <m>11</m>?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                Find the sum of the digits in the alternate places.
+                            </p>
+                            <p>
+                                <m>8+5+3=16</m>
+                            </p>
+                            <p>
+                                <m>9+1+6=16</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Find their difference.
+                            </p>
+                            <p>
+                                <m>16-16 = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <p>
+                    since the differenece is <m>0</m>, then  <m>895\,136</m> is divisible by <m>11.</m>
+                </p>
+            </solution>
+        </example>
+
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for divisibility test for 11 goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-Expressing-composite-numbers-as-a-product-of-prime-factors">
+        <title>Expressing composite numbers as a product of prime factors</title>
+        <introduction>
+            <p>
+            Composite numbers are numbers that has more than two factors,meaning it can be divided evenly by numbers other than <m>1</m> and itself.
+            </p>
+            <p>
+            Process of breaking a composite number is prime factorization and prime factorization expresses the number as the product of prime numbers.
+            </p>
+        </introduction>
+        <!-- factors subsubsection -->
+        <subsubsection xml:id="subsubsec-Factors-of-composite-numbers">
+            <title>Factors of composite numbers</title>
+            <p>
+                Factors are numbers that can divide a given number without leaving a remainder.
+            </p>
+            <p>
+                Factors are also called divisors.
+            </p>
+            <p>
+             Tumaini school is planning a sports day and Kamau needs to organize students into equal-sized teams. There are <m>24</m> students in his class. Kamau needs factors of <m>24</m> to divide the students into equal teams so that no one is left out.
+            </p>
+            <p>
+                Since the factors of <m>24</m> are <m>1,2,3,4,6,8,12</m> and <m>24</m>. It gives Kamau possible ways to divide the students into equally.
+            </p>
+            <example>
+                <statement>
+                    <p>
+                        List all the factors of each of the following numbers.
+                    </p>
+                    <p>
+                        <ol marker="a)" cols="2">
+                            <li>
+                                <p>
+                                    <m>36</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>96</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    The factors of <m>36</m> are <m>1,2,3,4,6,9,12,18 \text{ and } 36.</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The factors of <m>96</m> are <m>1,2,3,4,6,8,12,16,24,32,48 \text{ and } 96.</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+            <exercise>
+                <statement>
+                    <p>
+                        Exercise for Factors goes here.
+                    </p>
+                </statement>
+            </exercise>
+        </subsubsection>
+
+        <!-- prime factors subsubsection -->
+        <subsubsection xml:id="subsubsec-Prime-factors">
+            <title>Prime factors</title>
+            <p>
+                A prime factor is a prime number that can divide a given number without a remainder.
+            </p>
+            <p>
+            Example in real life:
+            </p>
+            <p>
+             Okuse, an architect want to design a strong and beautiful classroom. To make sure the classroom is stable, Okuse use blocks of the strongest materials. Now, think of prime numbers as the strongest building block in mathematics such that if we want to know what the number <m>60</m> is made of we break it down into it's prime factors.
+            </p>
+            <p>
+             Start with <m>60 = 2 \times 30</m>
+            </p>
+            <p>
+                <m>30 = 2 \times 15</m>
+            </p>
+            <p>
+                <m>15 = 3 \times 5</m>
+            </p>
+            <p>
+               Therefore,  prime factors of <m>60</m> are <m>2 \times 2 \times 3 \times 5</m>
+            </p>
+            <activity>
+                <statement>
+                    <p></p>
+                    <p>
+                    1. As a class, count the number of chairs in all the rows and measure one side of the classroom in metres.
+                    </p>
+                    <p>
+                    2. Write down the total number of chairs in a row then the measurement of the side of a class in meters.
+                    </p>
+                    <p>
+                    3. Use factor trees to perform prime factorization on the two numbers. i.e prime factors of <m>36 = 2^2 \times 3^2</m>
+                    </p>
+                    <p>
+                    4. Write the prime factorization as a product of powers and share your work with fellow learners.
+                    </p>
+                </statement>
+            </activity>
+            <example>
+                <statement>
+                    <p>
+                        Express <m>98</m> as a product of its prime factors.
+                    </p>
+                </statement>
+                <solution>
+                    <!-- <table> -->
+                        <!-- <title></title> -->
+                        <tabular>
+                            <row  bottom="medium"> 
+                                <cell right="medium">2</cell>
+                                <cell right="medium">98</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell right="medium">7</cell>
+                                <cell right="medium">49</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell right="medium">7</cell>
+                                <cell right="medium">7</cell>
+                            </row>
+                            <row>
+                                <cell right="medium"></cell>
+                                <cell right="medium">1</cell>
+                            </row>
+                        </tabular>
+                    <!-- </table> -->
+                    <p>
+                        <m>98 = 2 \times 7 \times 7</m>
+                    </p>
+                </solution>
+            </example>
+            <!-- Example 2 -->
+            <example>
+                <statement>
+                    <p>
+                        Express <m>56</m> as a product of its prime factors.
+                    </p>
+                </statement>
+                <solution>
+                    <image width="25%">
+                        <shortdescription>Factors of 56</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {56}
+                                    child {node[circled] {2}}
+                                    child {node {28}
+                                    child {node[circled] {2}}
+                                    child {node {14}
+                                        child {node[circled] {2}}
+                                        child {node[circled] {7}}}};
+                        \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                    <p>
+                        <m>2 \times 2 \times 2 \times 7</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+    <subsection xml:id="subsec-Greatest-Common-Divisor">
+        <title>Greatest Common Divisor</title>
+        <p>
+            GCD is the greatest number that exactly divides two or more numbers. 
+        </p>
+        <p>
+            It is also known as the Highest Common Factor (HFC).
+        </p>
+        <p>
+        Example in real life:
+        </p>
+        <p>
+        Esther and Shillah have packets of snacks and want to share them equally amoung the top mathematics performers in grade <m>7</m> without leaving leftovers. Esther have <m>36</m> crackers and Shillah has <m>54</m> cookies.
+        </p>
+        <p>
+         The largest number of top performers Shillah and Esther can gift is solved using GCD.
+        </p>
+        <p>
+        Since the factors of <m>36</m> are <m>1,2,3,4,6,9,12,18,36</m> and the factors of <m>54</m> are <m>1,2,3,6,9,18,27,54</m>. This implies that the higher number of top performers to be gifted is <m>18</m>.
+        </p>
+        <activity>
+            <statement>
+                <p></p>
+                <p>
+            1. Working in groups, count the number of girls and boys in your class.
+                </p>
+                <p>
+                    2. Write down the number of girls then the number of boys on the board.
+                </p>
+                <p>
+                    3. List all the factors of each number.
+                </p>
+                <p>
+                 4.Identify and highlight common factors.
+                </p>
+                <p>
+                5. Find the highest common divisor which is the GCD.
+                </p>
+            </statement>
+        </activity>
+        <!-- Example 1 -->
+        <example>
+            <statement>
+                <p>
+                    Find the GCD of <m>6,8 \text{ and } 12.</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                List the divisors of <m>6,8 \text{ and } 12.</m>
+                            </p>
+                            <p>
+                                The divisors of <m>6</m> are <m>1,2,3 \text{ and } 6.</m>
+                            </p>
+                            <p>
+                                The divisors of <m>8</m> are <m>1,2,4 \text{ and } 8</m>
+                            </p>
+                            <p>
+                                The divisors of <m>12</m> are <m>1,2,3 \text{ and } 12.</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Identify the greatest common divisor. 
+                            </p>
+                            <p>
+                                The greatest common divisor is <m>2</m>.
+                            </p>
+                            <p>
+                                The GCD of <m>6,8 \text{ and } 12.</m> is <m>2</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <!-- Example 2 -->
+        <example>
+            <statement>
+                <p>
+                    Find the GCD of <m>48,72 \text{ and } 108.</m>
+                </p>
+            </statement>
+            <solution>
+                    <!-- <table> -->
+                        <!-- <title></title> -->
+                        <tabular>
+                            <row header="no" bottom="medium">
+                                <cell right="medium">2</cell>
+                                <cell right="medium">48</cell>
+                                <cell right="medium">72</cell>
+                                <cell right="medium">108</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell right="medium">2</cell>
+                                <cell right="medium">24</cell>
+                                <cell right="medium">36</cell>
+                                <cell right="medium">54</cell>
+                            </row>
+                            <row bottom="medium">
+                                <cell right="medium">3</cell>
+                                <cell right="medium">12</cell>
+                                <cell right="medium">18</cell>
+                                <cell right="medium">27</cell>
+                            </row>
+                            <row>
+                                <cell right="medium"></cell>
+                                <cell right="medium">4</cell>
+                                <cell right="medium">6</cell>
+                                <cell right="medium">9</cell>
+                            </row>
+                        </tabular>
+                    <!-- </table> -->
+                <p>
+                    <md>
+                        <mrow>\text{GCD } \amp=2 \times 2 \times 3 </mrow>
+                        <mrow> \amp= 12 </mrow>
+                    </md>
+                    The GCD OF <m>48,72 \text{ and } 108 \text{ is } 12.</m>
+                </p>
+            </solution>
+        </example>
+        <!-- Example 3 -->
+        <example>
+            <statement>
+                <p>
+                    Three sticks of lengths <m>75</m> cm, <m>27</m> cm and <m>102</m> cm are cut into smaller pieces of the length. Find the greatest length which can be cut without leaving a remainder.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Find the GCD of <m>75,27 \text{ and } 102.</m>
+                </p>
+            <sidebyside widths="25% 25% 25%">          
+                <image>
+                    <shortdescription>factors of 75</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {75}
+                                    child {node[circled] {3}}
+                                    child {node {25}
+                                    child {node[circled] {5}}
+                                    child {node {5}
+                                        child {node[circled] {5}}
+                                        child {node {1}}}};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                
+                <image>
+                    <shortdescription>factors of 27</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {27}
+                                    child {node[circled] {3}}
+                                    child {node {9}
+                                    child {node[circled] {3}}
+                                    child {node {3}
+                                        child {node[circled] {3}}
+                                        child {node {1}}}};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+               
+                <image>
+                    <shortdescription>factors of 102</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {102}
+                                    child {node[circled] {2}}
+                                    child {node {51}
+                                    child {node[circled] {3}}
+                                    child {node {17}
+                                        child {node[circled] {17}}
+                                        child {node {1}}}};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </sidebyside>  
+            <p>
+                <md>
+                    <mrow>75 \amp= 3 \times 5 \times 5 </mrow>
+                    <mrow>27 \amp= 3 \times 3 \times 3 </mrow>
+                    <mrow>102 \amp= 2 \times 3 \times 17 </mrow>
+                </md>
+            </p>
+
+            <p>
+                The greatest length which can be cut from each stick without leaving a remainder is <m>3</m> cm.
+            </p>
+            </solution>
+        </example> 
+
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for GCD goes here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-Least-Common-Factor">
+        <title>Least Common Multiple </title>
+        <p>
+            The Least Common Multiple of two or more numbers is the smallest number that is divisible by two or more numbers without a reminder.
+
+        </p>
+        <p>
+        Example:
+        </p>
+        <p>
+        Murunga and Onyimbo have busy schedules but want to meet regularly for a football game. Murunga have free time every <m>12</m> days and Onyimbo has free time every <m>18</m> days. To find when they will both be free on the same day to play, we solve using LCM.
+        </p>
+        <p>
+        Therefore, we list the multiples of Murunga's free days: <m>12,24,36,48,60,72,...</m> and Onyimbo's free days: <m>18,36,54,72,90,...</m>
+        </p>
+        <p>
+        The common  multiples are <m>36,72</m> and the smallest commom multiple is <m>36</m>.
+        </p>
+        <p>
+           Hence Muranga and Onyimbo will both be free on the <m>36</m> th day to play football game.
+        </p>
+        <activity>
+            <statement>
+                <p></p>
+                <p>
+                1. In groups of <m>5</m> students each, play a game such that if the first person gives a number the next person will add <m>2</m> to the number and the third person will add <m>3</m> to the number formed by the second person and so is the forth and fifth person.i.e if the first person chooses <m>6</m> then the next numbers would be <m>8,11,15,20</m>  .
+                </p>
+                <p>
+                2. Write down the multiples of each numbers i.e multiples of <m>6 = </m> <m>6,12,18,24,30,36,42,48,54...</m> and the multiples of <m>8 = </m> <m>8,16,24,32,40,48,56,64,...</m>
+                </p>
+                <p>
+                3. Look at the lists of multiples of numbers formed and find the smallest multiple that appears in both lists which is the LCM. FOR example the LCM of <m>6</m> and <m>8</m> is <m>24</m>.
+                </p>
+                <p>
+                4.Use the LCM to check if the number is divided by the original numbers i.e <me>24 \div 6 = 4 </me> and <me>24 \div 8 =3 </me> which are all whole numbers . Hence <m>24</m> is the LCM.
+                </p>
+                <p>
+                5. Share your work with other learners.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the LCM <m>8 \text{ and } 12</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Multiples of <m>8</m> are <m>8,16,24,32,40,48,56,64,72,80 ...</m>
+                </p>
+                <p>
+                    Multiples of <m>12</m> are <m>12,24,36,48,60,72,84,96,108 ..</m>
+                </p>
+                <p>
+                    The common multiples are <m>24,48,72 ...</m>
+                </p>
+                <p>
+                    The least common multiple is <m>24</m>
+                </p>
+                <p>
+                    LCM of <m>8</m> and <m>12</m> is <m>24</m>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                   Grade 7 pupils was preparing for a party and used a ribbon to decorate their classroom. What is the shortest possible length of a ribbon that can be cut into equal pieces of <m>21</m> cm, <m>35</m> cm or <m>56</m> cm without a remainder?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Find the LCM of <m>21, 35 \text{ and } 56.</m>
+                </p>
+                <!-- <table> -->
+                    <!-- <title></title> -->
+                    <tabular>
+                        <row bottom="medium">
+                            <cell right="medium">2</cell>
+                            <cell right="medium">21</cell>
+                            <cell right="medium">35</cell>
+                            <cell right="medium">56</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium">2</cell>
+                            <cell right="medium">21</cell>
+                            <cell right="medium">35</cell>
+                            <cell right="medium">28</cell>
+                        </row>
+                        <row bottom="medium"> 
+                            <cell right="medium">2</cell>
+                            <cell right="medium">21</cell>
+                            <cell right="medium">35</cell>
+                            <cell right="medium">14</cell>
+                        </row>
+                        <row bottom="medium"> 
+                            <cell right="medium">3</cell>
+                            <cell right="medium">21</cell>
+                            <cell right="medium">35</cell>
+                            <cell right="medium">7</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium">5</cell>
+                            <cell right="medium">7</cell>
+                            <cell right="medium">35</cell>
+                            <cell right="medium">7</cell>
+                        </row>
+                        <row bottom="medium">
+                            <cell right="medium">7</cell>
+                            <cell right="medium">7</cell>
+                            <cell right="medium">7</cell>
+                            <cell right="medium">7</cell>
+                        </row>
+                        <row>
+                            <cell right="medium"></cell>
+                            <cell right="medium">1</cell>
+                            <cell right="medium">1</cell>
+                            <cell right="medium">1</cell>
+                        </row>
+                    </tabular>
+                <!-- </table> -->
+                <p>
+                    <m>2 \times 2 \times 2 \times 3 \times 5 \times 7 = 840</m>
+                </p>
+                <p>
+                    The LCM of <m>21, 35 \text{ and } 56</m> is <m>840.</m>
+                </p>
+                <p>
+                    The shortest possible length of the ribbon should be <m>840</m> cm long.
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for LCM goes here
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+
+</section>

@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-section-whole-numbers-ch1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Whole Numbers</title>
+    <introduction>
+      <p>
+        Why study whole numbers? 
+      </p>
+      <p>
+        In our day to day-to-day lives, we apply whole numbers i.e we use numbers to identify the number of exercise books that Diera, a Grade 7 learner has using numbers.
+      </p>
+    </introduction>
+      <subsection xml:id="subsec-Place-Value-of-digits-in-a-number">
+        <title>Place Value of digits in a number</title>
+        <activity>
+          <statement>
+            <p>
+              
+            </p>
+            <p>
+               Pembe flour milling factory in Nairobi produced 85 147 000 kg of maize flour in the year 2023. In the year 2024, the factory produced 120 568 720 kg of maize flour.
+            </p>
+                
+            <p> 
+                1. Fill in the number of kilograms produced in the two years in the place value.
+            </p>
+              <table>
+              <title></title>
+              <tabular top="minor" left="minor" right="minor" bottom="minor">
+                  <row header="yes">
+                      <cell>Numbers</cell>
+                      <cell>Hundreds of millions</cell>
+                      <cell>Tens of millions</cell>
+                      <cell>millions</cell>
+                      <cell>Hundreds of thousands</cell>
+                      <cell>Tens of thousands</cell>
+                      <cell>thousands</cell>
+                      <cell>Hundreds</cell>
+                      <cell>Tens</cell>
+                      <cell>Ones</cell>
+                  </row>
+                  <row>
+                      <cell><m>85 147 000</m></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                    
+                  </row>
+                  <row>
+                      <cell><m>120 588 720</m></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                      <cell></cell>
+                  </row>
+      
+              </tabular>
+          </table>
+          <p> 
+              2. What is the place value of digit 8 in the number 85 147 000?
+          </p>
+          <p> 
+             3. What is the place value of digit 1 in the number 120 568 720?
+          </p>
+         <p>
+            4. Share your work with other learner's in class.
+         </p>
+          </statement>
+        </activity>
+  
+        <example>
+          <statement>
+            <p>
+              In 2008, a county government allocated sh 105 600 300 towards the construction of a dam. Give the place value of digit 1 .  
+            </p>
+          </statement>
+            <solution>
+                <p>
+                  To identify the place value of digit 1,use a place value chart as shown below. 
+                </p>
+            
+                <p> 
+                  Therefore,
+                </p>
+                <p> 
+                  The place value of digit 6 is ones.
+                </p>
+                <p> 
+                  The place value of digit 7 is Tens.
+                  </p>
+                <p> 
+                  The place value of digit 9 is Hundreds.
+                  </p>
+                <p> ,
+                  The place value of digit 4 is Thousands.
+                </p>
+                <p> 
+                  The place value of digit 2 is Tens of thousands.
+                  </p>
+                <p> 
+                  The place value of digit 1 is Hundreds of thousands.
+                  </p>
+                <p>
+                  The place value of digit 2 is Millions.
+                </p>
+                <p>
+                  The place value of digit 4 is Tens of millions.
+                </p>
+                <p> 
+                  The place value of digit 5 is Hundreds of millions.
+                </p>
+            </solution>
+      </example>
+
+        <exercise>
+          <statement>
+            <p>
+              done on webwok
+            </p>
+          </statement>
+      </exercise>
+    </subsection>
+      <subsection xml:id="subsec-Total-Value-of-digits-in-a-number">
+        <title>Total Value of digits in a number</title>
+        <p> 
+          The total value of a digit in a number is the product of the digit and its place value.
+        </p> 
+       <activity>
+       <p>
+        
+       </p>
+          <p>
+            <ol marker="1.">
+              <li>
+                <p>
+                  Make number cards similar to the ones shown below.
+                </p>
+                <image source="CARD.png">
+                  <shortdescription></shortdescription>
+                </image>
+              </li>
+              <li>
+                <p>
+                  Form a 9-digit number using the cards.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Stick each card on a place value chart as shown below.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Find the total value of each digit.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Share your work with other learners in your class.
+                </p>
+              </li>
+            </ol>
+          </p>
+          <!-- <p>
+              1. Make number cards similar to the ones shown below.
+          </p>
+            
+          <p> 
+              2.Form a 9-digit number using the cards.
+          </p>
+            <p>
+                  3.Stick each card on a place value chart as shown below.
+          </p>
+          <p> 
+                  4.Find the total value of each digit.
+              </p>
+              <p> 
+                  5.Share your work with other learners in your class.
+              </p> -->
+       </activity> 
+
+       <example>
+          <statement>
+              <p>
+                What is the total value of each digit in the number 517 378 297?
+              </p>
+            </statement>
+            <solution>
+              <p>
+                total value = digit x place value
+              </p>
+          
+            </solution>
+       </example>
+
+       <example>
+          <statement>
+              <p> 
+                  In 2005, 249 738 201 tree seedlings were planted in the country. What is the total value of digit 4 in the number of tree seedlings planted?
+              </p>
+          </statement>
+          <solution>
+            <p>
+              The place value of digit 4 is tens of millions.
+            </p>
+            <p>
+              The total value of digit 4 is 4 x 10 000 000
+            </p>
+              <p>
+                The total value of digit 4 is 40 000 000.
+              </p>
+            </solution>
+          </example>
+       <exercise>
+        <p>
+          find it on webwork
+        </p>
+       </exercise>
+      </subsection>
+
+    <subsection xml:id="subsec-Reading-and-riting-numbers-in-symbols">
+      <title>Reading and writing numbers in symbols</title>
+      <activity>
+      <p>
+        
+      </p>
+       <p>
+        (a) Consider the number 651 358 189.
+       </p> 
+       <p>
+        (b) Make a place value chart as shown below.
+        </p>
+        <tabular bottom="medium" right="medium" left="medium" top="medium"> 
+                    <row header="yes">
+                        <cell>Group</cell>
+                        <cell colspan="3">Millions</cell>
+                        <cell colspan="3">Thousands</cell>
+                        <cell colspan="3">Units</cell>
+                    </row>
+                    <row>
+                        <cell>Place value</cell>
+                        <cell>Hm</cell>
+                        <cell>Tm</cell>
+                        <cell>M</cell>
+                        <cell>HTh</cell>
+                        <cell>TTh</cell>
+                        <cell>Th</cell>
+                        <cell>H</cell>
+                        <cell>T</cell>
+                        <cell>O</cell>
+                    </row>
+                    <row>
+                        <cell>Digit</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+                <p>
+                   (c) Insert the digits in the number<m>651\, 358\, 189</m> in their respective places in the place value chart.
+                </p>
+                  <p>
+                    (d) 
+                    <ol>
+                      <li>
+                        <p>
+                          Read the number <m>651</m> in the group of millions.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Read <m>358</m> in the group of thousands.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Read <m>189</m> in the group of hundreds and units.
+                        </p>
+                      </li>
+                    </ol>  
+                  </p>
+                  <p>
+                      (e) Read the numbers in (d) continuously.
+                  </p>
+                  <p>
+                     (f) Discuss and share how to read <m>651\, 358\, 189</m> with other groups.
+                  </p>
+      </activity>
+             <example>
+              <statement>
+                <p>
+                  Read and write five million, two hundred and thirty seven thousand, eight hundred and forty one in symbols.
+                </p>
+              </statement>
+
+              <solution>
+
+                <tabular>
+                  <row>
+                    <cell halign="left"><m>\text{ Five million }</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>5\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>\text{Two hundred and thirty seven thousand}</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>237\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell><m>\text{Eight hundred and forty one}</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>841</m></cell>
+                  </row>
+                   <row>
+                    <cell><m>\text{Add the numbers}:5\,000,000 + 237\,000 + 841</m></cell>
+                    <cell><m>=</m></cell>
+                    <cell><m>5\,237\,841</m></cell>
+                  </row>
+                </tabular>
+              </solution>
+             </example>
+             <example>
+              <statement>
+                <p>
+               Write the number one hundred and twenty four million, seven hundred and fifty five thousand, two hundred and twelve in symbols.   
+                </p>
+              </statement>
+              <solution>
+                <tabular bottom="medium" top="medium" left="medium" right="medium">
+                  <row header="yes">
+                    <cell>In words</cell>
+                    <cell> In symbols</cell>
+                  </row>
+                  <row>
+                    <cell>One hundred million</cell>
+                    <cell><m>100\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Twenty four million</cell>
+                    <cell><m>24\,000\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Seven hundred thousand</cell>
+                    <cell><m>700\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Fifty five thousand</cell>
+                    <cell><m>5\,000</m></cell>
+                  </row>
+                  <row>
+                    <cell>Two hundred</cell>
+                    <cell><m>200</m></cell>
+                  </row>
+                  <row>
+                    <cell>Twelve</cell>
+                    <cell><m>12</m></cell>
+                  </row>
+                  <row>
+                    <cell></cell>
+                    <cell><m>124\,755\,212</m></cell>
+                  </row>
+                </tabular>
+                <p>
+                  Hence the given number in symbols is written as <m>124\,755\,212</m>.
+                </p>
+              </solution>
+             </example>
+         </subsection>
+           
+        <subsection xml:id="subsec-Reading-and-writing-numbers-in-words">
+          <title>Reading and writing numbers in words.</title>
+          <activity>
+            <statement>
+              <p>
+                
+              </p>
+              <p>
+                A customer wanted to deposit the cheque below and did not know the cheque worth.
+              </p>
+              <image source="cheque.jpeg">
+                <shortdescription></shortdescription>
+              </image>
+              <p>
+                1. Help the customer to read and write the value of the cheque in words.
+              </p>
+              <p>
+               2. Prepare dummy cheques similar to the one above.
+              </p>
+              <p>
+                3. Fill in the dummy cheques you have created with amounts of your choice and it should be a 6-digit number.
+              </p>
+              <p>
+                4. Read the amounts to your fellow learners.
+              </p>
+            </statement>
+          </activity>
+      <example>
+      <statement>
+        <p>
+          The number of people who attended a cancer screening campaign in 2023 was <m>8\,759\,125</m>. Read and write the number of people in words.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Separate the digits in groups of threes starting from the ones place value. Write the total of each group.
+        </p>
+        <p>
+          <m>8\,759\,125</m> = <m>8\,000\,000+ 759\,000 +125</m>
+        </p>
+        <p>
+         <m>8\,759\,125</m> is Eight million, seven hundred and fifty nine thousand, one hundred and twenty five.
+        </p>
+      </solution>
+  
+     </example>
+     <example>
+      <statement>
+        <p>
+          The price of a certain car in Kenya is <m>3\,515\,252</m> shillings. Write the price of the car in words.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Use the concept of place value and total value as illustrated below to write the amount in words.
+        </p>
+        <tabular bottom="medium" top="medium" right="medium" left="medium">
+          <row header="yes">
+            <cell>Digit</cell>
+            <cell>Place value</cell>
+            <cell>Total value</cell>
+            <cell>Total value in words</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>Millions</cell>
+            <cell><m>3\,000\,000</m></cell>
+            <cell>Three million</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>Hundreds of thousands</cell>
+            <cell><m>500\,000</m></cell>
+            <cell>Five hundred thousand</cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>Tens of thousands</cell>
+            <cell><m>10\,000</m></cell>
+            <cell>Ten thousand</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>Thousands</cell>
+            <cell>5\,000</cell>
+            <cell>Five thousand</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>Hundreds</cell>
+            <cell><m>200</m></cell>
+            <cell>Two hundred</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>Tens</cell>
+            <cell><m>50</m></cell>
+            <cell>Fifty</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>Ones</cell>
+            <cell>2</cell>
+            <cell>Two</cell>
+          </row>
+        </tabular>
+        <p>
+          The price of the car in words is three million, five hundred and fifteen thousand, two hundred and fifty two.
+        </p>
+      </solution>
+     </example>
+     <exercise>
+      <statement>
+        <p>
+          find it on webwork
+        </p>
+      </statement>
+     </exercise>
+           </subsection>
+    <subsection xml:id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million">
+      <title>Rounding off numbers to the nearest hundreds of million</title>
+      <p>
+        To round off a number to the nearest hundreds of millions, we consider the digit in the tens of millions place value. If the digit is less than 5, we maintain the digit in the hundred of million place value and if the digit is <m>5</m> or greater, add one to the digit at the hundred thousand place value.
+      </p>
+      <activity>
+      <p>
+        
+      </p>
+        <p>
+          1.(a) Study the place value chart below. It shows numbers <m>469\, 852\, 231</m> and <m>623\,210\,140</m> before and after rounding off.
+        </p>
+        <tabular bottom="medium" top="medium" right="medium" left="medium"> 
+          <row header="yes">
+            <cell></cell>
+            <cell>Hundreds of millions</cell>
+            <cell>Tens of millions</cell>
+            <cell>Millions</cell>
+            <cell>Hundreds of thousands</cell>
+            <cell>Tens of thousands</cell>
+            <cell>Thousands</cell>
+            <cell>Hundreds</cell>
+            <cell>Tens</cell>
+            <cell>Ones</cell>
+          </row>
+          <row>
+            <cell>Original number</cell>
+            <cell>4</cell>
+            <cell>6</cell>
+            <cell>9</cell>
+            <cell>8</cell>
+            <cell>5</cell>
+            <cell>2</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>1</cell>
+          </row>
+          <row>
+            <cell>Rounded off number</cell>
+            <cell>5</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+          </row>
+          <row>
+            <cell>Original number</cell>
+            <cell>6</cell>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>2</cell>
+            <cell>1</cell>
+            <cell>0</cell>
+            <cell>1</cell>
+            <cell>4</cell>
+            <cell>0</cell>
+          </row>
+          <row>
+            <cell>Rounded off number</cell>
+            <cell>6</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+            <cell>0</cell>
+          </row>
+        </tabular>
+        <p>
+          (b) Compare the original number with the rounded off number. What do you notice?
+        </p>
+        <p>
+           (c) Discuss how to round off numbers to the nearest hundreds of million.
+        </p>
+        <p>
+          2. In turns, write different numbers and round them off to the nearest hundreds of million.
+        </p>
+       
+      </activity>
+      <example>
+        <statement>
+          <p>
+            The number of malaria tablets that were produced by a pharmaceutical company over a certain period was <m>213\, 587\, 915</m>. Round off the number of tablets to the nearest hundreds of million.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            The digit in the hundreds of millions place is <m>2</m>.
+          </p>
+          <p>
+            The digit in the tens of millions place value is <m>1</m>
+          </p>
+          <p>
+            Therefore, we replace the dits on the right hand side of <m>2</m> with zeros
+          </p>
+          <p>
+            <m>213\, 587 \,915</m> to the nearest hundred million becomes <m>200\, 000 \,000</m>
+          </p>
+        </solution>
+      </example>
+
+      <example>
+        <statement>
+          <p>
+           Round off <m>219\, 486\, 272</m> to the nearest hundred million.
+         </p>
+        </statement>
+        <solution>
+          <tabular bottom="medium" top="medium" right="medium" left="medium"> 
+                <row header="yes">
+                  <cell></cell>
+                  <cell>Hundreds of millions</cell>
+                  <cell>Tens of millions</cell>
+                  <cell>Millions</cell>
+                  <cell>Hundreds of thousands</cell>
+                  <cell>Tens of thousands</cell>
+                  <cell>Thousands</cell>
+                  <cell>Hundreds</cell>
+                  <cell>Tens</cell>
+                  <cell>Ones</cell>
+                </row>
+                <row>
+                  <cell>Original number</cell>
+                  <cell>2</cell>
+                  <cell>1</cell>
+                  <cell>9</cell>
+                  <cell>4</cell>
+                  <cell>8</cell>
+                  <cell>6</cell>
+                  <cell>2</cell>
+                  <cell>7</cell>
+                  <cell>2</cell>
+                </row>
+                <row>
+                  <cell>Rounded off number</cell>
+                  <cell>2</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                </row>
+            </tabular>
+            <p>
+            Digit <m>1</m>  is in the place value of ten millions. We retain digit <m>2</m> in the hundreds of millions place value and replace the remaining digits by zero.
+            </p>
+            <p>
+              <m>219\, 486\, 272</m> rounded off to the nearest hundred million is <m>200\,000\,000</m>.
+            </p>
+      </solution>
+
+      </example>
+      <example>
+        <statement>
+          <p>
+           Round off <m>87\, 148\, 729</m> to the nearest hundred million.
+         </p>
+        </statement>
+        <solution>
+          <tabular bottom="medium" top="medium" right="medium" left="medium"> 
+                <row header="yes">
+                  <cell></cell>
+                  <cell>Tens of millions</cell>
+                  <cell>Millions</cell>
+                  <cell>Hundreds of thousands</cell>
+                  <cell>Tens of thousands</cell>
+                  <cell>Thousands</cell>
+                  <cell>Hundreds</cell>
+                  <cell>Tens</cell>
+                  <cell>Ones</cell>
+                </row>
+                <row>
+                  <cell>Original number</cell>
+                  <cell>8</cell>
+                  <cell>7</cell>
+                  <cell>1</cell>
+                  <cell>4</cell>
+                  <cell>8</cell>
+                  <cell>7</cell>
+                  <cell>2</cell>
+                  <cell>9</cell>
+                  
+                </row>
+                <row>
+                  <cell>Rounded off number</cell>
+                  <cell>9</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                 
+                </row>
+            </tabular>
+            <p>
+            Digit <m>7</m>  is in the place value of millions. We add one to digit <m>8</m> in the tens of millions place value and replace the remaining digits by zero.
+            </p>
+            <p>
+              <m>87\, 148\, 729</m> rounded off to the nearest ten million is <m>90\,000\,000</m>.
+            </p>
+      </solution>
+         </example>
+         <exercise>
+          <statement>
+            <p>
+              find it on stack
+            </p>
+          </statement>
+         </exercise>
+
+    </subsection>
+  <subsection xml:id="subsec-Natural-numbers">
+    <title>Natural numbers</title>
+     <p>
+      Even numbers
+     </p>
+     <p>
+      Even numbers are numbers that are divisible by <m>2</m>.The digits in the ones place value are <m>0,2,4,6,8,10,12</m> or <m>14</m>.
+     </p>
+     <activity>
+      <statement>
+        <p>
+          
+        </p>
+        <p>
+            1.Make number cards similar to the ones shown below  
+        </p>
+        <p>
+          2.Which of the numbers in the cards are divisible by two?
+        </p>
+        <p>
+          3.Which digit is in the ones place value of each number that is divisible by two?
+        </p>
+        <p>
+          4.What do we call the numbers that are divisible by <m>2</m>?
+        </p>
+        <p>
+          5.Share your work with other learners.
+        </p>
+      </statement>
+     </activity>
+     <example>
+      <statement>
+        <p>
+          Which of the following are even numbers?
+        </p>
+        <p>
+          <m>127,3\,860,4\,249,58\,242,714\,931,96,3\,295\,418,5\,174</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>3\,860,58\,242,96,3\,295\,418 </m> and <m>5\,174</m> are even numbers since they are divisible by<m>2</m>. Also their digits in the ones place value are <m>0,2,4,6 \text{or}8</m>.
+        </p>
+      </solution>
+     </example>
+       <exercise>
+        <statement>
+          <p>
+            check it on web work
+          </p>
+        </statement>
+       </exercise>
+  </subsection>
+<subsection xml:id="subsec-Odd-numbers">
+  <title>Odd numbers</title>
+  <p>
+     Odd numbers are numbers that are not divisible by two. The digit in the ones place value of an odd number is <m>1,3,5,7</m> or <m>9</m>.
+  </p>
+    <activity>
+      <statement>
+        <p>
+          
+        </p>
+        <p>
+          1.Make number cards similar to the ones shown below
+        </p>
+        <p>
+          2.Which numbers are divisible by two?
+        </p>
+        <p>
+          3.Which numbers are not divisible by two?
+        </p>
+        <p>
+          4.Which digit is in the ones place value of the numbers that are not divisible by two?
+        </p>
+        <p>
+          5.What do we call numbers that are not divisible by <m>2</m>?
+        </p>
+
+      </statement>
+    </activity>
+    <example>
+      <statement>
+        <p>
+          Which of the following are odd numbers?
+        </p>
+        <p>
+          <m>22,57,124,769,1\,250,6\,545,17\,846,46\,541</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>57,769,6\,545,46\,541</m> are odd numbers since their digits in the ones place value are not divisible by two.
+        </p>
+      </solution>
+    </example>
+    <exercise>
+      <statement>
+        <p>
+          done on webwork
+        </p>
+      </statement>
+    </exercise>
+</subsection>
+<subsection xml:id="subsec-Prime-numbers">
+  <title>Prime numbers</title>
+  <p>
+    A prime number is a number that has only two divisors, that is, <m>1</m> and the number itself.
+  </p>
+  <p>
+    <m>2</m> is the only prime number that is even
+  </p>
+  <p>
+   <m>1</m> is not a prime number because it has only one divisor.
+  </p>
+  <activity>
+    <statement>
+      <p>
+        
+      </p>
+      <p>
+        1.Copy the table alongside.
+      </p>
+      <tabular bottom="medium" top="medium" left="medium" right="medium">
+        <row header="yes">
+          <cell>Number</cell>
+          <cell>Divisors</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>1,2</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>7</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>11</cell>
+          <cell></cell>
+        </row>
+      </tabular>
+      <p>
+        2.Work out the divisors of each number. Fill in the divisors column.
+      </p>
+      <p>
+        3.What is common in the numbers?
+      </p>
+      <p>
+        4.Share your findings with other learners in class and respect each others opinion
+      </p>
+    </statement>
+  </activity>
+  <example>
+    <statement>
+      <p>
+        Which of the following numbers are prime numbers?
+      </p>
+      <p>
+        <m>81,83,85,87,89</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        List the divisors of all the numbers.
+      </p>
+      <p>
+        Choose the numbers that have <m>2</m> divisors only (one and the number itself)
+      </p>
+      <tabular bottom="medium" top="medium" left="medium" right="medium">
+        <row header="yes">
+          <cell>Number</cell>
+          <cell>Divisors</cell>
+        </row>
+        <row>
+          <cell>81</cell>
+          <cell>1,3,9,27,81</cell>
+        </row>
+        <row>
+          <cell>83</cell>
+          <cell>1,83</cell>
+        </row>
+        <row>
+          <cell>85</cell>
+          <cell>1,5,17,85</cell>
+        </row>
+        <row>
+          <cell>87</cell>
+          <cell>1,3,29,87</cell>
+        </row>
+        <row>
+          <cell>89</cell>
+          <cell>1,89</cell>
+        </row>
+      </tabular>
+      <p>
+        <m>83</m> and <m>89</m> are prime numbers since they have only two divisors.
+      </p>
+    </solution>
+  </example>
+  <example>
+    <statement>
+      <p>
+        Determine which of the following numbers are prime numbers.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Use factor tree to identify the divisors of each number: <m>2,3,4</m>.
+      </p>
+      <sidebyside widths="25% 25% 25%">          
+                <image>
+                    <shortdescription>factors of 2</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {2}
+                                    child {node[circled] {2}}
+                                    child {node {1}
+                                          };
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                
+                <image>
+                    <shortdescription>factors of 3</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {3}
+                                    child {node[circled] {3}}
+                                    child {node {1}
+                                    };
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+               
+                <image>
+                    <shortdescription>factors of 4</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}[level distance=1.5cm,
+                                level 1/.style={sibling distance=2cm},
+                                level 2/.style={sibling distance=1cm},
+                                circled/.style={draw, circle}]
+                                \node {4}
+                                    child {node[circled] {2}}
+                                    child {node {2}
+                                    child {node[circled] {2}}
+                                    child {node {1}
+                                    }};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </sidebyside>
+            <p>
+              The divisors of <m>2</m> are <m>2,1</m>.  
+            </p>
+            <p>
+             Divisors of <m>3</m> are <m>3,1</m> .
+            </p>
+            <p>
+              And the divisors of 4 are <m>4,2,1</m>.
+            </p>
+            <p>
+              Therefore, the numbers <m>2</m> and <m>3</m> are prime numbers.
+            </p>
+    </solution>
+  </example>
+  <exercise>
+    <statement>
+      <p>
+        
+      </p>
+    </statement>
+  </exercise>
+</subsection>
+<subsection xml:id="subsec-Operations-on-whole-numbers">
+  <title>Operations on whole numbers</title>
+     <p>
+   Addition
+     </p> 
+     <p>
+      We use place value of digits to add numbers. Some additions have regrouping and others do not.
+     </p>
+     <activity>
+      <statement>
+        <p>
+          
+        </p>
+        <p>
+          1.(a) Individually, write and work out an addition word question.
+        </p>
+        <p>
+          (b) Write the word question on a blank card.
+        </p>
+        <p>
+          2. Exchange the cards and work out each other's question.
+        </p>
+      </statement>
+     </activity>
+      <example>
+        <statement>
+          <p>
+           A company sold goods worth sh <m>1\,478\,956,</m> in the month of January. In February, the company sold goods worth sh <m>2\,123\,040</m>. What was the total sales in the two months?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            Add the amounts to get the total sales in two months.
+          </p>
+          <tabular>
+            <row bottom="minor">
+              <cell colspan="8"></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>+1</cell>
+              <cell>+1</cell>
+              <cell>+1</cell>
+              <cell>+1</cell>
+              <cell>+1</cell>
+              <cell>+1</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>1</cell>
+              <cell>4</cell>
+              <cell>7</cell>
+              <cell>8</cell>
+              <cell>9</cell>
+              <cell>5</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell>2</cell>
+              <cell>5</cell>
+              <cell>6</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+            </row>
+            <row bottom="minor"> 
+              <cell>+</cell>
+              <cell>2</cell>
+              <cell>1</cell>
+              <cell>2</cell>
+              <cell>3</cell>
+              <cell>0</cell>
+              <cell>4</cell>
+              <cell>0</cell>
+            </row>
+            <row bottom="minor">
+              <cell></cell>
+              <cell>6</cell>
+              <cell>1</cell>
+              <cell>6</cell>
+              <cell>4</cell>
+              <cell>3</cell>
+              <cell>9</cell>
+              <cell>4</cell>
+            </row>
+          </tabular>
+          <p>
+            The total sales was sh <m>6\,164\,394</m>
+          </p>
+        </solution>
+      </example>
+      <exercise>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </exercise>
+</subsection>
+   <subsection xml:id="subsec-subtraction-of-whole-numbers">
+      <title>Subtraction of whole numbers</title>
+      <activity>
+      <p>
+        
+      </p>
+       <p>
+        Kahawa Tea company harvested <m>326\,548\,957</m> kilograms of tea. The company exported <m>128\,349\,263</m> kilograms of coffee.
+       </p>
+       <p>
+        1. Work out the kilograms of tea that remained after the export.
+       </p>
+       <p>
+        Share your work with fellow learners.
+       </p>
+      </activity>
+      <example>
+        <statement>
+          <p>
+          Fishermen across the country exported <m>4\,563\,275</m> kg of fish in the first year. In the second year; the mass of fish decreased by <m>732\,738</m> kg. Work out the mass of fish that the fishermen exported in the second year: 
+          </p>
+        </statement>
+        <solution>
+
+          <p>
+            Subtract the decrease in mass of fish in the second year from the mass of fish in the first year.
+          </p>
+          <tabular>
+            <row bottom="minor">
+              <cell colspan="8"></cell>
+            </row>
+            <row>
+               <cell></cell>
+              <cell>3</cell>
+              <cell>10</cell>
+              <cell></cell>
+              <cell>2</cell>
+              <cell>10</cell>
+              <cell>6</cell>
+              <cell>10</cell>
+             
+            </row>
+            <row>
+              <cell></cell>
+              <cell><m>\cancel{4}</m></cell>
+              <cell>5</cell>
+              <cell>6</cell>
+              <cell><m>\cancel{3}</m></cell>
+              <cell>2</cell>
+              <cell><m>\cancel{7}</m></cell>
+              <cell>5</cell>
+            </row>
+            <row bottom="minor"> 
+              <cell>-</cell>
+              <cell></cell>
+              <cell>7</cell>
+              <cell>3</cell>
+              <cell>2</cell>
+              <cell>7</cell>
+              <cell>3</cell>
+              <cell>8</cell>
+            </row>
+            <row bottom="minor">
+              <cell></cell>
+              <cell>3</cell>
+              <cell>8</cell>
+              <cell>3</cell>
+              <cell>0</cell>
+              <cell>5</cell>
+              <cell>3</cell>
+              <cell>7</cell>
+            </row>
+          </tabular>
+         <p>
+         If the digits in a column, starting from the right-hand side, result in a negative value when subtracted, you borrow from the first digit in the next column to the left..
+         </p>
+         <p>
+         The digit you borrow from will be reduced by 1, while the digit you borrow to will increase by 10.  See the example above.
+         </p>
+         <p>
+          The mass of fish the fisherman exported in the second year was <m>3\,830\,537</m> kg.
+         </p>
+         
+        </solution>
+      </example>
+      <exercise>
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+      </exercise>
+   </subsection>
+  <subsection xml:id="subsec-Multiplication-of-whole-number">
+    <title>Multiplication of whole number</title>
+      <activity>
+        <statement>
+          <p>
+            
+          </p>
+          <p>
+            1. Make number cards like the ones shown below.
+          </p>
+          <tabular right="medium" left="medium" bottom="medium" top="medium">
+          <row >
+            <cell></cell>
+          </row>
+            <row >
+              <cell>3</cell>
+              <cell>4</cell>
+              <cell>5</cell>
+              <cell>6</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>27</cell>
+              <cell>35</cell>
+              <cell>40</cell>
+              <cell>54</cell>
+            </row>
+            <row>
+              <cell>78</cell>
+              <cell>63</cell>
+              <cell>82</cell>
+              <cell>91</cell>
+              <cell>44</cell>
+            </row>
+            <row > 
+              <cell>132</cell>
+              <cell>217</cell>
+              <cell>810</cell>
+              <cell>514</cell>
+              <cell>231</cell>
+            </row>
+          </tabular>
+          <tabular bottom="medium" right="medium" top="medium" left="medium">
+            <row >
+              <cell>72</cell>
+              <cell>60</cell>
+              <cell>42</cell>
+              <cell>56</cell>
+              <cell>79</cell>
+            </row>
+            <row>
+              <cell>852</cell>
+              <cell>147</cell>
+              <cell>320</cell>
+              <cell>560</cell>
+              <cell>801</cell>
+            </row>
+            <row>
+              <cell>332</cell>
+              <cell>133</cell>
+              <cell>249</cell>
+              <cell>900</cell>
+              <cell>448</cell>
+            </row>
+            <row>
+              <cell>5132</cell>
+              <cell>1217</cell>
+              <cell>3810</cell>
+              <cell>4514</cell>
+              <cell>6231</cell>
+            </row>
+          </tabular>
+          <p>
+            2.(a) In turns, choose one number from each card.
+          </p>
+          <p>
+             (b) Multiply the two numbers.
+          </p>
+        </statement>
+      </activity> 
+      <example>
+        <statement>
+          <p>
+            In the first phase of supplying books to schools,  the government supplied <m>723</m> textbooks to each school. The number of schools that received the books was <m>256</m>. How many books did the government supply in the first phase?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            We multiply the number of books by the number of schools. 
+          </p>
+          <tabular left="medium" right="medium" bottom="medium" top="medium">
+          <row>
+            <cell></cell>
+            <cell>723</cell>
+          </row>
+            <row>
+              <cell><m>\times</m></cell>    
+              <cell> 256</cell>
+            </row>
+            <row>
+              <cell></cell>
+               <cell><m>4\,338</m></cell>
+               <cell>(multiply 723 by the total value of the ones digit: 723 x 6)</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell><m>36\,150</m></cell>
+              <cell>(multiply 723 by the total value of the tens digit: 723 x 50)</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell><m>144\,600</m></cell>
+              <cell>(multiply 723 by the total value of the hundreds digit: 723 x 200)</cell>
+            </row>
+            <row >
+              <cell></cell>
+              <cell><m>185\,088</m></cell>
+            </row>
+          </tabular>
+         <p>
+          The number of books the government supplied is <m>185\,088</m>.
+         </p>
+        </solution>
+      </example>
+  </subsection>
+    
+
+  
+</section> 
+ 

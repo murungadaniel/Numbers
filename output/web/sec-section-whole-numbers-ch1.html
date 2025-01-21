@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Whole Numbers</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 { counter-set: subsec-Total-Value-of-digits-in-a-number-3-1-1 0; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li::marker { content: ""counter(subsec-Total-Value-of-digits-in-a-number-3-1-1,decimal)"."; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li { counter-increment: subsec-Total-Value-of-digits-in-a-number-3-1-1; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 { counter-set: subsec-Reading-and-riting-numbers-in-symbols-2-5-1 0; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li::marker { content: ""counter(subsec-Reading-and-riting-numbers-in-symbols-2-5-1,decimal)"."; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li { counter-increment: subsec-Reading-and-riting-numbers-in-symbols-2-5-1; }
+#subsec-Divisibility-test-of-3-6-1-2-1 { counter-set: subsec-Divisibility-test-of-3-6-1-2-1 0; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-1-2-1; }
+#subsec-Divisibility-test-of-3-6-2-1-1 { counter-set: subsec-Divisibility-test-of-3-6-2-1-1 0; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-2-1-1; }
+#subsec-Divisibility-test-for-four-4-1-2-1 { counter-set: subsec-Divisibility-test-for-four-4-1-2-1 0; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-1-2-1; }
+#subsec-Divisibility-test-for-four-4-2-1-1 { counter-set: subsec-Divisibility-test-for-four-4-2-1-1 0; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-2-1-1; }
+#subsec-divisibility-test-for-5-4-1-2-1 { counter-set: subsec-divisibility-test-for-5-4-1-2-1 0; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li::marker { content: ""counter(subsec-divisibility-test-for-5-4-1-2-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li { counter-increment: subsec-divisibility-test-for-5-4-1-2-1; }
+#subsec-divisibility-test-for-6-4-2-1-1 { counter-set: subsec-divisibility-test-for-6-4-2-1-1 0; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li::marker { content: ""counter(subsec-divisibility-test-for-6-4-2-1-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li { counter-increment: subsec-divisibility-test-for-6-4-2-1-1; }
+#subsec-Divisibility-test-for-8-4-2-1-1 { counter-set: subsec-Divisibility-test-for-8-4-2-1-1 0; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-8-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-8-4-2-1-1; }
+#subsec-Divisibility-test-for-9-4-2-1-1 { counter-set: subsec-Divisibility-test-for-9-4-2-1-1 0; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-9-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-9-4-2-1-1; }
+#subsec-Divisibility-test-for-11-4-2-1-1 { counter-set: subsec-Divisibility-test-for-11-4-2-1-1 0; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-11-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-11-4-2-1-1; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-1-2-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-1-2-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-1-2-1; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-2-1-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-2-1-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-2-1-1; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 { counter-set: subsec-Greatest-Common-Divisor-9-2-1-1 0; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li::marker { content: ""counter(subsec-Greatest-Common-Divisor-9-2-1-1,lower-alpha)")"; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li { counter-increment: subsec-Greatest-Common-Divisor-9-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-1-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-1-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-1-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-6-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-6-2-1-1; }
+#subsec-Adding-proper-fractions-3-2-1-1 { counter-set: subsec-Adding-proper-fractions-3-2-1-1 0; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-proper-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-proper-fractions-3-2-1-1; }
+#subsec-Adding-mixed-fractions-3-2-1-1 { counter-set: subsec-Adding-mixed-fractions-3-2-1-1 0; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-mixed-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-mixed-fractions-3-2-1-1; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 { counter-set: subsec-Subtracting-proper-fractions-2-2-1-1 0; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-proper-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-proper-fractions-2-2-1-1; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 { counter-set: subsec-Subtracting-mixed-fractions-2-2-1-1 0; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-mixed-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-mixed-fractions-2-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1; }
+#subsec-Reciprocal-of-fractions-2-1 { counter-set: subsec-Reciprocal-of-fractions-2-1 0; }
+#subsec-Reciprocal-of-fractions-2-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-2-1,decimal)"."; }
+#subsec-Reciprocal-of-fractions-2-1 > li { counter-increment: subsec-Reciprocal-of-fractions-2-1; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 { counter-set: subsec-Reciprocal-of-fractions-4-2-1-1 0; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li { counter-increment: subsec-Reciprocal-of-fractions-4-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 { counter-set: subsec-Number-sequence-involving-fractions-2-1-2-1 0; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-2-1-2-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-2-1-2-1; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-3-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-3-2-1-1; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-4-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-4-2-1-1; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 { counter-set: subsec-place-value-of-digits-in-decimals-3-1-2-1 0; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li::marker { content: ""counter(subsec-place-value-of-digits-in-decimals-3-1-2-1,lower-alpha)")"; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li { counter-increment: subsec-place-value-of-digits-in-decimals-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-decimals-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 { counter-set: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 0; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li::marker { content: ""counter(subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1,lower-alpha)")"; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li { counter-increment: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1; }
+#subsec-Squares-of-whole-numbers-2-2-1 { counter-set: subsec-Squares-of-whole-numbers-2-2-1 0; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-2-2-1,decimal)"."; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li { counter-increment: subsec-Squares-of-whole-numbers-2-2-1; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-1-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-1-1-1; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-2-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-2-1-1; }
+#subsec-Sqaures-of-fractions-3-1-2-1 { counter-set: subsec-Sqaures-of-fractions-3-1-2-1 0; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-1-2-1; }
+#subsec-Sqaures-of-fractions-3-2-1-1 { counter-set: subsec-Sqaures-of-fractions-3-2-1-1 0; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-2-1-1; }
+#subsec-Sqaures-of-fractions-4-1-2-1 { counter-set: subsec-Sqaures-of-fractions-4-1-2-1 0; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-4-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-4-1-2-1; }
+#subsec-Squares-of-decimals-4-1-1-1 { counter-set: subsec-Squares-of-decimals-4-1-1-1 0; }
+#subsec-Squares-of-decimals-4-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-1-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-1-1-1; }
+#subsec-Squares-of-decimals-4-2-1-1 { counter-set: subsec-Squares-of-decimals-4-2-1-1 0; }
+#subsec-Squares-of-decimals-4-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-2-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-2-1-1; }
+#subsec-Square-roots-of-decimals-3-1-1-1 { counter-set: subsec-Square-roots-of-decimals-3-1-1-1 0; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-1-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-1-1-1; }
+#subsec-Square-roots-of-decimals-3-2-1-1 { counter-set: subsec-Square-roots-of-decimals-3-2-1-1 0; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-2-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-2-1-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">You</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch-numbers.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-numbers.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-factors.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Place-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Place Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Total-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Total Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-riting-numbers-in-symbols" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Reading and writing numbers in symbols</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-writing-numbers-in-words" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Reading and writing numbers in words.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Rounding off numbers to the nearest hundreds of million</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Natural-numbers" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Natural numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Odd-numbers" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Odd numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Prime-numbers" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Prime numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Operations-on-whole-numbers" class="internal"><span class="codenumber">1.1.9</span> <span class="title">Operations on whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-subtraction-of-whole-numbers" class="internal"><span class="codenumber">1.1.10</span> <span class="title">Subtraction of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Multiplication-of-whole-number" class="internal"><span class="codenumber">1.1.11</span> <span class="title">Multiplication of whole number</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factors.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-2" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Divisibility test for 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-of-3" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Divisibility test for 3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-four" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Divisibility test for 4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-5" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Divisibility test for 5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-6" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Divisibility test for 6</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-8" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Divisibility test for 8</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-9" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Divisibility test for 9</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-10" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Divisibility test for 10</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-11" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Divisibility test for 11</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-factors.html#subsec-Expressing-composite-numbers-as-a-product-of-prime-factors" class="internal"><span class="codenumber">1.2.10</span> <span class="title">Expressing composite numbers as a product of prime factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Factors-of-composite-numbers" class="internal"><span class="codenumber">1.2.10.1</span> <span class="title">Factors of composite numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Prime-factors" class="internal"><span class="codenumber">1.2.10.2</span> <span class="title">Prime factors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Greatest-Common-Divisor" class="internal"><span class="codenumber">1.2.11</span> <span class="title">Greatest Common Divisor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Least-Common-Factor" class="internal"><span class="codenumber">1.2.12</span> <span class="title">Least Common Multiple</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-fractions.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-ascending-order" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Arranging fractions in ascending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-descending-order" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Arranging fractions in descending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-proper-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Adding proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-mixed-fractions" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Adding mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-proper-fractions" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Subtracting proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-mixed-fractions" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Subtracting mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Multiplying a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.8</span> <span class="title">Multiplying a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.9</span> <span class="title">Multiplying a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Reciprocal-of-fractions" class="internal"><span class="codenumber">1.3.10</span> <span class="title">Reciprocal of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.11</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.12</span> <span class="title">Division of a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.13</span> <span class="title">Division of a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-whole-number-by-a-fraction" class="internal"><span class="codenumber">1.3.14</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Number-sequence-involving-fractions" class="internal"><span class="codenumber">1.3.15</span> <span class="title">Number sequence involving fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Creating-number-sequences-involving-fractions" class="internal"><span class="codenumber">1.3.16</span> <span class="title">Creating number sequences involving fractions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-decimals.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-place-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.1</span> <span class="title">place value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Total-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Total value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-a-whole-number" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Multiplying decimals by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-decimals" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Multiplying decimals by decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-whole-number" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Division of a decimal by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-decimal" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Division of a decimal by a decimal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-squares-and-square-roots.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Squares and square roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-whole-numbers" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Squares of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Sqaures-of-fractions" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Sqaures of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-decimals" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Squares of decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-roots-of-whole-numbers" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Squares roots of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-fractions" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Square roots of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-decimals" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Square roots of decimals</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Angles.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Angles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Angles.html#subsec-Angles-on-a-straight-line" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Angles on a straight line</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-section-whole-numbers-ch1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Whole Numbers</span>
+</h2>
+<section class="introduction" id="sec-section-whole-numbers-ch1-2"><div class="para" id="sec-section-whole-numbers-ch1-2-1">Why study whole numbers?</div>
+<div class="para" id="sec-section-whole-numbers-ch1-2-2">In our day to day-to-day lives, we apply whole numbers i.e to determine measurements such as money,length, time,distance and area, we use numbers.</div></section><section class="subsection" id="subsec-Place-Value-of-digits-in-a-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Place Value of digits in a number</span>
+</h3>
+<article class="activity project-like" id="subsec-Place-Value-of-digits-in-a-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-2-1-1">Amia milling factory produced 85 147 000 kg of maize flour in the year 2023. In the year 2024, the factory produced 120 568 720 kg of maize flour.</div> <div class="para" id="subsec-Place-Value-of-digits-in-a-number-2-1-2">1. Fill in the number of kilograms produced in the two years in the place value.</div> <figure class="table table-like" id="subsec-Place-Value-of-digits-in-a-number-2-1-3"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.1.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b1 r1 l1 t1 lines">Numbers</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Hundreds of millions</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Tens of millions</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">millions</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Hundreds of thousands</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Tens of thousands</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">thousands</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Hundreds</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Tens</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">Ones</th>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(85 147 000\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(120 588 720\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+<td class="l m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure> <div class="para" id="subsec-Place-Value-of-digits-in-a-number-2-1-4">2. What is the place value of digit 8 in the number 85 147 000?</div> <div class="para" id="subsec-Place-Value-of-digits-in-a-number-2-1-5">3. What is the place value of digit 1 in the number 120 568 720?</div> <div class="para" id="subsec-Place-Value-of-digits-in-a-number-2-1-6">4. Share your work with other learner’s in class.</div></article><details id="subsec-Place-Value-of-digits-in-a-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-1-1">During a certain year, a county government allocated sh 105600300 towards the construction of a dam. Work out the place value of digit 1 .</div>
+<div class="solutions"><details id="subsec-Place-Value-of-digits-in-a-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-1">To identify the place value of digit 1,use a place value chart as shown below.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-2">Therefore,</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-3">The place value of digit 6 is ones.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-4">The place value of digit 7 is Tens.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-5">The place value of digit 9 is Hundreds.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-6">The place value of digit 4 is Thousands.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-7">The place value of digit 2 is Tens of thousands.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-8">The place value of digit 1 is Hundreds of thousands.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-9">The place value of digit 2 is Millions.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-10">The place value of digit 4 is Tens of millions.</div>
+<div class="para" id="subsec-Place-Value-of-digits-in-a-number-3-2-11">The place value of digit 5 is Hundreds of millions.</div>
+</div></details></div></article></details><details id="subsec-Place-Value-of-digits-in-a-number-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Place-Value-of-digits-in-a-number-4-1-1">done on webwok</div></article></details></section><section class="subsection" id="subsec-Total-Value-of-digits-in-a-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Total Value of digits in a number</span>
+</h3>
+<div class="para" id="subsec-Total-Value-of-digits-in-a-number-2">The total value of a digit in a number is the product of the digit and its place value.</div>
+<article class="activity project-like" id="subsec-Total-Value-of-digits-in-a-number-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-Total-Value-of-digits-in-a-number-3-1"><ol class="decimal" id="subsec-Total-Value-of-digits-in-a-number-3-1-1">
+<li id="subsec-Total-Value-of-digits-in-a-number-3-1-1-1"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-3-1-1-1-1">Make number cards similar to the ones shown below.</div></li>
+<li id="subsec-Total-Value-of-digits-in-a-number-3-1-1-2"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-3-1-1-2-1">Form a 9-digit number using the cards.</div></li>
+<li id="subsec-Total-Value-of-digits-in-a-number-3-1-1-3"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-3-1-1-3-1">Stick each card on a place value chart as shown below.</div></li>
+<li id="subsec-Total-Value-of-digits-in-a-number-3-1-1-4"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-3-1-1-4-1">Find the total value of each digit.</div></li>
+<li id="subsec-Total-Value-of-digits-in-a-number-3-1-1-5"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-3-1-1-5-1">Share your work with other learners in your class.</div></li>
+</ol></div></article><details id="subsec-Total-Value-of-digits-in-a-number-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-4-1-1">What is the total value of each digit in the number 517 378 297?</div>
+<div class="solutions"><details id="subsec-Total-Value-of-digits-in-a-number-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-4-2-1">total value = digit x place value</div></div></details></div></article></details><details id="subsec-Total-Value-of-digits-in-a-number-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-5-1-1">In a certain year, 249 738 201 tree seedlings were planted in the country. What is the total value of digit 4 in the number of tree seedlings planted?</div>
+<div class="solutions"><details id="subsec-Total-Value-of-digits-in-a-number-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Total-Value-of-digits-in-a-number-5-2-1">The place value of digit 4 is tens of millions.</div>
+<div class="para" id="subsec-Total-Value-of-digits-in-a-number-5-2-2">The total value of digit 4 is 4 x 10 000 000</div>
+<div class="para" id="subsec-Total-Value-of-digits-in-a-number-5-2-3">The total value of digit 4 is 40 000 000 or forty million.</div>
+</div></details></div></article></details><details id="subsec-Total-Value-of-digits-in-a-number-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Total-Value-of-digits-in-a-number-6-1">find it on webwork</div></article></details></section><section class="subsection" id="subsec-Reading-and-riting-numbers-in-symbols"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Reading and writing numbers in symbols</span>
+</h3>
+<article class="activity project-like" id="subsec-Reading-and-riting-numbers-in-symbols-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-1">(a) Consider the number 651 358 189.</div>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-2">(b) Make a place value chart as shown below.</div>
+<div class="tabular-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Group</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines" colspan="3">Millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines" colspan="3">Thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines" colspan="3">Units</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Place value</td>
+<td class="l m b2 r2 l0 t0 lines">Hm</td>
+<td class="l m b2 r2 l0 t0 lines">Tm</td>
+<td class="l m b2 r2 l0 t0 lines">M</td>
+<td class="l m b2 r2 l0 t0 lines">HTh</td>
+<td class="l m b2 r2 l0 t0 lines">TTh</td>
+<td class="l m b2 r2 l0 t0 lines">Th</td>
+<td class="l m b2 r2 l0 t0 lines">H</td>
+<td class="l m b2 r2 l0 t0 lines">T</td>
+<td class="l m b2 r2 l0 t0 lines">O</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Digit</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-4">(c) Insert the digits in the number<span class="process-math">\(651\, 358\, 189\)</span> in their respective places in the place value chart.</div>
+<div class="para logical" id="subsec-Reading-and-riting-numbers-in-symbols-2-5">
+<div class="para">(d)</div>
+<ol class="decimal" id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1">
+<li id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-1"><div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-1-1">Read the number <span class="process-math">\(651\)</span> in the group of millions.</div></li>
+<li id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-2"><div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-2-1">Read <span class="process-math">\(358\)</span> in the group of thousands.</div></li>
+<li id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-3"><div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-5-1-3-1">Read <span class="process-math">\(189\)</span> in the group of hundreds and units.</div></li>
+</ol>
+</div>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-6">(e) Read the numbers in (d) continuously.</div>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-2-7">(f) Discuss and share how to read <span class="process-math">\(651\, 358\, 189\)</span> with other groups.</div></article><details id="subsec-Reading-and-riting-numbers-in-symbols-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-3-1-1">Read and write five million, two hundred and thirty seven thousand, eight hundred and forty one in symbols.</div>
+<div class="solutions"><details id="subsec-Reading-and-riting-numbers-in-symbols-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\text{ Five million }\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\,000\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\text{Two hundred and thirty seven thousand}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(237\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\text{Eight hundred and forty one}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(841\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\text{Add the numbers}:5\,000,000 + 237\,000 + 841\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\,237\,841\)</span></td>
+</tr>
+</table></div></div></details></div></article></details><details id="subsec-Reading-and-riting-numbers-in-symbols-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-4-1-1">Write the number one hundred and twenty four million, seven hundred and fifty five thousand, two hundred and twelve in symbols.</div>
+<div class="solutions"><details id="subsec-Reading-and-riting-numbers-in-symbols-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">In words</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">In symbols</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">One hundred million</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(100\,000\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Twenty four million</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(24\,000\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Seven hundred thousand</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(700\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Fifty five thousand</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(5\,000\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Two hundred</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(200\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Twelve</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(124\,755\,212\)</span></td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Reading-and-riting-numbers-in-symbols-4-2-2">Hence the given number in symbols is written as <span class="process-math">\(124\,755\,212\text{.}\)</span>
+</div>
+</div></details></div></article></details></section><section class="subsection" id="subsec-Reading-and-writing-numbers-in-words"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="space"> </span><span class="title">Reading and writing numbers in words.</span>
+</h3>
+<article class="activity project-like" id="subsec-Reading-and-writing-numbers-in-words-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-2-1-1">A customer wanted to deposit the cheque below and did not know the cheque worth.</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/cheque.jpeg" class="contained"></div> <div class="para" id="subsec-Reading-and-writing-numbers-in-words-2-1-3">1. Help the customer to read and write the value of the cheque in words.</div> <div class="para" id="subsec-Reading-and-writing-numbers-in-words-2-1-4">2. Prepare dummy cheques similar to the one above.</div> <div class="para" id="subsec-Reading-and-writing-numbers-in-words-2-1-5">3. Fill in the dummy cheques you have created with amounts of your choice and it should be a 6-digit number.</div> <div class="para" id="subsec-Reading-and-writing-numbers-in-words-2-1-6">4. Read the amounts to your fellow learners.</div></article><details id="subsec-Reading-and-writing-numbers-in-words-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reading-and-writing-numbers-in-words-3-1-1">The number of people who attended a cancer screening campaign in a certain year was <span class="process-math">\(8\,759\,125\text{.}\)</span> Read and write the number of people in words.</div>
+<div class="solutions"><details id="subsec-Reading-and-writing-numbers-in-words-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-3-2-1">Separate the digits in groups of threes starting from the ones place value. Write the total of each group.</div>
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-3-2-2">
+<span class="process-math">\(8\,759\,125\)</span> = <span class="process-math">\(8\,000\,000+ 759\,000 +125\)</span>
+</div>
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-3-2-3">
+<span class="process-math">\(8\,759\,125\)</span> is Eight million, seven hundred and fifty nine thousand, one hundred and twenty five.</div>
+</div></details></div></article></details><details id="subsec-Reading-and-writing-numbers-in-words-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Reading-and-writing-numbers-in-words-4-1-1">The price of a certain car in Kenya is <span class="process-math">\(3\,515\,252\)</span> shillings. Write the price of the car in words.</div>
+<div class="solutions"><details id="subsec-Reading-and-writing-numbers-in-words-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-4-2-1">Use the concept of place value and total value as illustrated below to write the amount in words.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Digit</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Place value</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Total value</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Total value in words</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">Millions</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(3\,000\,000\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Three million</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">Hundreds of thousands</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(500\,000\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Five hundred thousand</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">Tens of thousands</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(10\,000\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Ten thousand</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">Thousands</td>
+<td class="l m b2 r2 l0 t0 lines">5\,000</td>
+<td class="l m b2 r2 l0 t0 lines">Five thousand</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">Hundreds</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(200\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Two hundred</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">Tens</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(50\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Fifty</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">Ones</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">Two</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Reading-and-writing-numbers-in-words-4-2-3">The price of the car in words is three million, five hundred and fifteen thousand, two hundred and fifty two.</div>
+</div></details></div></article></details><details id="subsec-Reading-and-writing-numbers-in-words-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Reading-and-writing-numbers-in-words-5-1-1">find it on webwork</div></article></details></section><section class="subsection" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="space"> </span><span class="title">Rounding off numbers to the nearest hundreds of million</span>
+</h3>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-2">To round off a number to the nearest hundreds of millions, we consider the digit in the tens of millions place value. If the digit is less than 5, we maintain the digit in the hundred of million place value and if the digit is <span class="process-math">\(5\)</span> or greater, add one to the digit at the hundred thousand place value.</div>
+<article class="activity project-like" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-3-1">1.(a) Study the place value chart below. It shows numbers <span class="process-math">\(469\, 852\, 231\)</span> and <span class="process-math">\(623\,210\,140\)</span> before and after rounding off.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds of millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Ones</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Original number</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Rounded off number</td>
+<td class="l m b2 r2 l0 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Original number</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Rounded off number</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-3-3">(b) Compare the original number with the rounded off number. What do you notice?</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-3-4">(c) Discuss how to round off numbers to the nearest hundreds of million.</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-3-5">2. In turns, write different numbers and round them off to the nearest hundreds of million.</div></article><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.12</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-1-1">The number of malaria tablets that were produced by a pharmaceutical company over a certain period was <span class="process-math">\(213\, 587\, 915\text{.}\)</span> Round off the number of tablets to the nearest hundreds of million.</div>
+<div class="solutions"><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-2-1">The digit in the hundreds of millions place is <span class="process-math">\(2\text{.}\)</span>
+</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-2-2">The digit in the tens of millions place value is <span class="process-math">\(1\)</span>
+</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-2-3">Therefore, we replace the dits on the right hand side of <span class="process-math">\(2\)</span> with zeros</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-4-2-4">
+<span class="process-math">\(213\, 587 \,915\)</span> to the nearest hundred million becomes <span class="process-math">\(200\, 000 \,000\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.13</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-5-1-1">Round off <span class="process-math">\(219\, 486\, 272\)</span> to the nearest hundred million.</div>
+<div class="solutions"><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds of millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Ones</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Original number</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">7</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Rounded off number</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-5-2-2">Digit <span class="process-math">\(1\)</span>  is in the place value of ten millions. We retain digit <span class="process-math">\(2\)</span> in the hundreds of millions place value and replace the remaining digits by zero.</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-5-2-3">
+<span class="process-math">\(219\, 486\, 272\)</span> rounded off to the nearest hundred million is <span class="process-math">\(200\,000\,000\text{.}\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.14</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-6-1-1">Round off <span class="process-math">\(87\, 148\, 729\)</span> to the nearest hundred million.</div>
+<div class="solutions"><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines"></th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Millions</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens of thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Thousands</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Ones</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Original number</td>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">7</td>
+<td class="l m b2 r2 l0 t0 lines">1</td>
+<td class="l m b2 r2 l0 t0 lines">4</td>
+<td class="l m b2 r2 l0 t0 lines">8</td>
+<td class="l m b2 r2 l0 t0 lines">7</td>
+<td class="l m b2 r2 l0 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Rounded off number</td>
+<td class="l m b2 r2 l0 t0 lines">9</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-6-2-2">Digit <span class="process-math">\(7\)</span>  is in the place value of millions. We add one to digit <span class="process-math">\(8\)</span> in the tens of millions place value and replace the remaining digits by zero.</div>
+<div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-6-2-3">
+<span class="process-math">\(87\, 148\, 729\)</span> rounded off to the nearest ten million is <span class="process-math">\(90\,000\,000\text{.}\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-7" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.15</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million-7-1-1">find it on stack</div></article></details></section><section class="subsection" id="subsec-Natural-numbers"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="space"> </span><span class="title">Natural numbers</span>
+</h3>
+<div class="para" id="subsec-Natural-numbers-2">Even numbers</div>
+<div class="para" id="subsec-Natural-numbers-3">Even numbers are divisible by <span class="process-math">\(2\text{.}\)</span>The digits in the ones place value are <span class="process-math">\(0,2,4,6,8,10,12\)</span> or <span class="process-math">\(14\text{.}\)</span>
+</div>
+<article class="activity project-like" id="subsec-Natural-numbers-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Natural-numbers-4-1-1">1.Make number cards similar to the ones shown below</div> <div class="para" id="subsec-Natural-numbers-4-1-2">2.Which of the numbers in the cards are divisible by two?</div> <div class="para" id="subsec-Natural-numbers-4-1-3">3.Which digit is in the ones place value of each number that is divisible by two?</div> <div class="para" id="subsec-Natural-numbers-4-1-4">4.What do we call the numbers that are divisible by <span class="process-math">\(2\text{?}\)</span>
+</div> <div class="para" id="subsec-Natural-numbers-4-1-5">5.Share your work with other learners.</div></article><details id="subsec-Natural-numbers-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.16</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Natural-numbers-5-1-1">Which of the following are even numbers?</div> <div class="para" id="subsec-Natural-numbers-5-1-2"><span class="process-math">\(127,3\,860,4\,249,58\,242,714\,931,96,3\,295\,418,5\,174\)</span></div>
+<div class="solutions"><details id="subsec-Natural-numbers-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="subsec-Natural-numbers-5-2-1">
+<span class="process-math">\(3\,860,58\,242,96,3\,295\,418 \)</span> and <span class="process-math">\(5\,174\)</span> are even numbers since they are divisible by<span class="process-math">\(2\text{.}\)</span> Also their digits in the ones place value are <span class="process-math">\(0,2,4,6 \text{or}8\text{.}\)</span>
+</div></div></details></div></article></details><details id="subsec-Natural-numbers-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.17</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Natural-numbers-6-1-1">check it on web work</div></article></details></section><section class="subsection" id="subsec-Odd-numbers"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="space"> </span><span class="title">Odd numbers</span>
+</h3>
+<div class="para" id="subsec-Odd-numbers-2">Odd numbers are numbers that are not divisible by two. The digit in the ones place value of an odd number is <span class="process-math">\(1,3,5,7\)</span> or <span class="process-math">\(9\text{.}\)</span>
+</div>
+<article class="activity project-like" id="subsec-Odd-numbers-3"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.7</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Odd-numbers-3-1-1">1.Make number cards similar to the ones shown below</div> <div class="para" id="subsec-Odd-numbers-3-1-2">2.Which numbers are divisible by two?</div> <div class="para" id="subsec-Odd-numbers-3-1-3">3.Which numbers are not divisible by two?</div> <div class="para" id="subsec-Odd-numbers-3-1-4">4.Which digit is in the ones place value of the numbers that are not divisible by two?</div> <div class="para" id="subsec-Odd-numbers-3-1-5">5.What do we call numbers that are not divisible by <span class="process-math">\(2\text{?}\)</span>
+</div></article><details id="subsec-Odd-numbers-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.18</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Odd-numbers-4-1-1">Which of the following are odd numbers?</div> <div class="para" id="subsec-Odd-numbers-4-1-2"><span class="process-math">\(22,57,124,769,1\,250,6\,545,17\,846,46\,541\)</span></div>
+<div class="solutions"><details id="subsec-Odd-numbers-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para" id="subsec-Odd-numbers-4-2-1">
+<span class="process-math">\(57,769,6\,545,46\,541\)</span> are odd numbers since their digits in the ones place value are not divisible by two.</div></div></details></div></article></details><details id="subsec-Odd-numbers-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.19</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Odd-numbers-5-1-1">done on webwork</div></article></details></section><section class="subsection" id="subsec-Prime-numbers"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="space"> </span><span class="title">Prime numbers</span>
+</h3>
+<div class="para" id="subsec-Prime-numbers-2">A prime number is a number that has only two divisors, that is, <span class="process-math">\(1\)</span> and the number itself.</div>
+<div class="para" id="subsec-Prime-numbers-3">
+<span class="process-math">\(2\)</span> is the only prime number that is even</div>
+<div class="para" id="subsec-Prime-numbers-4">
+<span class="process-math">\(1\)</span> is not a prime number because it has only one divisor.</div>
+<article class="activity project-like" id="subsec-Prime-numbers-5"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.8</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Prime-numbers-5-1-1">1.Copy the table alongside.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Number</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Divisors</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">2</td>
+<td class="l m b2 r2 l0 t0 lines">1,2</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">3</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">5</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">7</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">11</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+</table></div> <div class="para" id="subsec-Prime-numbers-5-1-3">2.Work out the divisors of each number. Fill in the divisors column.</div> <div class="para" id="subsec-Prime-numbers-5-1-4">3.What is common in the numbers?</div> <div class="para" id="subsec-Prime-numbers-5-1-5">4.Share your findings with other learners in class and respect each others opinion</div></article><details id="subsec-Prime-numbers-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.20</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Prime-numbers-6-1-1">Which of the following numbers are prime numbers?</div> <div class="para" id="subsec-Prime-numbers-6-1-2"><span class="process-math">\(81,83,85,87,89\)</span></div>
+<div class="solutions"><details id="subsec-Prime-numbers-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Prime-numbers-6-2-1">List the divisors of all the numbers.</div>
+<div class="para" id="subsec-Prime-numbers-6-2-2">Choose the numbers that have <span class="process-math">\(2\)</span> divisors only (one and the number itself)</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Number</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Divisors</th>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">81</td>
+<td class="l m b2 r2 l0 t0 lines">1,3,9,27,81</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">83</td>
+<td class="l m b2 r2 l0 t0 lines">1,83</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">85</td>
+<td class="l m b2 r2 l0 t0 lines">1,5,17,85</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">87</td>
+<td class="l m b2 r2 l0 t0 lines">1,3,29,87</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">89</td>
+<td class="l m b2 r2 l0 t0 lines">1,89</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Prime-numbers-6-2-4">
+<span class="process-math">\(83\)</span> and <span class="process-math">\(89\)</span> are prime numbers since they have only two divisors.</div>
+</div></details></div></article></details><details id="subsec-Prime-numbers-7" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.21</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Prime-numbers-7-1-1">Determine which of the following numbers are prime numbers.</div>
+<div class="solutions"><details id="subsec-Prime-numbers-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Prime-numbers-7-2-1">Use factor tree to identify the divisors of each number: <span class="process-math">\(2,3,4\text{.}\)</span>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:4.166666666666667%;margin-right:4.166666666666667%;">
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/subsec-Prime-numbers-7-2-2-1.svg" role="img" class="contained" alt="factors of 2"></div>
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/subsec-Prime-numbers-7-2-2-2.svg" role="img" class="contained" alt="factors of 3"></div>
+<div class="sbspanel top" style="width:27.2727272727273%;"><img src="generated/latex-image/subsec-Prime-numbers-7-2-2-3.svg" role="img" class="contained" alt="factors of 4"></div>
+</div></div>
+<div class="para" id="subsec-Prime-numbers-7-2-3">The divisors of <span class="process-math">\(2\)</span> are <span class="process-math">\(2,1\text{.}\)</span>
+</div>
+<div class="para" id="subsec-Prime-numbers-7-2-4">Divisors of <span class="process-math">\(3\)</span> are <span class="process-math">\(3,1\)</span> .</div>
+<div class="para" id="subsec-Prime-numbers-7-2-5">And the divisors of 4 are <span class="process-math">\(4,2,1\text{.}\)</span>
+</div>
+<div class="para" id="subsec-Prime-numbers-7-2-6">Therefore, the numbers <span class="process-math">\(2\)</span> and <span class="process-math">\(3\)</span> are prime numbers.</div>
+</div></details></div></article></details><details id="subsec-Prime-numbers-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.22</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Prime-numbers-8-1-1"></div></article></details></section><section class="subsection" id="subsec-Operations-on-whole-numbers"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="space"> </span><span class="title">Operations on whole numbers</span>
+</h3>
+<div class="para" id="subsec-Operations-on-whole-numbers-2">Addition</div>
+<div class="para" id="subsec-Operations-on-whole-numbers-3">We use place value of digits to add numbers. Some additions have regrouping and others do not.</div>
+<article class="activity project-like" id="subsec-Operations-on-whole-numbers-4"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.9</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Operations-on-whole-numbers-4-1-1">1.(a) Individually, write and work out an addition word question.</div> <div class="para" id="subsec-Operations-on-whole-numbers-4-1-2">(b) Write the word question on a blank card.</div> <div class="para" id="subsec-Operations-on-whole-numbers-4-1-3">2. Exchange the cards and work out each other’s question.</div></article><details id="subsec-Operations-on-whole-numbers-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.23</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Operations-on-whole-numbers-5-1-1">A company sold goods worth sh <span class="process-math">\(1\,478\,956,\)</span> in the month of January. In February, the company sold goods worth sh <span class="process-math">\(2\,123\,040\text{.}\)</span> What was the total sales in the two months?</div>
+<div class="solutions"><details id="subsec-Operations-on-whole-numbers-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Operations-on-whole-numbers-5-2-1">Add the amounts to get the total sales in two months.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="l m b1 r0 l0 t0 lines" colspan="8"></td></tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines">+1</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">1</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">7</td>
+<td class="l m b0 r0 l0 t0 lines">8</td>
+<td class="l m b0 r0 l0 t0 lines">9</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">9</td>
+<td class="l m b0 r0 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines">+</td>
+<td class="l m b1 r0 l0 t0 lines">2</td>
+<td class="l m b1 r0 l0 t0 lines">1</td>
+<td class="l m b1 r0 l0 t0 lines">2</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">0</td>
+<td class="l m b1 r0 l0 t0 lines">4</td>
+<td class="l m b1 r0 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines">6</td>
+<td class="l m b1 r0 l0 t0 lines">1</td>
+<td class="l m b1 r0 l0 t0 lines">6</td>
+<td class="l m b1 r0 l0 t0 lines">4</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">9</td>
+<td class="l m b1 r0 l0 t0 lines">4</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Operations-on-whole-numbers-5-2-3">The total sales was sh <span class="process-math">\(6\,164\,394\)</span>
+</div>
+</div></details></div></article></details><details id="subsec-Operations-on-whole-numbers-6" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.24</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Operations-on-whole-numbers-6-1-1"></div></article></details></section><section class="subsection" id="subsec-subtraction-of-whole-numbers"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="space"> </span><span class="title">Subtraction of whole numbers</span>
+</h3>
+<article class="activity project-like" id="subsec-subtraction-of-whole-numbers-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.10</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-subtraction-of-whole-numbers-2-1">Kahawa Tea company harvested <span class="process-math">\(326\,548\,957\)</span> kilograms of tea. The company exported <span class="process-math">\(128\,349\,263\)</span> kilograms of coffee.</div>
+<div class="para" id="subsec-subtraction-of-whole-numbers-2-2">1. Work out the kilograms of tea that remained after the export.</div>
+<div class="para" id="subsec-subtraction-of-whole-numbers-2-3">Share your work with fellow learners.</div></article><details id="subsec-subtraction-of-whole-numbers-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.25</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-subtraction-of-whole-numbers-3-1-1">Fishermen across the country exported <span class="process-math">\(4\,563\,275\)</span> kg of fish in the first year. In the second year; the mass of fish decreased by <span class="process-math">\(732\,738\)</span> kg. Work out the mass of fish that the fishermen exported in the second year:</div>
+<div class="solutions"><details id="subsec-subtraction-of-whole-numbers-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-subtraction-of-whole-numbers-3-2-1">Subtract the decrease in mass of fish in the second year from the mass of fish in the first year.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="l m b1 r0 l0 t0 lines" colspan="8"></td></tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">10</td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines">10</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">10</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cancel{4}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cancel{3}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">2</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cancel{7}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines">-</td>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines">7</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">2</td>
+<td class="l m b1 r0 l0 t0 lines">7</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines"></td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">8</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">0</td>
+<td class="l m b1 r0 l0 t0 lines">5</td>
+<td class="l m b1 r0 l0 t0 lines">3</td>
+<td class="l m b1 r0 l0 t0 lines">7</td>
+</tr>
+</table></div>
+<div class="para" id="subsec-subtraction-of-whole-numbers-3-2-3">If the digits in a column, starting from the right-hand side, result in a negative value when subtracted, you borrow from the first digit in the next column to the left..</div>
+<div class="para" id="subsec-subtraction-of-whole-numbers-3-2-4">The digit you borrow from will be reduced by 1, while the digit you borrow to will increase by 10.  See the example above.</div>
+<div class="para" id="subsec-subtraction-of-whole-numbers-3-2-5">The mass of fish the fisherman exported in the second year was <span class="process-math">\(3\,830\,537\)</span> kg.</div>
+</div></details></div></article></details><details id="subsec-subtraction-of-whole-numbers-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.26</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-subtraction-of-whole-numbers-4-1-1"></div></article></details></section><section class="subsection" id="subsec-Multiplication-of-whole-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="space"> </span><span class="title">Multiplication of whole number</span>
+</h3>
+<article class="activity project-like" id="subsec-Multiplication-of-whole-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.11</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Multiplication-of-whole-number-2-1-1">1. Make number cards like the ones shown below.</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr><td class="l m b2 r0 l2 t0 lines">colspan="5</td></tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">3</td>
+<td class="l m b0 r0 l0 t0 lines">4</td>
+<td class="l m b0 r0 l0 t0 lines">5</td>
+<td class="l m b0 r0 l0 t0 lines">6</td>
+<td class="l m b0 r0 l0 t0 lines">7</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">8</td>
+<td class="l m b0 r0 l0 t0 lines">27</td>
+<td class="l m b0 r0 l0 t0 lines">35</td>
+<td class="l m b0 r0 l0 t0 lines">40</td>
+<td class="l m b0 r0 l0 t0 lines">54</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">78</td>
+<td class="l m b0 r0 l0 t0 lines">63</td>
+<td class="l m b0 r0 l0 t0 lines">82</td>
+<td class="l m b0 r0 l0 t0 lines">91</td>
+<td class="l m b0 r0 l0 t0 lines">44</td>
+</tr>
+<tr>
+<td class="l m b1 r0 l0 t0 lines">132</td>
+<td class="l m b1 r0 l0 t0 lines">217</td>
+<td class="l m b1 r0 l0 t0 lines">810</td>
+<td class="l m b1 r0 l0 t0 lines">514</td>
+<td class="l m b1 r0 l0 t0 lines">231</td>
+</tr>
+</table></div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l2 t2 lines">72</td>
+<td class="l m b0 r0 l0 t2 lines">60</td>
+<td class="l m b0 r0 l0 t2 lines">42</td>
+<td class="l m b0 r0 l0 t2 lines">56</td>
+<td class="l m b0 r0 l0 t2 lines">79</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l2 t0 lines">852</td>
+<td class="l m b0 r0 l0 t0 lines">147</td>
+<td class="l m b0 r0 l0 t0 lines">320</td>
+<td class="l m b0 r0 l0 t0 lines">560</td>
+<td class="l m b0 r0 l0 t0 lines">801</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l2 t0 lines">332</td>
+<td class="l m b0 r0 l0 t0 lines">133</td>
+<td class="l m b0 r0 l0 t0 lines">249</td>
+<td class="l m b0 r0 l0 t0 lines">900</td>
+<td class="l m b0 r0 l0 t0 lines">448</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l2 t0 lines">5132</td>
+<td class="l m b2 r0 l0 t0 lines">1217</td>
+<td class="l m b2 r0 l0 t0 lines">3810</td>
+<td class="l m b2 r0 l0 t0 lines">4514</td>
+<td class="l m b2 r0 l0 t0 lines">6231</td>
+</tr>
+</table></div> <div class="para" id="subsec-Multiplication-of-whole-number-2-1-4">2.(a) In turns, choose one number from each card.</div> <div class="para" id="subsec-Multiplication-of-whole-number-2-1-5">(b) Multiply the two numbers.</div></article><details id="subsec-Multiplication-of-whole-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.27</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplication-of-whole-number-3-1-1">In the first phase of supplying books to schools that received the books was <span class="process-math">\(723\)</span> textbooks to each school. The number of schools that received the books was <span class="process-math">\(256\text{.}\)</span> How many books did the government supply in the first phase?</div>
+<div class="solutions"><details id="subsec-Multiplication-of-whole-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Multiplication-of-whole-number-3-2-1">We multiply the number of books by the number of schools.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(723\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\times \,256\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(4\,338\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">(multiply 723 by the total value of the ones digit: 723 x 6)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(36\,150\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">(multiply 723 by the total value of the tens digit: 723 x 50)</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(144\,600\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">(multiply 723 by the total value of the hundreds digit: 723 x 200)</td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(185\,088\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="para" id="subsec-Multiplication-of-whole-number-3-2-3">The number of books the government supplied is <span class="process-math">\(185\,088\text{.}\)</span>
+</div>
+</div></details></div></article></details></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch-numbers.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-factors.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

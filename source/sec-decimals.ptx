@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-decimals" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Decimals</title>
+    <subsection xml:id="subsec-place-value-of-digits-in-decimals">
+        <title>place value of digits in decimals</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for place value of digits in decimals goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    What is the place value of each digit in the following numbers ?
+                </p>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>127.36527</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>89.46529</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>109.61284</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Draw a place value chart and represent the numvers as below.
+                </p>
+                <tabular top="medium" bottom="medium" right="medium" left="medium">
+                    <row header="yes">
+                        <cell>Number</cell>
+                        <cell>Hundreds</cell>
+                        <cell>Tens</cell>
+                        <cell>Ones</cell>
+                        <cell>Decimal point</cell>
+                        <cell>Tenths</cell>
+                        <cell>Hundredths</cell>
+                        <cell>Thousandths</cell>
+                        <cell>Ten thousandths</cell>
+                        <cell>Hundred thousandths</cell>
+                    </row>
+                    <row halign="center">
+                        <cell><m>\text{a) } 127.36527 </m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>.</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>7</m></cell>
+                    </row>
+                    <row halign="center">
+                        <cell><m>\text{b) } 89.46529 </m></cell>
+                        <cell/>
+                        <cell><m>8</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>.</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>9</m></cell>
+                    </row>
+                    <row halign="center">
+                        <cell><m>\text{c) } 109.61284</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>.</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>4</m></cell>
+                    </row>
+                </tabular>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for place value of digits in decimals goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Total-value-of-digits-in-decimals">
+        <title>Total value of digits in decimals</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for Total value of digits in decimals goes here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    What is the total value of each digit in the number <m>62.58347</m>
+                </p>
+            </statement>
+            <solution>
+                <tabular bottom="medium" top="medium" right="medium" left="medium">
+                    <row header="yes">
+                        <cell> Number</cell>
+                        <cell>PLace value</cell>
+                        <cell>Total value</cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>6</m></cell>
+                        <cell>Tens</cell>
+                        <cell><m>6 \times 10 = 60</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>2</m></cell>
+                        <cell>Ones</cell>
+                        <cell><m>2 \times 1 = 2</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center">.</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>5</m></cell>
+                        <cell>Tenths</cell>
+                        <cell><m>5 \times 0.1 = 0.5</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>8</m></cell>
+                        <cell>Hundredths</cell>
+                        <cell><m>8 \times 0.01 = 0.08</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>3</m></cell>
+                        <cell>Thousandths</cell>
+                        <cell><m>3 \times 0.001 = 0.003</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>4</m></cell>
+                        <cell>Ten thousandths</cell>
+                        <cell><m>4 \times 0.0001 = 0.0004</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>7</m></cell>
+                        <cell>Hundred thousandths</cell>
+                        <cell><m>7 \times 0.00001 = 0.00007</m></cell>
+                    </row>
+                </tabular>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Total value of digits in decimals goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Multiplying-decimals-by-a-whole-number">
+        <title>Multiplying decimals by a whole number</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for Multiplying decimals by a whole number goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out:
+                </p>
+                <p>
+                    <ol cols="2" marker="a)">
+                        <li>
+                            <p>
+                                <m>7.503 \times 10</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>7.503 \times 100</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a)">
+                        <li>
+                            <p>
+                                <m>7.503 \times 10</m>
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <md>
+                                        <mrow>7.503 \times 10 \amp = \frac{7503}{1000} \times 10 </mrow>
+                                        <mrow> </mrow>
+                                        <mrow> \amp = \frac{75030}{1000} = 75.03 </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    When you multiply a decimal by 10, the decimal point moves <m>1</m> place to the right.
+                                </p>
+                            </sidebyside>
+                        </li>
+                        <li>
+                            <p>
+                                <m>7.503 \times 100</m>
+                            </p>
+                            <sidebyside>
+                                <p>
+                                    <md>
+                                        <mrow>7.503 \times 100 \amp = \frac{7503}{1000} \times 100</mrow>
+                                        <mrow> </mrow>
+                                        <mrow> \amp = \frac{750300}{1000} = 750.3 </mrow>
+                                    </md>
+                                </p>
+                                <p>
+                                    When you multiply a decimal by 100, the decimal point moves <m>2</m> places to the right.
+                                </p>
+                            </sidebyside>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The mass of a piece of wood is <m>12.463</m> kg. What is the mass of <m>12</m> such pieces of wood?
+                </p>
+            </statement>
+            <solution>
+                <sidebyside>
+                    <tabular>
+                        <row>
+                            <cell><m>12463</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell bottom="medium"><m>\times \, 12</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell halign="right"><m>24926</m></cell>
+                            <cell><m>\to</m></cell>
+                            <cell><m>12463 \times 2</m></cell>
+                        </row>
+                        <row>
+                            <cell bottom="medium" halign="right"><m>+\,124630</m></cell>
+                            <cell><m>\to</m></cell>
+                            <cell><m> 12463 \times 10</m></cell>
+                        </row>
+                        <row>
+                            <cell bottom="medium" halign="right"><m>149556</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </tabular>
+                    
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    Identify the number of decimal places.
+                                </p>
+                                <p>
+                                    <m>12.463</m> has <m>3</m> decimal places.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Multiply <m>12463</m> by <m>12.</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    In the product, count <m>3</m> digits from the right towards the left and insert the decimal point.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+                    <p>
+                        <m> = 149.556</m>
+                    </p>
+                    <p>
+                        <m>12.463 \times 12 = 149.556</m>
+                    </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Multiplying decimals by a whole number goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Multiplying-decimals-by-decimals">
+        <title>Multiplying decimals by decimals</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for Multiplying decimals by decimals goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Find the area of the rectagle below.
+                </p>
+                <image width="40%">
+                    <shortdescription>Rectangle image</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                                \draw[thick] (0,0) rectangle (4,2);
+                                \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {4 cm};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] {2 cm};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\text{ Area } \amp = \text{Length } \times \text{ Width } </mrow>
+                        <mrow> \amp = 1.2 \text{ m } \times 0.8 \text{ m}</mrow>
+                        <mrow> \amp = (\frac{12}{10} \times \frac{8}{10})\text{m}^2 </mrow>
+                        <mrow> \amp = (\frac{96}{100})\text{m}^2 </mrow>
+                        <mrow> \amp = 0.96\text{m}^2 </mrow>
+                    </md>
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>9.132 \times 5.2</m>
+                </p>
+            </statement>
+            <solution>
+                <sidebyside>
+                    <tabular>
+                        <row>
+                            <cell halign="right"><m>9\,132</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell bottom="medium" halign="right"><m>\times \, 52</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell halign="right"><m>18\,264</m></cell>
+                            <cell><m>\to</m></cell>
+                            <cell><m>9\,132 \times 2</m></cell>
+                        </row>
+                        <row>
+                            <cell bottom="medium" halign="right"><m>+\,456\,600</m></cell>
+                            <cell><m>\to</m></cell>
+                            <cell><m> 9\,132 \times 50</m></cell>
+                        </row>
+                        <row>
+                            <cell bottom="medium" halign="right"><m>474\,864</m></cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </tabular>
+
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    Count the number of decimal places.
+                                </p>
+                                <p>
+                                    <m>9.132</m> has <m>3</m> decimal places.
+                                </p>
+                                <p>
+                                    <m>5.2</m> has <m>1</m> decimal place.
+                                </p>
+                                <p>
+                                    Total number of decimal places is <m>4.</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Multiply <m>9\,132</m> by <m>52.</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Write your answer in <m>4</m> decimal places.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+                <p>
+                    <m>= 47.4864</m>
+                </p>
+                <p>
+                    <m>= 47.48</m>
+                </p>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Multiplying decimals by decimals goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Division-of-a-decimal-by-a-whole-number">
+        <title>Division of a decimal by a whole number</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for Division of a decimal by a whole number goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>4.75 \div 5</m>
+                </p>
+            </statement>
+            <solution>
+                <sidebyside>
+                    <p>
+                        <md>
+                            <mrow>4.75 \div 5 \amp  = \frac{475}{100} \div 5</mrow>
+                            <mrow></mrow>
+                            <mrow> \amp = \frac{475}{100} \times \frac{1}{5}</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow>\amp \qquad 95</mrow>
+                            <mrow> \amp = \frac{\cancel{475}}{\cancel{500}}</mrow>
+                            <mrow>\amp \qquad 100</mrow>
+                            <mrow> \amp </mrow>
+                            <mrow> \amp = 0.95 </mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <ol marker="a)">
+                            <li>
+                                <p>
+                                    Make the dividend to a fraction.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Multiply the dividend by the reciprocal of the divisor.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </sidebyside>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a decimal by a whole number goes in here.
+                </p>
+            </statement>
+        </exercise>
+        <!-- <example>
+            <statement>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw[thick] (0,0) arc[start angle=0, end angle=180, radius=3cm];
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </statement>
+        </example> -->
+    </subsection>
+    <subsection xml:id="subsec-Division-of-a-decimal-by-a-decimal">
+        <title>Division of a decimal by a decimal</title>
+        <activity>
+            <statement>
+                <p>
+                    Activity for Division of a decimal by a decimal goes in here.
+                </p>
+            </statement>
+        </activity>
+        <example>
+            <statement>
+                <p>
+                    Erick had a sugarcane whose length was <m>6.24</m> m. He cut the sugarcane into equal pieces of <m>1.04</m> m. How many pieces did he get?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>6.24 \text{ m } \div 1.04 \text{ m } = \frac{6.24}{1.04}</m>
+                </p>
+                <p>
+                    Multiply by <m>100</m> to make the divisor a whole number.
+                </p>
+                <p>
+                    <md>
+                        <mrow>\frac{6.24 \times 100}{1.04 \times 100} \amp = \frac{624}{104}</mrow>
+                        <mrow> \amp </mrow>
+                        <mrow> \amp = 6 </mrow>
+                    </md>
+                </p>
+                <p>
+                    Erick got <m>6</m> pieces.
+                </p>
+            </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    Work out: <m>4.75 \div 1.25 = </m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>4.75 \div 1.25 = \frac{475}{100} \div \frac{125}{100}</m>
+                </p>
+                <sidebyside>
+                <tabular>
+                <row>
+                    <cell halign="left"><m>19</m></cell>
+                    <cell/>
+                    <cell halign="left"><m>1</m></cell>
+                    <cell/>
+                    
+                </row>
+                    <row>
+                        <cell><m>\frac{\cancel{475}}{\cancel{100}}</m></cell>
+                        <cell><m>\times</m></cell>
+                        <cell><m>\frac{\cancel{100}}{\cancel{125}}</m></cell>
+                        <cell><m> = \frac{19}{5}</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>1</m></cell>
+                        <cell/>
+                        <cell><m>5</m></cell>
+                        <cell/>
+                    </row>
+                </tabular>
+                <tabular>
+                    <row>
+                        <cell></cell>
+                        <cell bottom="medium"><m>3.8</m></cell>
+                    </row>
+                    <row>
+                        <cell right="medium"><m>5</m></cell>
+                        <cell halign="right"><m>19</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell bottom="medium" halign="right"><m>-15</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell halign="right"><m>40</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell bottom="medium" halign="right"><m>-\,40</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell bottom="medium" halign="right"><m>00</m></cell>
+                    </row>
+                </tabular>
+                </sidebyside>
+            </solution>
+        </example>
+        <exercise>
+            <statement>
+                <p>
+                    Exercise for Division of a decimal by a decimal goes in here.
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+</section>

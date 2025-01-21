@@ -1,0 +1,55 @@
+INFO    : Using PreTeXt-CLI version: 2.10.0.  This is the latest available version.
+
+INFO    : PreTeXt project found in `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : converting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to svg graphics for placement in /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/publication/publication.ptx', 'subtree': 'subsec-Arranging-fractions-in-ascending-order'}
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-4.tex to subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf
+INFO    : cropping subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf to cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf
+INFO    : renaming cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-4.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-4.svg
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-3.tex to subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf
+INFO    : cropping subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf to cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf
+INFO    : renaming cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-3.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-3.svg
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-1.tex to subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf
+INFO    : cropping subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf to cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf
+INFO    : renaming cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-1.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-1.svg
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-2.tex to subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf
+INFO    : cropping subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf to cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf
+INFO    : renaming cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-2.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-2.svg
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-5.tex to subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf
+INFO    : cropping subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf to cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf
+INFO    : renaming cropped-subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf
+INFO    : converting subsec-Arranging-fractions-in-ascending-order-2-1-2-5.pdf to subsec-Arranging-fractions-in-ascending-order-2-1-2-5.svg
+INFO    : Removing temporary directory /tmp/ptx-xv2larb6
+INFO    : Preparing to build into /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/output/web.
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.4.4
+INFO    : converting /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-zupqiq8i
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-7rdc2x49
+INFO    : Removing temporary directory /tmp/ptx-zupqiq8i
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 

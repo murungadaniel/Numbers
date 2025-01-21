@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Decimals</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="My Great Book">
+<meta property="book:author" content="You">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+<style>
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 { counter-set: subsec-Total-Value-of-digits-in-a-number-3-1-1 0; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li::marker { content: ""counter(subsec-Total-Value-of-digits-in-a-number-3-1-1,decimal)"."; }
+#subsec-Total-Value-of-digits-in-a-number-3-1-1 > li { counter-increment: subsec-Total-Value-of-digits-in-a-number-3-1-1; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 { counter-set: subsec-Reading-and-riting-numbers-in-symbols-2-5-1 0; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li::marker { content: ""counter(subsec-Reading-and-riting-numbers-in-symbols-2-5-1,decimal)"."; }
+#subsec-Reading-and-riting-numbers-in-symbols-2-5-1 > li { counter-increment: subsec-Reading-and-riting-numbers-in-symbols-2-5-1; }
+#subsec-Divisibility-test-of-3-6-1-2-1 { counter-set: subsec-Divisibility-test-of-3-6-1-2-1 0; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-1-2-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-1-2-1; }
+#subsec-Divisibility-test-of-3-6-2-1-1 { counter-set: subsec-Divisibility-test-of-3-6-2-1-1 0; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-of-3-6-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-of-3-6-2-1-1 > li { counter-increment: subsec-Divisibility-test-of-3-6-2-1-1; }
+#subsec-Divisibility-test-for-four-4-1-2-1 { counter-set: subsec-Divisibility-test-for-four-4-1-2-1 0; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-1-2-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-1-2-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-1-2-1; }
+#subsec-Divisibility-test-for-four-4-2-1-1 { counter-set: subsec-Divisibility-test-for-four-4-2-1-1 0; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-four-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-four-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-four-4-2-1-1; }
+#subsec-divisibility-test-for-5-4-1-2-1 { counter-set: subsec-divisibility-test-for-5-4-1-2-1 0; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li::marker { content: ""counter(subsec-divisibility-test-for-5-4-1-2-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-5-4-1-2-1 > li { counter-increment: subsec-divisibility-test-for-5-4-1-2-1; }
+#subsec-divisibility-test-for-6-4-2-1-1 { counter-set: subsec-divisibility-test-for-6-4-2-1-1 0; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li::marker { content: ""counter(subsec-divisibility-test-for-6-4-2-1-1,lower-alpha)")"; }
+#subsec-divisibility-test-for-6-4-2-1-1 > li { counter-increment: subsec-divisibility-test-for-6-4-2-1-1; }
+#subsec-Divisibility-test-for-8-4-2-1-1 { counter-set: subsec-Divisibility-test-for-8-4-2-1-1 0; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-8-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-8-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-8-4-2-1-1; }
+#subsec-Divisibility-test-for-9-4-2-1-1 { counter-set: subsec-Divisibility-test-for-9-4-2-1-1 0; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-9-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-9-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-9-4-2-1-1; }
+#subsec-Divisibility-test-for-11-4-2-1-1 { counter-set: subsec-Divisibility-test-for-11-4-2-1-1 0; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li::marker { content: ""counter(subsec-Divisibility-test-for-11-4-2-1-1,lower-alpha)")"; }
+#subsec-Divisibility-test-for-11-4-2-1-1 > li { counter-increment: subsec-Divisibility-test-for-11-4-2-1-1; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-1-2-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-1-2-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-1-2-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-1-2-1; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 { counter-set: subsubsec-Factors-of-composite-numbers-6-2-1-1 0; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li::marker { content: ""counter(subsubsec-Factors-of-composite-numbers-6-2-1-1,lower-alpha)")"; }
+#subsubsec-Factors-of-composite-numbers-6-2-1-1 > li { counter-increment: subsubsec-Factors-of-composite-numbers-6-2-1-1; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 { counter-set: subsec-Greatest-Common-Divisor-9-2-1-1 0; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li::marker { content: ""counter(subsec-Greatest-Common-Divisor-9-2-1-1,lower-alpha)")"; }
+#subsec-Greatest-Common-Divisor-9-2-1-1 > li { counter-increment: subsec-Greatest-Common-Divisor-9-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-1-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-1-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-1-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-1-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-ascending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-ascending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-ascending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-ascending-order-6-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-5-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-5-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-5-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-5-2-1-1; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 { counter-set: subsec-Arranging-fractions-in-descending-order-6-2-1-1 0; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li::marker { content: ""counter(subsec-Arranging-fractions-in-descending-order-6-2-1-1,lower-alpha)")"; }
+#subsec-Arranging-fractions-in-descending-order-6-2-1-1 > li { counter-increment: subsec-Arranging-fractions-in-descending-order-6-2-1-1; }
+#subsec-Adding-proper-fractions-3-2-1-1 { counter-set: subsec-Adding-proper-fractions-3-2-1-1 0; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-proper-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-proper-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-proper-fractions-3-2-1-1; }
+#subsec-Adding-mixed-fractions-3-2-1-1 { counter-set: subsec-Adding-mixed-fractions-3-2-1-1 0; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Adding-mixed-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Adding-mixed-fractions-3-2-1-1 > li { counter-increment: subsec-Adding-mixed-fractions-3-2-1-1; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 { counter-set: subsec-Subtracting-proper-fractions-2-2-1-1 0; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-proper-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-proper-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-proper-fractions-2-2-1-1; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 { counter-set: subsec-Subtracting-mixed-fractions-2-2-1-1 0; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li::marker { content: ""counter(subsec-Subtracting-mixed-fractions-2-2-1-1,lower-alpha)")"; }
+#subsec-Subtracting-mixed-fractions-2-2-1-1 > li { counter-increment: subsec-Subtracting-mixed-fractions-2-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 { counter-set: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 0; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1 > li { counter-increment: subsec-Multiplying-a-fraction-by-a-mixed-number-2-2-1-1; }
+#subsec-Reciprocal-of-fractions-2-1 { counter-set: subsec-Reciprocal-of-fractions-2-1 0; }
+#subsec-Reciprocal-of-fractions-2-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-2-1,decimal)"."; }
+#subsec-Reciprocal-of-fractions-2-1 > li { counter-increment: subsec-Reciprocal-of-fractions-2-1; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 { counter-set: subsec-Reciprocal-of-fractions-4-2-1-1 0; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Reciprocal-of-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Reciprocal-of-fractions-4-2-1-1 > li { counter-increment: subsec-Reciprocal-of-fractions-4-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-whole-number-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 { counter-set: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 0; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1 > li { counter-increment: subsec-Division-of-a-fraction-by-a-mixed-number-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-2-1-3-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-3-2-1-1; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 { counter-set: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 0; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li::marker { content: ""counter(subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1,lower-alpha)")"; }
+#subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1 > li { counter-increment: subsec-Division-of-a-whole-number-by-a-fraction-4-2-1-1; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 { counter-set: subsec-Number-sequence-involving-fractions-2-1-2-1 0; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-2-1-2-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-2-1-2-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-2-1-2-1; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-3-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-3-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-3-2-1-1; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 { counter-set: subsec-Number-sequence-involving-fractions-4-2-1-1 0; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li::marker { content: ""counter(subsec-Number-sequence-involving-fractions-4-2-1-1,lower-alpha)")"; }
+#subsec-Number-sequence-involving-fractions-4-2-1-1 > li { counter-increment: subsec-Number-sequence-involving-fractions-4-2-1-1; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 { counter-set: subsec-place-value-of-digits-in-decimals-3-1-2-1 0; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li::marker { content: ""counter(subsec-place-value-of-digits-in-decimals-3-1-2-1,lower-alpha)")"; }
+#subsec-place-value-of-digits-in-decimals-3-1-2-1 > li { counter-increment: subsec-place-value-of-digits-in-decimals-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 { counter-set: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 0; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li::marker { content: ""counter(subsec-Multiplying-decimals-by-decimals-4-2-1-2-1,lower-alpha)")"; }
+#subsec-Multiplying-decimals-by-decimals-4-2-1-2-1 > li { counter-increment: subsec-Multiplying-decimals-by-decimals-4-2-1-2-1; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 { counter-set: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 0; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li::marker { content: ""counter(subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1,lower-alpha)")"; }
+#subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1 > li { counter-increment: subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1; }
+#subsec-Squares-of-whole-numbers-2-2-1 { counter-set: subsec-Squares-of-whole-numbers-2-2-1 0; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-2-2-1,decimal)"."; }
+#subsec-Squares-of-whole-numbers-2-2-1 > li { counter-increment: subsec-Squares-of-whole-numbers-2-2-1; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-1-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-1-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-1-1-1; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 { counter-set: subsec-Squares-of-whole-numbers-5-2-1-1 0; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-whole-numbers-5-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-whole-numbers-5-2-1-1 > li { counter-increment: subsec-Squares-of-whole-numbers-5-2-1-1; }
+#subsec-Sqaures-of-fractions-3-1-2-1 { counter-set: subsec-Sqaures-of-fractions-3-1-2-1 0; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-1-2-1; }
+#subsec-Sqaures-of-fractions-3-2-1-1 { counter-set: subsec-Sqaures-of-fractions-3-2-1-1 0; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-3-2-1-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-3-2-1-1 > li { counter-increment: subsec-Sqaures-of-fractions-3-2-1-1; }
+#subsec-Sqaures-of-fractions-4-1-2-1 { counter-set: subsec-Sqaures-of-fractions-4-1-2-1 0; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li::marker { content: ""counter(subsec-Sqaures-of-fractions-4-1-2-1,lower-alpha)")"; }
+#subsec-Sqaures-of-fractions-4-1-2-1 > li { counter-increment: subsec-Sqaures-of-fractions-4-1-2-1; }
+#subsec-Squares-of-decimals-4-1-1-1 { counter-set: subsec-Squares-of-decimals-4-1-1-1 0; }
+#subsec-Squares-of-decimals-4-1-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-1-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-1-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-1-1-1; }
+#subsec-Squares-of-decimals-4-2-1-1 { counter-set: subsec-Squares-of-decimals-4-2-1-1 0; }
+#subsec-Squares-of-decimals-4-2-1-1 > li::marker { content: ""counter(subsec-Squares-of-decimals-4-2-1-1,lower-alpha)")"; }
+#subsec-Squares-of-decimals-4-2-1-1 > li { counter-increment: subsec-Squares-of-decimals-4-2-1-1; }
+#subsec-Square-roots-of-decimals-3-1-1-1 { counter-set: subsec-Square-roots-of-decimals-3-1-1-1 0; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-1-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-1-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-1-1-1; }
+#subsec-Square-roots-of-decimals-3-2-1-1 { counter-set: subsec-Square-roots-of-decimals-3-2-1-1 0; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li::marker { content: ""counter(subsec-Square-roots-of-decimals-3-2-1-1,lower-alpha)")"; }
+#subsec-Square-roots-of-decimals-3-2-1-1 > li { counter-increment: subsec-Square-roots-of-decimals-3-2-1-1; }
+</style>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">My Great Book:</span> <span class="subtitle">An example to get you started</span></a></h1>
+<p class="byline">You</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="sec-fractions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-numbers.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-squares-and-square-roots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Whole Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Place-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Place Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Total-Value-of-digits-in-a-number" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Total Value of digits in a number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-riting-numbers-in-symbols" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Reading and writing numbers in symbols</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Reading-and-writing-numbers-in-words" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Reading and writing numbers in words.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Rounding-off-numbers-to-the-nearest-hundreds-of-million" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Rounding off numbers to the nearest hundreds of million</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Natural-numbers" class="internal"><span class="codenumber">1.1.6</span> <span class="title">Natural numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Odd-numbers" class="internal"><span class="codenumber">1.1.7</span> <span class="title">Odd numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Prime-numbers" class="internal"><span class="codenumber">1.1.8</span> <span class="title">Prime numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Operations-on-whole-numbers" class="internal"><span class="codenumber">1.1.9</span> <span class="title">Operations on whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-subtraction-of-whole-numbers" class="internal"><span class="codenumber">1.1.10</span> <span class="title">Subtraction of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-section-whole-numbers-ch1.html#subsec-Multiplication-of-whole-number" class="internal"><span class="codenumber">1.1.11</span> <span class="title">Multiplication of whole number</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-factors.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-2" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Divisibility test for 2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-of-3" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Divisibility test for 3</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-four" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Divisibility test for 4</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-5" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Divisibility test for 5</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-divisibility-test-for-6" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Divisibility test for 6</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-8" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Divisibility test for 8</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-9" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Divisibility test for 9</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-10" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Divisibility test for 10</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Divisibility-test-for-11" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Divisibility test for 11</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-factors.html#subsec-Expressing-composite-numbers-as-a-product-of-prime-factors" class="internal"><span class="codenumber">1.2.10</span> <span class="title">Expressing composite numbers as a product of prime factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Factors-of-composite-numbers" class="internal"><span class="codenumber">1.2.10.1</span> <span class="title">Factors of composite numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-factors.html#subsubsec-Prime-factors" class="internal"><span class="codenumber">1.2.10.2</span> <span class="title">Prime factors</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Greatest-Common-Divisor" class="internal"><span class="codenumber">1.2.11</span> <span class="title">Greatest Common Divisor</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-factors.html#subsec-Least-Common-Factor" class="internal"><span class="codenumber">1.2.12</span> <span class="title">Least Common Multiple</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-fractions.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-ascending-order" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Arranging fractions in ascending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Arranging-fractions-in-descending-order" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Arranging fractions in descending order</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-proper-fractions" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Adding proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Adding-mixed-fractions" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Adding mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-proper-fractions" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Subtracting proper fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Subtracting-mixed-fractions" class="internal"><span class="codenumber">1.3.6</span> <span class="title">Subtracting mixed fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.7</span> <span class="title">Multiplying a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.8</span> <span class="title">Multiplying a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Multiplying-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.9</span> <span class="title">Multiplying a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Reciprocal-of-fractions" class="internal"><span class="codenumber">1.3.10</span> <span class="title">Reciprocal of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-whole-number" class="internal"><span class="codenumber">1.3.11</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-fraction" class="internal"><span class="codenumber">1.3.12</span> <span class="title">Division of a fraction by a fraction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-fraction-by-a-mixed-number" class="internal"><span class="codenumber">1.3.13</span> <span class="title">Division of a fraction by a mixed number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Division-of-a-whole-number-by-a-fraction" class="internal"><span class="codenumber">1.3.14</span> <span class="title">Division of a fraction by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Number-sequence-involving-fractions" class="internal"><span class="codenumber">1.3.15</span> <span class="title">Number sequence involving fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-fractions.html#subsec-Creating-number-sequences-involving-fractions" class="internal"><span class="codenumber">1.3.16</span> <span class="title">Creating number sequences involving fractions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active">
+<div class="toc-title-box"><a href="sec-decimals.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-place-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.1</span> <span class="title">place value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Total-value-of-digits-in-decimals" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Total value of digits in decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-a-whole-number" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Multiplying decimals by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Multiplying-decimals-by-decimals" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Multiplying decimals by decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-whole-number" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Division of a decimal by a whole number</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-decimals.html#subsec-Division-of-a-decimal-by-a-decimal" class="internal"><span class="codenumber">1.4.6</span> <span class="title">Division of a decimal by a decimal</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-squares-and-square-roots.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Squares and square roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-whole-numbers" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Squares of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Sqaures-of-fractions" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Sqaures of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-of-decimals" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Squares of decimals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Squares-roots-of-whole-numbers" class="internal"><span class="codenumber">1.5.4</span> <span class="title">Squares roots of whole numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-fractions" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Square roots of fractions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-squares-and-square-roots.html#subsec-Square-roots-of-decimals" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Square roots of decimals</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-Geometry.html" class="internal"><span class="codenumber">2</span> <span class="title">Geometry</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-Angles.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Angles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-Angles.html#subsec-Angles-on-a-straight-line" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Angles on a straight line</span></a></div></li></ul>
+</li></ul>
+</li>
+<li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-decimals"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Decimals</span>
+</h2>
+<section class="subsection" id="subsec-place-value-of-digits-in-decimals"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="space"> </span><span class="title">place value of digits in decimals</span>
+</h3>
+<article class="activity project-like" id="subsec-place-value-of-digits-in-decimals-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-place-value-of-digits-in-decimals-2-1-1">Activity for place value of digits in decimals goes in here.</div></article><details id="subsec-place-value-of-digits-in-decimals-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.1</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-place-value-of-digits-in-decimals-3-1-1">What is the place value of each digit in the following numbers ?</div> <div class="para logical" id="subsec-place-value-of-digits-in-decimals-3-1-2"><ol class="lower-alpha" id="subsec-place-value-of-digits-in-decimals-3-1-2-1">
+<li id="subsec-place-value-of-digits-in-decimals-3-1-2-1-1"><div class="para" id="subsec-place-value-of-digits-in-decimals-3-1-2-1-1-1"><span class="process-math">\(\displaystyle 127.36527\)</span></div></li>
+<li id="subsec-place-value-of-digits-in-decimals-3-1-2-1-2"><div class="para" id="subsec-place-value-of-digits-in-decimals-3-1-2-1-2-1"><span class="process-math">\(\displaystyle 89.46529\)</span></div></li>
+<li id="subsec-place-value-of-digits-in-decimals-3-1-2-1-3"><div class="para" id="subsec-place-value-of-digits-in-decimals-3-1-2-1-3-1"><span class="process-math">\(\displaystyle 109.61284\)</span></div></li>
+</ol></div>
+<div class="solutions"><details id="subsec-place-value-of-digits-in-decimals-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-place-value-of-digits-in-decimals-3-2-1">Draw a place value chart and represent the numvers as below.</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Number</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundreds</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tens</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Ones</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Decimal point</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Tenths</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundredths</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Thousandths</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Ten thousandths</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Hundred thousandths</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(\text{a) } 127.36527 \)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(7\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(.\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(7\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(\text{b) } 89.46529 \)</span></td>
+<td class="c m b2 r2 l0 t0 lines"></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(.\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(\text{c) } 109.61284\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(9\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(.\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="c m b2 r2 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+</table></div>
+</div></details></div></article></details><details id="subsec-place-value-of-digits-in-decimals-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-place-value-of-digits-in-decimals-4-1-1">Exercise for place value of digits in decimals goes in here.</div></article></details></section><section class="subsection" id="subsec-Total-value-of-digits-in-decimals"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="space"> </span><span class="title">Total value of digits in decimals</span>
+</h3>
+<article class="activity project-like" id="subsec-Total-value-of-digits-in-decimals-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Total-value-of-digits-in-decimals-2-1-1">Activity for Total value of digits in decimals goes here.</div></article><details id="subsec-Total-value-of-digits-in-decimals-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Total-value-of-digits-in-decimals-3-1-1">What is the total value of each digit in the number <span class="process-math">\(62.58347\)</span>
+</div>
+<div class="solutions"><details id="subsec-Total-value-of-digits-in-decimals-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b2 r2 l2 t2 lines">Number</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">PLace value</th>
+<th scope="col" class="l m b2 r2 l0 t2 lines">Total value</th>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(6\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Tens</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(6 \times 10 = 60\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Ones</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(2 \times 1 = 2\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines">.</td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+<td class="l m b2 r2 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Tenths</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(5 \times 0.1 = 0.5\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(8\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Hundredths</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(8 \times 0.01 = 0.08\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Thousandths</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(3 \times 0.001 = 0.003\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Ten thousandths</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(4 \times 0.0001 = 0.0004\)</span></td>
+</tr>
+<tr>
+<td class="c m b2 r2 l2 t0 lines"><span class="process-math">\(7\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">Hundred thousandths</td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(7 \times 0.00001 = 0.00007\)</span></td>
+</tr>
+</table></div></div></details></div></article></details><details id="subsec-Total-value-of-digits-in-decimals-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Total-value-of-digits-in-decimals-4-1-1">Exercise for Total value of digits in decimals goes in here.</div></article></details></section><section class="subsection" id="subsec-Multiplying-decimals-by-a-whole-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="space"> </span><span class="title">Multiplying decimals by a whole number</span>
+</h3>
+<article class="activity project-like" id="subsec-Multiplying-decimals-by-a-whole-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-2-1-1">Activity for Multiplying decimals by a whole number goes in here.</div></article><details id="subsec-Multiplying-decimals-by-a-whole-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.5</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-1-1">Work out:</div> <div class="para logical" id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2"><ol class="lower-alpha cols2" id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1">
+<li id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1-1"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1-1-1"><span class="process-math">\(\displaystyle 7.503 \times 10\)</span></div></li>
+<li id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1-2"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-1-2-1-2-1"><span class="process-math">\(\displaystyle 7.503 \times 100\)</span></div></li>
+</ol></div>
+<div class="solutions"><details id="subsec-Multiplying-decimals-by-a-whole-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1"><ol class="lower-alpha" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1">
+<li id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-1">
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-1-1"><span class="process-math">\(\displaystyle 7.503 \times 10\)</span></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-1-2-1"><div class="displaymath process-math" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-1-2-1-1">
+\begin{align*}
+7.503 \times 10 \amp = \frac{7503}{1000} \times 10 \\
+\\
+\amp = \frac{75030}{1000} = 75.03 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-1-2-2">When you multiply a decimal by 10, the decimal point moves <span class="process-math">\(1\)</span> place to the right.</div></div>
+</div></div>
+</li>
+<li id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-2">
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-2-1"><span class="process-math">\(\displaystyle 7.503 \times 100\)</span></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-2-2-1"><div class="displaymath process-math" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-2-2-1-1">
+\begin{align*}
+7.503 \times 100 \amp = \frac{7503}{1000} \times 100\\
+\\
+\amp = \frac{750300}{1000} = 750.3 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-3-2-1-1-2-2-2">When you multiply a decimal by 100, the decimal point moves <span class="process-math">\(2\)</span> places to the right.</div></div>
+</div></div>
+</li>
+</ol></div></div></details></div></article></details><details id="subsec-Multiplying-decimals-by-a-whole-number-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-1-1">The mass of a piece of wood is <span class="process-math">\(12.463\)</span> kg. What is the mass of <span class="process-math">\(12\)</span> such pieces of wood?</div>
+<div class="solutions"><details id="subsec-Multiplying-decimals-by-a-whole-number-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(12463\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(\times \, 12\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(24926\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\to\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(12463 \times 2\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(+\,124630\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\to\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(12463 \times 10\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(149556\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2"><ol class="lower-alpha" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1">
+<li id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-1">
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-1-1">Identify the number of decimal places.</div>
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-1-2">
+<span class="process-math">\(12.463\)</span> has <span class="process-math">\(3\)</span> decimal places.</div>
+</li>
+<li id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-2"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-2-1">Multiply <span class="process-math">\(12463\)</span> by <span class="process-math">\(12.\)</span>
+</div></li>
+<li id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-3"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-1-2-1-3-1">In the product, count <span class="process-math">\(3\)</span> digits from the right towards the left and insert the decimal point.</div></li>
+</ol></div></div>
+</div></div>
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-2"><span class="process-math">\(= 149.556\)</span></div>
+<div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-4-2-3"><span class="process-math">\(12.463 \times 12 = 149.556\)</span></div>
+</div></details></div></article></details><details id="subsec-Multiplying-decimals-by-a-whole-number-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.7</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-a-whole-number-5-1-1">Exercise for Multiplying decimals by a whole number goes in here.</div></article></details></section><section class="subsection" id="subsec-Multiplying-decimals-by-decimals"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="space"> </span><span class="title">Multiplying decimals by decimals</span>
+</h3>
+<article class="activity project-like" id="subsec-Multiplying-decimals-by-decimals-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-2-1-1">Activity for Multiplying decimals by decimals goes in here.</div></article><details id="subsec-Multiplying-decimals-by-decimals-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.8</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-decimals-3-1-1">Find the area of the rectagle below.</div> <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="generated/latex-image/subsec-Multiplying-decimals-by-decimals-3-1-2.svg" role="img" class="contained" alt="Rectangle image"></div>
+<div class="solutions"><details id="subsec-Multiplying-decimals-by-decimals-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="para logical" id="subsec-Multiplying-decimals-by-decimals-3-2-1"><div class="displaymath process-math" id="subsec-Multiplying-decimals-by-decimals-3-2-1-1">
+\begin{align*}
+\text{ Area } \amp = \text{Length } \times \text{ Width } \\
+\amp = 1.2 \text{ m } \times 0.8 \text{ m}\\
+\amp = (\frac{12}{10} \times \frac{8}{10})\text{m}^2 \\
+\amp = (\frac{96}{100})\text{m}^2 \\
+\amp = 0.96\text{m}^2 
+\end{align*}
+</div></div></div></details></div></article></details><details id="subsec-Multiplying-decimals-by-decimals-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.9</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-decimals-4-1-1">Work out: <span class="process-math">\(9.132 \times 5.2\)</span>
+</div>
+<div class="solutions"><details id="subsec-Multiplying-decimals-by-decimals-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(9\,132\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(\times \, 52\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(18\,264\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\to\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(9\,132 \times 2\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(+\,456\,600\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\to\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(9\,132 \times 50\)</span></td>
+</tr>
+<tr>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(474\,864\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2"><ol class="lower-alpha" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1">
+<li id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-1">
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-1-1">Count the number of decimal places.</div>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-1-2">
+<span class="process-math">\(9.132\)</span> has <span class="process-math">\(3\)</span> decimal places.</div>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-1-3">
+<span class="process-math">\(5.2\)</span> has <span class="process-math">\(1\)</span> decimal place.</div>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-1-4">Total number of decimal places is <span class="process-math">\(4.\)</span>
+</div>
+</li>
+<li id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-2"><div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-2-1">Multiply <span class="process-math">\(9\,132\)</span> by <span class="process-math">\(52.\)</span>
+</div></li>
+<li id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-3"><div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-1-2-1-3-1">Write your answer in <span class="process-math">\(4\)</span> decimal places.</div></li>
+</ol></div></div>
+</div></div>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-2"><span class="process-math">\(= 47.4864\)</span></div>
+<div class="para" id="subsec-Multiplying-decimals-by-decimals-4-2-3"><span class="process-math">\(= 47.48\)</span></div>
+</div></details></div></article></details><details id="subsec-Multiplying-decimals-by-decimals-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.10</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Multiplying-decimals-by-decimals-5-1-1">Exercise for Multiplying decimals by decimals goes in here.</div></article></details></section><section class="subsection" id="subsec-Division-of-a-decimal-by-a-whole-number"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.5</span><span class="space"> </span><span class="title">Division of a decimal by a whole number</span>
+</h3>
+<article class="activity project-like" id="subsec-Division-of-a-decimal-by-a-whole-number-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.5</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Division-of-a-decimal-by-a-whole-number-2-1-1">Activity for Division of a decimal by a whole number goes in here.</div></article><details id="subsec-Division-of-a-decimal-by-a-whole-number-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.11</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-decimal-by-a-whole-number-3-1-1">Work out: <span class="process-math">\(4.75 \div 5\)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-decimal-by-a-whole-number-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-1"><div class="displaymath process-math" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-1-1">
+\begin{align*}
+4.75 \div 5 \amp  = \frac{475}{100} \div 5\\
+\\
+\amp = \frac{475}{100} \times \frac{1}{5}\\
+\amp \\
+\amp \qquad 95\\
+\amp = \frac{\cancel{475}}{\cancel{500}}\\
+\amp \qquad 100\\
+\amp \\
+\amp = 0.95 
+\end{align*}
+</div></div></div>
+<div class="sbspanel top" style="width:50%;"><div class="para logical" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2"><ol class="lower-alpha" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1">
+<li id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1-1"><div class="para" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1-1-1">Make the dividend to a fraction.</div></li>
+<li id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1-2"><div class="para" id="subsec-Division-of-a-decimal-by-a-whole-number-3-2-1-2-1-2-1">Multiply the dividend by the reciprocal of the divisor.</div></li>
+</ol></div></div>
+</div></div></div></details></div></article></details><details id="subsec-Division-of-a-decimal-by-a-whole-number-4" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.12</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-decimal-by-a-whole-number-4-1-1">Exercise for Division of a decimal by a whole number goes in here.</div></article></details></section><section class="subsection" id="subsec-Division-of-a-decimal-by-a-decimal"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="space"> </span><span class="title">Division of a decimal by a decimal</span>
+</h3>
+<article class="activity project-like" id="subsec-Division-of-a-decimal-by-a-decimal-2"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.4.6</span><span class="period">.</span>
+</h4>
+<div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-2-1-1">Activity for Division of a decimal by a decimal goes in here.</div></article><details id="subsec-Division-of-a-decimal-by-a-decimal-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.13</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-3-1-1">Erick had a sugarcane whose length was <span class="process-math">\(6.24\)</span> m. He cut the sugarcane into equal pieces of <span class="process-math">\(1.04\)</span> m. How many pieces did he get?</div>
+<div class="solutions"><details id="subsec-Division-of-a-decimal-by-a-decimal-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-3-2-1"><span class="process-math">\(6.24 \text{ m } \div 1.04 \text{ m } = \frac{6.24}{1.04}\)</span></div>
+<div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-3-2-2">Multiply by <span class="process-math">\(100\)</span> to make the divisor a whole number.</div>
+<div class="para logical" id="subsec-Division-of-a-decimal-by-a-decimal-3-2-3"><div class="displaymath process-math" id="subsec-Division-of-a-decimal-by-a-decimal-3-2-3-1">
+\begin{align*}
+\frac{6.24 \times 100}{1.04 \times 100} \amp = \frac{624}{104}\\
+\amp \\
+\amp = 6 
+\end{align*}
+</div></div>
+<div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-3-2-4">Erick got <span class="process-math">\(6\)</span> pieces.</div>
+</div></details></div></article></details><details id="subsec-Division-of-a-decimal-by-a-decimal-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.14</span><span class="period">.</span>
+</h4></summary><article class="example example-like knowl__content"><div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-4-1-1">Work out: <span class="process-math">\(4.75 \div 1.25 = \)</span>
+</div>
+<div class="solutions"><details id="subsec-Division-of-a-decimal-by-a-decimal-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-4-2-1"><span class="process-math">\(4.75 \div 1.25 = \frac{475}{100} \div \frac{125}{100}\)</span></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(19\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{\cancel{475}}{\cancel{100}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\times\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\frac{\cancel{100}}{\cancel{125}}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(= \frac{19}{5}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"></td>
+</tr>
+</table></div>
+<div class="sbspanel fixed-width top" style="width:50%;"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="l m b2 r0 l0 t0 lines"><span class="process-math">\(3.8\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r2 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(19\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(-15\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="r m b0 r0 l0 t0 lines"><span class="process-math">\(40\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(-\,40\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"></td>
+<td class="r m b2 r0 l0 t0 lines"><span class="process-math">\(00\)</span></td>
+</tr>
+</table></div>
+</div></div>
+</div></details></div></article></details><details id="subsec-Division-of-a-decimal-by-a-decimal-5" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.4.15</span><span class="period">.</span>
+</h4></summary><article class="exercise exercise-like knowl__content"><div class="para" id="subsec-Division-of-a-decimal-by-a-decimal-5-1-1">Exercise for Division of a decimal by a decimal goes in here.</div></article></details></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="sec-fractions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-squares-and-square-roots.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>

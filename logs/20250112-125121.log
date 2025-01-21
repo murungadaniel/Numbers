@@ -1,0 +1,62 @@
+INFO    : Using PreTeXt-CLI version: 2.10.0.  This is the latest available version.
+
+INFO    : PreTeXt project found in `/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : converting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to svg graphics for placement in /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/publication/publication.ptx', 'subtree': 'subsec-Greatest-Common-Divisor'}
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : converting subsec-Greatest-Common-Divisor-7-2-2-1.tex to subsec-Greatest-Common-Divisor-7-2-2-1.pdf
+ERROR   : LaTeX compilation of subsec-Greatest-Common-Divisor-7-2-2-1.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+INFO    : converting subsec-Greatest-Common-Divisor-7-2-2-3.tex to subsec-Greatest-Common-Divisor-7-2-2-3.pdf
+ERROR   : LaTeX compilation of subsec-Greatest-Common-Divisor-7-2-2-3.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+INFO    : converting subsec-Greatest-Common-Divisor-7-2-2-2.tex to subsec-Greatest-Common-Divisor-7-2-2-2.pdf
+ERROR   : LaTeX compilation of subsec-Greatest-Common-Divisor-7-2-2-2.tex failed.
+Re-run, requesting "source" as the format, to analyze the image.
+Likely creating the entire document as PDF will fail similarly.
+The transcript of the LaTeX run follows.
+ERROR   : Unable to generate some latex-image assets:
+ LaTeX compilation failed for 3 "latex-image"(s).
+Review the log for error messages, and LaTeX transcripts.
+Images are:
+  subsec-Greatest-Common-Divisor-7-2-2-1.tex
+  subsec-Greatest-Common-Divisor-7-2-2-3.tex
+  subsec-Greatest-Common-Divisor-7-2-2-2.tex
+INFO    : Removing temporary directory /tmp/ptx-0z3t_is3
+INFO    : Preparing to build into /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/output/web.
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.4.4
+INFO    : converting /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-t2m36ku1
+INFO    : XSL conversion of /home/innodems-dan/Documents/open-source-mathematics-curriculum-book/new-pretext-project/source/main.ptx by /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : successful application of /home/innodems-dan/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-hiafu92k
+INFO    : Removing temporary directory /tmp/ptx-t2m36ku1
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
