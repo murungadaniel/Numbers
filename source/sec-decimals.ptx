@@ -14,7 +14,7 @@
         <example>
             <statement>
                 <p>
-                    What is the place value of each digit in the following numbers ?
+                    Use a place value chart to identify and write the place value of each digit in the following numbers.
                 </p>
                 <p>
                     <ol marker="a)">
@@ -302,12 +302,22 @@
                         </ol>
                     </p>
                 </sidebyside>
-                    <p>
-                        <m> = 149.556</m>
-                    </p>
-                    <p>
-                        <m>12.463 \times 12 = 149.556</m>
-                    </p>
+                <!-- <p>
+                    <md>
+                        <mrow> \amp = 149.556</mrow>
+                        <mrow> 12.463 \times 12 \amp = 149.556</mrow>
+                    </md>
+                    <me>
+                    \begin{align} \amp = 149.556\\ 12.463 \times 12 \amp = 149.556
+                        \end{align} 
+                    </me>    
+                </p> -->
+                <p>
+                    <m>\qquad \qquad \quad = 149.556</m>
+                </p>
+                <p>
+                    <m>12.463 \times 12 = 149.556</m>
+                </p>
             </solution>
         </example>
         <exercise>
@@ -346,7 +356,7 @@
             <solution>
                 <p>
                     <md>
-                        <mrow>\text{ Area } \amp = \text{Length } \times \text{ Width } </mrow>
+                        <mrow>\text{ Area of the rectangle } \amp = \text{Length } \times \text{ Width } </mrow>
                         <mrow> \amp = 1.2 \text{ m } \times 0.8 \text{ m}</mrow>
                         <mrow> \amp = (\frac{12}{10} \times \frac{8}{10})\text{m}^2 </mrow>
                         <mrow> \amp = (\frac{96}{100})\text{m}^2 </mrow>
