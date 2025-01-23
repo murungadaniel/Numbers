@@ -7,7 +7,7 @@
         Why study whole numbers? 
       </p>
       <p>
-        In our day to day-to-day lives, we apply whole numbers i.e we use numbers to identify the number of exercise books that Diera, a Grade 7 learner has using numbers.
+        In our day to day-to-day lives, we use whole numbers to count objects i.e. Diera, a Grade 7 learner will use whole numbers to count her books. If one book is missing, she will notice this from the number of books she currently has.
       </p>
     </introduction>
       <subsection xml:id="subsec-Place-Value-of-digits-in-a-number">
@@ -22,7 +22,7 @@
             </p>
                 
             <p> 
-                1. Fill in the number of kilograms produced in the two years in the place value.
+                1. Fill in the place values for the number of kilograms produced for the two years.
             </p>
               <table>
               <title></title>
@@ -67,14 +67,8 @@
       
               </tabular>
           </table>
-          <p> 
-              2. What is the place value of digit 8 in the number 85 147 000?
-          </p>
-          <p> 
-             3. What is the place value of digit 1 in the number 120 568 720?
-          </p>
-         <p>
-            4. Share your work with other learner's in class.
+          <p>
+            2. Share your work with other learner's in class.
          </p>
           </statement>
         </activity>
@@ -82,40 +76,67 @@
         <example>
           <statement>
             <p>
-              In 2008, a county government allocated sh 105 600 300 towards the construction of a dam. Give the place value of digit 1 .  
+              In 2008, a county government allocated sh 501 560 320 towards the construction of a dam. Give the place value of digit 1 .  
             </p>
           </statement>
             <solution>
                 <p>
                   To identify the place value of digit 1,use a place value chart as shown below. 
                 </p>
+                
+                  <tabular top="minor" left="minor" right="minor" bottom="minor">
+                  <row header="yes">
+                      <cell>Numbers</cell>
+                      <cell>Hundreds of millions</cell>
+                      <cell>Tens of millions</cell>
+                      <cell>millions</cell>
+                      <cell>Hundreds of thousands</cell>
+                      <cell>Tens of thousands</cell>
+                      <cell>thousands</cell>
+                      <cell>Hundreds</cell>
+                      <cell>Tens</cell>
+                      <cell>Ones</cell>
+                  </row>
+                  <row>
+                      <cell><m>501 560 320</m></cell>
+                      <cell>5</cell>
+                      <cell>0</cell>
+                      <cell>1</cell>
+                      <cell>5</cell>
+                      <cell>6</cell>
+                      <cell>0</cell>
+                      <cell>3</cell>
+                      <cell>2</cell>
+                      <cell>0</cell>
+                  </row>
+                   </tabular>
             
                 <p> 
                   Therefore,
                 </p>
                 <p> 
-                  The place value of digit 6 is ones.
+                  The place value of digit 0 is ones.
                 </p>
                 <p> 
-                  The place value of digit 7 is Tens.
+                  The place value of digit 2 is Tens.
                   </p>
                 <p> 
-                  The place value of digit 9 is Hundreds.
+                  The place value of digit 3 is Hundreds.
                   </p>
-                <p> ,
-                  The place value of digit 4 is Thousands.
+                <p> 
+                  The place value of digit 0 is Thousands.
                 </p>
                 <p> 
-                  The place value of digit 2 is Tens of thousands.
+                  The place value of digit 6 is Tens of thousands.
                   </p>
                 <p> 
-                  The place value of digit 1 is Hundreds of thousands.
+                  The place value of digit 5 is Hundreds of thousands.
                   </p>
                 <p>
-                  The place value of digit 2 is Millions.
+                  The place value of digit 1 is Millions.
                 </p>
                 <p>
-                  The place value of digit 4 is Tens of millions.
+                  The place value of digit 0 is Tens of millions.
                 </p>
                 <p> 
                   The place value of digit 5 is Hundreds of millions.
