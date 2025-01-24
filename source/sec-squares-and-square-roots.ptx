@@ -11,12 +11,12 @@
         </p>
         <p>
             Consider a surveyor tasked with determining the side length of a square
-            garden with an area of 400 m<m>^2</m>. Since all sides of a square are equal, the surveyor
-            needs to find a number that, when multiplied by itself, results in 400. This is where the concept of square roots comes into play.
+            garden with an area of <m>400</m> m<m>^2</m>. Since all sides of a square are equal, the surveyor
+            needs to find a number that, when multiplied by itself, results in <m>400</m>. This is where the concept of square roots comes into play.
         </p>
         <p>
-            To find the side length, the surveyor needs to determine the square root of 400.
-            In this case, the square root of 400 is 20, meaning each side of the garden is 20 m long.
+            To find the side length of the garden, the surveyor needs to determine the square root of <m>400</m>.
+            In this case, the square root of <m>400</m> is <m>20</m> since <m>20 \times 20 = 400</m>, meaning each side of the garden is <m>20</m> m long.
         </p>
         <p>
             We can represent this mathematically as follows:
