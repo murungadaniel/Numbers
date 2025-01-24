@@ -7,7 +7,7 @@
         Why study whole numbers? 
       </p>
       <p>
-        In our day to day-to-day lives, we apply whole numbers i.e we use numbers to identify the number of exercise books that Diera, a Grade 7 learner has using numbers.
+        In our day to day-to-day lives, we use whole numbers to count objects i.e. Diera, a Grade 7 learner will use whole numbers to count her books. If one book is missing, she will notice this from the number of books she currently has.
       </p>
     </introduction>
       <subsection xml:id="subsec-Place-Value-of-digits-in-a-number">
@@ -22,7 +22,7 @@
             </p>
                 
             <p> 
-                1. Fill in the number of kilograms produced in the two years in the place value.
+                1. Fill in the place values for the number of kilograms produced for the two years.
             </p>
               <table>
               <title></title>
@@ -67,14 +67,8 @@
       
               </tabular>
           </table>
-          <p> 
-              2. What is the place value of digit 8 in the number 85 147 000?
-          </p>
-          <p> 
-             3. What is the place value of digit 1 in the number 120 568 720?
-          </p>
-         <p>
-            4. Share your work with other learner's in class.
+          <p>
+            2. Share your work with other learner's in class.
          </p>
           </statement>
         </activity>
@@ -82,40 +76,67 @@
         <example>
           <statement>
             <p>
-              In 2008, a county government allocated sh 105 600 300 towards the construction of a dam. Give the place value of digit 1 .  
+              In 2008, a county government allocated sh 501 560 320 towards the construction of a dam. Give the place value of digit 1 .  
             </p>
           </statement>
             <solution>
                 <p>
                   To identify the place value of digit 1,use a place value chart as shown below. 
                 </p>
+                
+                  <tabular top="minor" left="minor" right="minor" bottom="minor">
+                  <row header="yes">
+                      <cell>Numbers</cell>
+                      <cell>Hundreds of millions</cell>
+                      <cell>Tens of millions</cell>
+                      <cell>millions</cell>
+                      <cell>Hundreds of thousands</cell>
+                      <cell>Tens of thousands</cell>
+                      <cell>thousands</cell>
+                      <cell>Hundreds</cell>
+                      <cell>Tens</cell>
+                      <cell>Ones</cell>
+                  </row>
+                  <row>
+                      <cell><m>501 560 320</m></cell>
+                      <cell>5</cell>
+                      <cell>0</cell>
+                      <cell>1</cell>
+                      <cell>5</cell>
+                      <cell>6</cell>
+                      <cell>0</cell>
+                      <cell>3</cell>
+                      <cell>2</cell>
+                      <cell>0</cell>
+                  </row>
+                   </tabular>
             
                 <p> 
                   Therefore,
                 </p>
                 <p> 
-                  The place value of digit 6 is ones.
+                  The place value of digit 0 is ones.
                 </p>
                 <p> 
-                  The place value of digit 7 is Tens.
+                  The place value of digit 2 is Tens.
                   </p>
                 <p> 
-                  The place value of digit 9 is Hundreds.
+                  The place value of digit 3 is Hundreds.
                   </p>
-                <p> ,
-                  The place value of digit 4 is Thousands.
+                <p> 
+                  The place value of digit 0 is Thousands.
                 </p>
                 <p> 
-                  The place value of digit 2 is Tens of thousands.
+                  The place value of digit 6 is Tens of thousands.
                   </p>
                 <p> 
-                  The place value of digit 1 is Hundreds of thousands.
+                  The place value of digit 5 is Hundreds of thousands.
                   </p>
                 <p>
-                  The place value of digit 2 is Millions.
+                  The place value of digit 1 is Millions.
                 </p>
                 <p>
-                  The place value of digit 4 is Tens of millions.
+                  The place value of digit 0 is Tens of millions.
                 </p>
                 <p> 
                   The place value of digit 5 is Hundreds of millions.
@@ -196,13 +217,17 @@
        <example>
           <statement>
               <p>
-                What is the total value of each digit in the number 517 378 297?
+                What is the total value of each digit in the number 501 560 320?
               </p>
             </statement>
             <solution>
               <p>
-                total value = digit x place value
+                The total value of a digit = digit x place value
               </p>
+              <p>
+                Use a place value chart as shown below to find the total value of the digits in the number <m>501 560 320</m>
+              </p>
+              <image source="total.png"></image>
           
             </solution>
        </example>
@@ -277,24 +302,24 @@
                     </row>
                 </tabular>
                 <p>
-                   (c) Insert the digits in the number<m>651\, 358\, 189</m> in their respective places in the place value chart.
+                   (c) Insert the digits in the number <m>651\, 358\, 189</m> in their respective places in the place value chart.
                 </p>
                   <p>
                     (d) 
                     <ol>
                       <li>
                         <p>
-                          Read the number <m>651</m> in the group of millions.
+                          Read the number <m>651</m> in the group of millions i.e six hundred and fifty one million.
                         </p>
                       </li>
                       <li>
                         <p>
-                          Read <m>358</m> in the group of thousands.
+                          Read the number <m>358</m> in the group of thousands i.e three hundred and fifty eight thousand.
                         </p>
                       </li>
                       <li>
                         <p>
-                          Read <m>189</m> in the group of hundreds and units.
+                          Read <m>189</m> in the group of hundreds and units i.e one hundred and eighty nine.
                         </p>
                       </li>
                     </ol>  
@@ -365,7 +390,7 @@
                   </row>
                   <row>
                     <cell>Fifty five thousand</cell>
-                    <cell><m>5\,000</m></cell>
+                    <cell><m>55\,000</m></cell>
                   </row>
                   <row>
                     <cell>Two hundred</cell>
@@ -417,7 +442,8 @@
       <example>
       <statement>
         <p>
-          The number of people who attended a cancer screening campaign in 2023 was <m>8\,759\,125</m>. Read and write the number of people in words.
+          The number of people who attended a cancer screening campaign in 2023 was 8 759 125. Read and write this number in words.
+
         </p>
       </statement>
       <solution>
@@ -471,7 +497,7 @@
           <row>
             <cell>5</cell>
             <cell>Thousands</cell>
-            <cell>5\,000</cell>
+            <cell>5 000</cell>
             <cell>Five thousand</cell>
           </row>
           <row>
@@ -594,21 +620,26 @@
       <example>
         <statement>
           <p>
-            The number of malaria tablets that were produced by a pharmaceutical company over a certain period was <m>213\, 587\, 915</m>. Round off the number of tablets to the nearest hundreds of million.
+            The number of malaria tablets that were produced by a pharmaceutical company over a certain period was 213 587 915. Round off this number to the nearest hundreds of million.
+
           </p>
         </statement>
         <solution>
+             <p>
+              To round off a number to the nearest hundreds of millions, we identify if the digit at the tens of millions place value is greater,less or equal to <m>5</m>.
+            </p>
+            <p>
+              If the digit in the tens of millions place value is greater or equal to <m>5</m> then add <m>1</m> to the digit in the hundreds of million place value and replace the remaining digits with zeros.
+            </p>
+            <p>
+              If the digit in the tens of millions place value is less than <m>5</m> then maintain the digit in the hundreds of million place value and replace the remaining digits with zeros.
+            </p>
           <p>
-            The digit in the hundreds of millions place is <m>2</m>.
+            Since the digit in the hundreds of millions place value is <m>2</m> and the digit in the tens of millions place value is <m>1</m>, we replace the digits on the right hand side of <m>2</m> with zeros.
           </p>
+        
           <p>
-            The digit in the tens of millions place value is <m>1</m>
-          </p>
-          <p>
-            Therefore, we replace the dits on the right hand side of <m>2</m> with zeros
-          </p>
-          <p>
-            <m>213\, 587 \,915</m> to the nearest hundred million becomes <m>200\, 000 \,000</m>
+           Therefore, <m>213\, 587 \,915</m> to the nearest hundred million becomes <m>200\, 000 \,000</m>
           </p>
         </solution>
       </example>
@@ -659,7 +690,7 @@
                 </row>
             </tabular>
             <p>
-            Digit <m>1</m>  is in the place value of ten millions. We retain digit <m>2</m> in the hundreds of millions place value and replace the remaining digits by zero.
+             The digit in the tens of million place value is <m>1</m>. Therefore, we retain digit <m>2</m> in the hundreds of millions place value and replace the remaining digits by zero.
             </p>
             <p>
               <m>219\, 486\, 272</m> rounded off to the nearest hundred million is <m>200\,000\,000</m>.
@@ -712,6 +743,15 @@
                 </row>
             </tabular>
             <p>
+              To round off a number to the nearest tens of millions, we identify if the digit at the millions place value is greater,less or equal to <m>5</m>.
+            </p>
+            <p>
+              If the digit in the millions place value is greater or equal to <m>5</m> then add <m>1</m> to the digit in the tens of million place value and replace the remaining digits with zeros.
+            </p>
+            <p>
+              If the digit in the millions place value is less than <m>5</m> then maintain the digit in the tens of million place value and replace the remaining digits with zeros.
+            </p>
+            <p>
             Digit <m>7</m>  is in the place value of millions. We add one to digit <m>8</m> in the tens of millions place value and replace the remaining digits by zero.
             </p>
             <p>
@@ -742,10 +782,10 @@
           
         </p>
         <p>
-            1.Make number cards similar to the ones shown below  
+            1.Think of a number between <m>10</m> and <m>100</m> and write down any <m>5</m> numbers.
         </p>
         <p>
-          2.Which of the numbers in the cards are divisible by two?
+          2.Which of the numbers you wrote down are divisible by two?
         </p>
         <p>
           3.Which digit is in the ones place value of each number that is divisible by two?
@@ -769,7 +809,7 @@
       </statement>
       <solution>
         <p>
-          <m>3\,860,58\,242,96,3\,295\,418 </m> and <m>5\,174</m> are even numbers since they are divisible by<m>2</m>. Also their digits in the ones place value are <m>0,2,4,6 \text{or}8</m>.
+          <m>3\,860,58\,242,96,3\,295\,418 </m> and <m>5\,174</m> are even numbers since they are divisible by <m>2</m>. Also their digits in the ones place value are <m>0,2,4,6</m> <m>\text{or}</m> <m>8</m>.
         </p>
       </solution>
      </example>
@@ -784,7 +824,7 @@
 <subsection xml:id="subsec-Odd-numbers">
   <title>Odd numbers</title>
   <p>
-     Odd numbers are numbers that are not divisible by two. The digit in the ones place value of an odd number is <m>1,3,5,7</m> or <m>9</m>.
+     Odd numbers are numbers that cannot be divided by two without leaving a remainder. The digit in the ones place value of an odd number is <m>1,3,5,7</m> or <m>9</m>.
   </p>
     <activity>
       <statement>
