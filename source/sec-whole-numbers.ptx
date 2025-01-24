@@ -1258,12 +1258,10 @@
             
           </p>
           <p>
-            1. Make number cards like the ones shown below.
+            1. Make tables like the ones shown below.
           </p>
           <tabular right="medium" left="medium" bottom="medium" top="medium">
-          <row >
-            <cell></cell>
-          </row>
+         
             <row >
               <cell>3</cell>
               <cell>4</cell>
@@ -1324,7 +1322,7 @@
             </row>
           </tabular>
           <p>
-            2.(a) In turns, choose one number from each card.
+            2.(a) In turns, choose one number from each table.
           </p>
           <p>
              (b) Multiply the two numbers.
