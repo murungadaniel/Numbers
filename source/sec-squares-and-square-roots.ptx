@@ -4,9 +4,6 @@
     <title>Squares and square roots</title>
     <introduction>
         <p>
-            Sheilah and Murunga
-        </p>
-        <p>
              Squares and square roots are fundamental concepts in mathematics, with many applications in our daily lives.
         </p>
         <p>
@@ -32,16 +29,19 @@
         </p> -->
                 <!-- <p> -->
                     <sidebyside widths="20% 50%">
-                        <image width="15%">
-                            <shortdescription>square</shortdescription>
-                            <latex-image>
-                                \begin{tikzpicture}
-                                \draw[thick,blue] (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
-                                    \node[below] at (1.5,0) {$a$};
-                                    \node[left] at (0,1.5) {$a$};
-                                \end{tikzpicture}
-                            </latex-image>
-                        </image>
+                        <figure xml:id="square-figure">
+                            <caption>A square garden</caption>
+                            <image width="15%">
+                                <shortdescription>A square with side length a</shortdescription>
+                                <latex-image>
+                                    \begin{tikzpicture}
+                                    \draw[thick,blue] (0,0) -- (3,0) -- (3,3) -- (0,3) -- cycle;
+                                        \node[below] at (1.5,0) {$a$};
+                                        \node[left] at (0,1.5) {$a$};
+                                    \end{tikzpicture}
+                                </latex-image>
+                            </image>
+                        </figure>
                         <p>
                             <ul>
                                 <li>

@@ -1104,60 +1104,67 @@
                 <p>
                     Find the GCD of <m>75,27 \text{ and } 102.</m>
                 </p>
-            <sidebyside widths="25% 25% 25%">          
-                <image>
-                    <shortdescription>factors of 75</shortdescription>
-                    <latex-image>
-                        \begin{tikzpicture}[level distance=1.5cm,
-                                level 1/.style={sibling distance=2cm},
-                                level 2/.style={sibling distance=1cm},
-                                circled/.style={draw, circle}]
-                                \node {75}
-                                    child {node[circled] {3}}
-                                    child {node {25}
-                                    child {node[circled] {5}}
-                                    child {node {5}
-                                        child {node[circled] {5}}
-                                        child {node {1}}}};
-                        \end{tikzpicture}
-                    </latex-image>
-                </image>
-                
-                <image>
-                    <shortdescription>factors of 27</shortdescription>
-                    <latex-image>
-                        \begin{tikzpicture}[level distance=1.5cm,
-                                level 1/.style={sibling distance=2cm},
-                                level 2/.style={sibling distance=1cm},
-                                circled/.style={draw, circle}]
-                                \node {27}
-                                    child {node[circled] {3}}
-                                    child {node {9}
-                                    child {node[circled] {3}}
-                                    child {node {3}
+            <sidebyside widths="25% 25% 25%"> 
+                <figure xml:id="factor-1">
+                    <caption>Divisors for 75</caption>        
+                    <image>
+                        <shortdescription>factors of 75</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}[level distance=1.5cm,
+                                    level 1/.style={sibling distance=2cm},
+                                    level 2/.style={sibling distance=1cm},
+                                    circled/.style={draw, circle}]
+                                    \node {75}
                                         child {node[circled] {3}}
-                                        child {node {1}}}};
-                        \end{tikzpicture}
-                    </latex-image>
-                </image>
-               
-                <image>
-                    <shortdescription>factors of 102</shortdescription>
-                    <latex-image>
-                        \begin{tikzpicture}[level distance=1.5cm,
-                                level 1/.style={sibling distance=2cm},
-                                level 2/.style={sibling distance=1cm},
-                                circled/.style={draw, circle}]
-                                \node {102}
-                                    child {node[circled] {2}}
-                                    child {node {51}
-                                    child {node[circled] {3}}
-                                    child {node {17}
-                                        child {node[circled] {17}}
-                                        child {node {1}}}};
-                        \end{tikzpicture}
-                    </latex-image>
-                </image>
+                                        child {node {25}
+                                        child {node[circled] {5}}
+                                        child {node {5}
+                                            child {node[circled] {5}}
+                                            child {node {1}}}};
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure> 
+                <figure xml:id="factor-2">
+                    <caption>Divisors for 27</caption>
+                    <image>
+                        <shortdescription>factors of 27</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}[level distance=1.5cm,
+                                    level 1/.style={sibling distance=2cm},
+                                    level 2/.style={sibling distance=1cm},
+                                    circled/.style={draw, circle}]
+                                    \node {27}
+                                        child {node[circled] {3}}
+                                        child {node {9}
+                                        child {node[circled] {3}}
+                                        child {node {3}
+                                            child {node[circled] {3}}
+                                            child {node {1}}}};
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
+                <figure xml:id="factor-3">
+                    <caption>Divisors for 102</caption>
+                    <image>
+                        <shortdescription>factors of 102</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}[level distance=1.5cm,
+                                    level 1/.style={sibling distance=2cm},
+                                    level 2/.style={sibling distance=1cm},
+                                    circled/.style={draw, circle}]
+                                    \node {102}
+                                        child {node[circled] {2}}
+                                        child {node {51}
+                                        child {node[circled] {3}}
+                                        child {node {17}
+                                            child {node[circled] {17}}
+                                            child {node {1}}}};
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                </figure>
             </sidebyside>  
             <p>
                 <md>
