@@ -644,5 +644,13 @@
             </statement>
         </exercise>
     </subsection>
+    <!-- <subsection>
+        <title>YouTube</title>
+        <p>
+            Video, observable on a Runestone server.
+        </p>
+        <video xml:id="yt-list-vars" youtube="Tk0NwDBi2bw" width="60%" margins="5% 35%"  />
+        preview="preview_image.png"
+    </subsection> -->
 
 </section>
