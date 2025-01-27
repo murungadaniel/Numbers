@@ -4,7 +4,7 @@
   <title>Whole Numbers</title>
     <introduction>
       <p>
-        Why study whole numbers? 
+        \text bf {Why study whole numbers? }
       </p>
       <p>
         In our day to day-to-day lives, we use whole numbers to count objects i.e. Diera, a Grade 7 learner will use whole numbers to count her books. If one book is missing, she will notice this from the number of books she currently has.
@@ -72,7 +72,18 @@
          </p>
           </statement>
         </activity>
-  
+         <p><m>\textbf{Online acitivity}</m></p>
+          <p>
+           Click the link below to find more activities on place value of numbers.
+
+          </p>
+          <p>
+          <url href="https://www.iknowit.com/lessons/c-place-value-up-to-thousands.html"></url>
+       </p>
+       <p>
+        
+       </p>
+          
         <example>
           <statement>
             <p>
@@ -1182,7 +1193,7 @@
         <solution>
 
           <p>
-            Subtract the decrease in mass of fish in the second year from the mass of fish in the first year.
+            First, subtract the decrease in mass of fish in the second year from the mass of fish in the first year.
           </p>
           <tabular>
             <row bottom="minor">
@@ -1237,7 +1248,7 @@
          The digit you borrow from will be reduced by 1, while the digit you borrow to will increase by 10.  See the example above.
          </p>
          <p>
-          The mass of fish the fisherman exported in the second year was <m>3\,830\,537</m> kg.
+          Therefore, the mass of fish the fisherman exported in the second year was <m>3\,830\,537</m> kg.
          </p>
          
         </solution>
