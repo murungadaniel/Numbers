@@ -1350,12 +1350,12 @@
           <p>
             We multiply the number of books by the number of schools. 
           </p>
-          <tabular left="medium" right="medium" bottom="medium" top="medium">
+          <tabular>
           <row>
             <cell></cell>
             <cell>723</cell>
           </row>
-            <row>
+            <row bottom="medium">
               <cell><m>\times</m></cell>    
               <cell> 256</cell>
             </row>
@@ -1369,7 +1369,7 @@
               <cell><m>36\,150</m></cell>
               <cell>(multiply 723 by the total value of the tens digit: 723 x 50)</cell>
             </row>
-            <row>
+            <row bottom="medium"> 
               <cell></cell>
               <cell><m>144\,600</m></cell>
               <cell>(multiply 723 by the total value of the hundreds digit: 723 x 200)</cell>
