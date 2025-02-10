@@ -4,7 +4,7 @@
   <title>Whole Numbers</title>
     <introduction>
       <p>
-        \text bf {Why study whole numbers? }
+      <m> \textbf{Why study whole numbers? }</m>
       </p>
       <p>
         In our day to day-to-day lives, we use whole numbers to count objects i.e. Diera, a Grade 7 learner will use whole numbers to count her books. If one book is missing, she will notice this from the number of books she currently has.
@@ -592,6 +592,21 @@
             <cell>0</cell>
             <cell>0</cell>
           </row>
+          
+        </tabular>
+        <tabular bottom="medium" top="medium" right="medium" left="medium"> 
+          <row header="yes">
+            <cell></cell>
+            <cell>Hundreds of millions</cell>
+            <cell>Tens of millions</cell>
+            <cell>Millions</cell>
+            <cell>Hundreds of thousands</cell>
+            <cell>Tens of thousands</cell>
+            <cell>Thousands</cell>
+            <cell>Hundreds</cell>
+            <cell>Tens</cell>
+            <cell>Ones</cell>
+          </row>
           <row>
             <cell>Original number</cell>
             <cell>6</cell>
@@ -616,7 +631,7 @@
             <cell>0</cell>
             <cell>0</cell>
           </row>
-        </tabular>
+          </tabular>
         <p>
           (b) Compare the original number with the rounded off number. What do you notice?
         </p>
@@ -781,9 +796,10 @@
     </subsection>
   <subsection xml:id="subsec-Natural-numbers">
     <title>Natural numbers</title>
-     <p>
-      Even numbers
-     </p>
+     
+      <subsubsection xml:id="subsubsec-Even-numbers">
+        <title>  Even numbers</title>
+        
      <p>
       Even numbers are numbers that are divisible by <m>2</m>.The digits in the ones place value are <m>0,2,4,6,8,10,12</m> or <m>14</m>.
      </p>
@@ -831,8 +847,9 @@
           </p>
         </statement>
        </exercise>
-  </subsection>
-<subsection xml:id="subsec-Odd-numbers">
+       </subsubsection>
+  
+<subsubsection xml:id="subsec-Odd-numbers">
   <title>Odd numbers</title>
   <p>
      Odd numbers are numbers that cannot be divided by two without leaving a remainder. The digit in the ones place value of an odd number is <m>1,3,5,7</m> or <m>9</m>.
@@ -882,6 +899,7 @@
         </p>
       </statement>
     </exercise>
+</subsubsection>
 </subsection>
 <subsection xml:id="subsec-Prime-numbers">
   <title>Prime numbers</title>
