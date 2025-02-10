@@ -2,6 +2,11 @@
 
 <section xml:id="sec-decimals" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Decimals</title>
+    <introduction>
+        <p>
+        Murunga a grade <m>7</m> student carries a bag weighing <m>450 g</m>. He can convert the mass of his bag to kg i.e <m>\frac{450 g}{1000 g} \times 1 kg  = 0.45 kg</m>. Murunga ued decimals to identify the mass of his bag in kg.
+        </p>
+    </introduction>
     <subsection xml:id="subsec-place-value-of-digits-in-decimals">
         <title>place value of digits in decimals</title>
         <activity>
@@ -252,14 +257,29 @@
         <activity>
             <statement>
                 <p>
-                    Activity for Total value of digits in decimals goes here.
+                    
+                </p>
+                <p>
+                   1. Working in groups, think of a number that has <m>5</m> decimal points i.e <m>18.52847,7.24385</m> and in turns write it down.
+                </p>
+                <p>
+                    2. Discuss the chosen decimal numbers with fellow group members.
+                </p>
+                <p>
+                    3. Draw a place value chart and write the decimal numbers on the chart.
+                </p>
+                <p>
+                    4. Identify the place value of each digit on the chart then identify the total value of each digits.
+                </p>
+                <p>
+                    5. With your fellow learners, discuss how to identify the total value of digits in a decimal number.
                 </p>
             </statement>
         </activity>
         <example>
             <statement>
                 <p>
-                    What is the total value of each digit in the number <m>62.58347</m>
+                    What is the total value of each digit in the number <m>53.85429</m>
                 </p>
             </statement>
             <solution>
@@ -270,14 +290,14 @@
                         <cell>Total value</cell>
                     </row>
                     <row>
-                        <cell halign="center"><m>6</m></cell>
+                        <cell halign="center"><m>5</m></cell>
                         <cell>Tens</cell>
-                        <cell><m>6 \times 10 = 60</m></cell>
+                        <cell><m>5 \times 10 = 50</m></cell>
                     </row>
                     <row>
-                        <cell halign="center"><m>2</m></cell>
+                        <cell halign="center"><m>3</m></cell>
                         <cell>Ones</cell>
-                        <cell><m>2 \times 1 = 2</m></cell>
+                        <cell><m>3 \times 1 = 3</m></cell>
                     </row>
                     <row>
                         <cell halign="center">.</cell>
@@ -285,29 +305,29 @@
                         <cell/>
                     </row>
                     <row>
-                        <cell halign="center"><m>5</m></cell>
-                        <cell>Tenths</cell>
-                        <cell><m>5 \times 0.1 = 0.5</m></cell>
-                    </row>
-                    <row>
                         <cell halign="center"><m>8</m></cell>
-                        <cell>Hundredths</cell>
-                        <cell><m>8 \times 0.01 = 0.08</m></cell>
+                        <cell>Tenths</cell>
+                        <cell><m>8 \times 0.1 = 0.8</m></cell>
                     </row>
                     <row>
-                        <cell halign="center"><m>3</m></cell>
-                        <cell>Thousandths</cell>
-                        <cell><m>3 \times 0.001 = 0.003</m></cell>
+                        <cell halign="center"><m>5</m></cell>
+                        <cell>Hundredths</cell>
+                        <cell><m>5 \times 0.01 = 0.05</m></cell>
                     </row>
                     <row>
                         <cell halign="center"><m>4</m></cell>
-                        <cell>Ten thousandths</cell>
-                        <cell><m>4 \times 0.0001 = 0.0004</m></cell>
+                        <cell>Thousandths</cell>
+                        <cell><m>4 \times 0.001 = 0.004</m></cell>
                     </row>
                     <row>
-                        <cell halign="center"><m>7</m></cell>
+                        <cell halign="center"><m>2</m></cell>
+                        <cell>Ten thousandths</cell>
+                        <cell><m>2 \times 0.0001 = 0.0002</m></cell>
+                    </row>
+                    <row>
+                        <cell halign="center"><m>9</m></cell>
                         <cell>Hundred thousandths</cell>
-                        <cell><m>7 \times 0.00001 = 0.00007</m></cell>
+                        <cell><m>9 \times 0.00001 = 0.00009</m></cell>
                     </row>
                 </tabular>
             </solution>
@@ -325,7 +345,25 @@
         <activity>
             <statement>
                 <p>
-                    Activity for Multiplying decimals by a whole number goes in here.
+                    
+                </p>
+                <p>
+                  1. Measure the length and width of your classroom in cm using a meter ruler and write it down.  
+                </p>
+                <p>
+                    2. Discuss the measurement of one side of your classroom and convert the measurement to <m>m</m> i.e <m>1 m = 100 cm </m>.
+                </p>
+                <p>
+                    3. Multiply the length and width in <m>m</m> by the number of sides in your classroom. What do you get?
+                </p>
+                <p>
+                    4. How many classrooms do you have in your school?
+                </p>
+                <p>
+                    5. Suppose all the classrooms has same lengths and widths, determine the total measurement of both length and width of classrooms in your school.
+                </p>
+                <p>
+                    6. How did you determine the total measurement of length and width of classrooms in the school?
                 </p>
             </statement>
         </activity>
