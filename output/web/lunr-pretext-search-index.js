@@ -1567,24 +1567,6 @@ var ptx_lunr_docs = [
   "body": " Exercise for square roots of decimals  "
 },
 {
-  "id": "sec-Angles",
-  "level": "1",
-  "url": "sec-Angles.html",
-  "type": "Section",
-  "number": "2.1",
-  "title": "Angles",
-  "body": " Angles   Angles on a straight line   What is the value of the remaining angle as shown on the diagram below?    "
-},
-{
-  "id": "subsec-Angles-on-a-straight-line-2",
-  "level": "2",
-  "url": "sec-Angles.html#subsec-Angles-on-a-straight-line-2",
-  "type": "Checkpoint",
-  "number": "2.1.1",
-  "title": "",
-  "body": " What is the value of the remaining angle as shown on the diagram below?  "
-},
-{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
