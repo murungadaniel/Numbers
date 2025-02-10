@@ -14,9 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch-numbers.ptx" />
 
-    <xi:include href="./ch-Geometry.ptx" />
     <!-- Include backmatter -->
-
     <xi:include href="./backmatter.ptx" />
 
   </book>
