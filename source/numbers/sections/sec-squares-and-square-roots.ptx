@@ -524,11 +524,62 @@
     <subsection xml:id="subsec-Squares-roots-of-whole-numbers">
         <title>Squares roots of whole numbers</title>
         <activity>
-            <statement>
-                <p>
-                    Activity for squares roots of whole numbers goes here.
-                </p>
-            </statement>
+            <p>
+                <alert>Work in groups</alert>
+            </p>   
+            <p>
+                1. Draw the following grid squares in your exercise books or on graph paper as the one shown below.
+            </p> 
+            <sidebyside widths="25% 25% 25%">
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \foreach \x in {0,1,2,3} {
+                                \draw[thick,blue] (\x,0) -- (\x,3);
+                            }
+                            \foreach \y in {0,1,2,3} {
+                                \draw[thick,blue] (0,\y) -- (3,\y);
+                            }
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \foreach \x in {0,1,2,3,4} {
+                                \draw[thick,blue] (\x,0) -- (\x,4);
+                            }
+                            \foreach \y in {0,1,2,3,4} {
+                                \draw[thick,blue] (0,\y) -- (4,\y);
+                            }
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <image>
+                    <shortdescription></shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \foreach \x in {0,1,2,3,4,5} {
+                                \draw[thick,blue] (\x,0) -- (\x,5);
+                            }
+                            \foreach \y in {0,1,2,3,4,5} {
+                                \draw[thick,blue] (0,\y) -- (5,\y);
+                            }
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </sidebyside>
+            <p>
+                2. Count the total number of small squares in each grid.
+            </p>
+            <p>
+                3. Count the number of squares on the side length of each grid.
+            </p>
+            <p>
+                4. What do you notice about the relationship between the side length and the total number of squares?
+            </p>
         </activity>
         <example>
             <statement>
