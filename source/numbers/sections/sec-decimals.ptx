@@ -661,14 +661,19 @@
                                 <!-- \draw[thick] (0,0) rectangle (4,2); -->
                                 \draw[thick] (0,0) -- (4,0)--(4,2)--(0,2) -- (0,0);
                                 \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {7 m};
+<<<<<<< HEAD
                                 \node at (2,1) {$A = 1.12 m^2$};
                                 \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ?m};
+=======
+                                \node at (2,1) {$A = 1.12 (m^2)$};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ? m};
+>>>>>>> fd6052fac66b5f0f1a153979983c8496f4fb68d1
                                 
                         \end{tikzpicture}
                     </latex-image>
                 </image>
                 <p>
-                    1. What is the width of the compound if the length is <m>7 m </m> and the area is <m>1.12 m^2</m>?(You may use a calculator to work out if you have or use the long division)
+                    1. What is the width of the compound if the length is <m>7 m </m> and the area is <m>1.12 m^2</m> ? (You may use a calculator to work out if you have or use the long division method)
                 </p>
                 <p>
                    2. Discuss how you can divide a decimal number by a whole number.
@@ -742,7 +747,74 @@
         <activity>
             <statement>
                 <p>
-                    Activity for Division of a decimal by a decimal goes in here.
+                
+                </p>
+                <p>\textbf{Instructions for teachers or team leaders}</p>
+                <p>
+                1.Teacher or a team leader to write down on piece of paper or print the following questions:
+                <ol>
+                    <li>
+                        <p>
+                        \textbf{ Take one piece of paper after you find it and hide the rest around that place}
+                        </p>
+                        <p>
+                          5.6 ÷ 0.7 = ? ( Find it on the classroom corner)  
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        \textbf{ Take one piece of paper after you find it and hide the rest around that place}
+                        </p>
+                        <p>
+                            12.04 ÷ 1.3 = ? ( Go to assembly ground near flagpole)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        \textbf{ Take one piece of paper after you find it and hide the rest around that place}
+                        </p>
+                        <p>
+                            9.9 ÷ 3.3 = ? (next station is near the school entrance )
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        \textbf{ Take one piece of paper after you find it and hide the rest around that place}
+                        </p>
+                        <p>
+                            18.75 ÷ 2.5 = ? ( The final challenge is at the back of the class)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        \textbf{ Take one piece of paper after you find it and hide the rest around that place}
+                        </p>
+                        <p>
+                            7.92 ÷ 1.2 = ? (Return to the teacher/ team leader for the last answer check!)
+                        </p>
+                    </li>
+                </ol>
+                </p>
+               
+                <p>
+                2.Hide decimal division question papers around the specified areas on each questions. 
+                </p>
+                <p>\textbf{For students}</p>
+                 <p>
+                3. Working in groups of <m>5</m>, each group to choose a team captain responsible for reading questions and keeping the team organized.
+                </p>
+                <p>
+                4. Each group is given the first piece of paper containing questions and each paper has a problem and a clue leading to the next question.
+                </p>
+                <p>
+                4. Each group to start at a different station (e.g., one in class, another at the assembly ground, another near the school entrance) and solves the problem on their question papers together. Correct answers earn the group the next clue to find the next question.
+                </p>
+                <p>
+                  5. The first team to solve all questions correctly wins 🎁.
+                </p>
+                <p>
+                    6.Each group to create their own decimal division problems for other groups to solve.
                 </p>
             </statement>
         </activity>
