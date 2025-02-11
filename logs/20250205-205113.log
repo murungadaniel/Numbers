@@ -1,0 +1,16 @@
+INFO    : Using PreTeXt-CLI version 2.11.0.  The latest stable version available is 2.13.0. Run `pretext upgrade` to update.
+
+INFO    : PreTeXt project found in `/home/innodems-sheila/Documents/numbers/Numbers`.
+WARNING : Using CLI version 2.11.0 but project's `requirements.txt`
+WARNING : is configured to use 2.10.0. Consider either installing
+WARNING : CLI version 2.10.0 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.11.0.
+INFO    : Since no target was supplied, we will use "web".
+
+ERROR   : process PID not found (pid=30537)
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
