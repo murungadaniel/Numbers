@@ -658,9 +658,12 @@
                     <shortdescription>Rectangle image</shortdescription>
                     <latex-image>
                         \begin{tikzpicture}
-                                \draw[thick] (0,0) rectangle (4,2);
+                                <!-- \draw[thick] (0,0) rectangle (4,2); -->
+                                \draw[thick] (0,0) -- (4,0)--(4,2)--(0,2) -- (0,0);
                                 \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {7 m};
-                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { 0.16 m};
+                                \node at (2,1) {$A = 1.12 m^2$};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ?m};
+                                
                         \end{tikzpicture}
                     </latex-image>
                 </image>
