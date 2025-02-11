@@ -625,7 +625,8 @@
                     1. Draw the following grid as the one shown below.
                 </p>
                 <sidebyside widths="25% 25% 25%"> 
-                    <image> <shortdescription>Area = 1/4</shortdescription> 
+                    <image> 
+                    <shortdescription>Area = 1/4</shortdescription> 
                         <latex-image> 
                             \begin{tikzpicture}[scale=0.8] 
                                 \fill[green!30] (0,0) rectangle (1,1); 
@@ -661,7 +662,10 @@
                     3. Count the number of all small squares in each grid.
                 </p>
                 <p>
-                    4. Represent the number of small squares in each colored region as numerator and Count the number of all small squares in each grid as the denominator of the fractions.
+                    4. Represent the number of small squares in each colored region as numerator and the number of small squares in each grid as the denominator of the fractions.
+                </p>
+                <p>
+                    5. 
                 </p>
             </statement>
         </activity>

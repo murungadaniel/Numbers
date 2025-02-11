@@ -658,10 +658,16 @@
                     <shortdescription>Rectangle image</shortdescription>
                     <latex-image>
                         \begin{tikzpicture}
-                                \draw[thick] (0,0) rectangle (4,2);
+                                <!-- \draw[thick] (0,0) rectangle (4,2); -->
+                                \draw[thick] (0,0) -- (4,0)--(4,2)--(0,2) -- (0,0);
                                 \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {7 m};
+<<<<<<< HEAD
+                                \node at (2,1) {$A = 1.12 m^2$};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ?m};
+=======
                                 \node at (2,1) {$A = 1.12 (m^2)$};
                                 \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { ? m};
+>>>>>>> fd6052fac66b5f0f1a153979983c8496f4fb68d1
                                 
                         \end{tikzpicture}
                     </latex-image>
