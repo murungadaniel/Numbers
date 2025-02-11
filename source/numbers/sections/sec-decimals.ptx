@@ -4,7 +4,7 @@
     <title>Decimals</title>
     <introduction>
         <p>
-        Murunga a grade <m>7</m> student carries a bag weighing <m>450 g</m>. He can convert the mass of his bag to kg i.e <m>\frac{450 g}{1000 g} \times 1 kg  = 0.45 kg</m>. Murunga ued decimals to identify the mass of his bag in kg.
+        Murunga a grade <m>7</m> student carries a bag weighing <m>450 g</m>. He can convert the mass of his bag to kg i.e <m>\frac{450 g}{1000 g} \times 1 kg  = 0.45 kg</m>. Murunga used decimals to identify the mass of his bag in kg.
         </p>
     </introduction>
     <subsection xml:id="subsec-place-value-of-digits-in-decimals">
@@ -518,7 +518,19 @@
         <activity>
             <statement>
                 <p>
-                    Activity for Multiplying decimals by decimals goes in here.
+                    
+                </p>
+                <p>
+                Grade <m>7</m> pupils was given a square garden by the school to plant their  vegetables and each side of the garden measured <m>8.5 m</m>.
+                </p>
+                <p>
+                    1. Draw the shape of the vegetable garden and label its sides.
+                </p>
+                <p>
+                    2. What is the area of the square garden in <m>m</m>? Remember area of a square = side <m>\times</m> side.
+                </p>
+                <p>
+                    3. How did you multiplied the decimals? Share it with your fellow learners.
                 </p>
             </statement>
         </activity>
@@ -636,8 +648,32 @@
         <activity>
             <statement>
                 <p>
-                    Activity for Division of a decimal by a whole number goes in here.
+            
                 </p>
+                <p>
+                The figure below represents Kazani Primary School's compound which is rectangular in shape.
+                </p>
+                
+                     <image width="40%">
+                    <shortdescription>Rectangle image</shortdescription>
+                    <latex-image>
+                        \begin{tikzpicture}
+                                \draw[thick] (0,0) rectangle (4,2);
+                                \draw[&lt;-&gt;] (0,-0.3) -- (4,-0.3) node[midway, below] {7 m};
+                                \draw[&lt;-&gt;] (-0.3,0) -- (-0.3,2) node[midway, left] { 0.16 m};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+                <p>
+                    1. What is the width of the compound if the length is <m>7 m </m> and the area is <m>1.12 m^2</m>?(You may use a calculator to work out if you have or use the long division)
+                </p>
+                <p>
+                   2. Discuss how you can divide a decimal number by a whole number.
+                </p>
+                <p>
+                    3. Share your work with other learners.
+                </p>
+                
             </statement>
         </activity>
         <example>
