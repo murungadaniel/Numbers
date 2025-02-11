@@ -619,7 +619,49 @@
         <activity>
             <statement>
                 <p>
-                    Activity for square roots of fractions goes here.
+                    <alert>Work in groups</alert>
+                </p>
+                <p>
+                    1. Draw the following grid as the one shown below.
+                </p>
+                <sidebyside widths="25% 25% 25%"> 
+                    <image> <shortdescription>Area = 1/4</shortdescription> 
+                        <latex-image> 
+                            \begin{tikzpicture}[scale=0.8] 
+                                \fill[green!30] (0,0) rectangle (1,1); 
+                                \draw[thick,blue] (0,0) rectangle (2,2); 
+                                \draw[thin,gray] (0,0) grid (2,2);
+                            \end{tikzpicture} 
+                        </latex-image>
+                    </image> 
+                    <image> 
+                        <shortdescription>Area = 9/16</shortdescription> 
+                            <latex-image> 
+                                \begin{tikzpicture}[scale=0.8] 
+                                \fill[green!30] (0,0) rectangle (3,3);
+                                \draw[thick,blue] (0,0) rectangle (4,4); 
+                                \draw[thin,gray] (0,0) grid (4,4);
+                                \end{tikzpicture} 
+                            </latex-image>
+                    </image> 
+                    <image>
+                         <shortdescription>Area = 4/9</shortdescription> 
+                         <latex-image> \begin{tikzpicture}[scale=0.8] 
+                            \fill[green!30] (0,0) rectangle (2,2); 
+                            \draw[thick,blue] (0,0) rectangle (3,3); 
+                            \draw[thin,gray] (0,0) grid (3,3); 
+                            \end{tikzpicture} 
+                        </latex-image> 
+                    </image>
+                </sidebyside>
+                <p>
+                    2. Count the number of small squares in each colored region:
+                </p>
+                <p>
+                    3. Count the number of all small squares in each grid.
+                </p>
+                <p>
+                    4. Represent the number of small squares in each colored region as numerator and Count the number of all small squares in each grid as the denominator of the fractions.
                 </p>
             </statement>
         </activity>
